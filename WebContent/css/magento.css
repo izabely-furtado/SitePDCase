@@ -768,7 +768,8 @@ body h1, body h2, body h3, body h4, body h5, body h6, body .h7, body .h8,
 body h2 {
 	font: 27px/36px 'GraphikRegular', sans-serif;
 	letter-spacing: .04em;
-	text-transform: uppercase
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 body h3 {
