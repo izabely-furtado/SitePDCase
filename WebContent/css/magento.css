@@ -1836,11 +1836,11 @@ body #admin-menu .dropdown a>.strong {
 a {
 	color: #c14800;
 	font-size: 14px;
-	text-transform: uppercase
+	/*text-transform: uppercase*/
 }
 
 a:hover {
-	color: #ef672f;
+	color: #000000;
 	text-decoration: none
 }
 
