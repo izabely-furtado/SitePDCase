@@ -46,8 +46,6 @@
 	border-radius: 10px;
 }
 
-
-
 .ac-container input {
 	display: none
 }
@@ -87,7 +85,7 @@
 	height: 310px
 }
 
-.ac-container input:checked ~ article.ac-xlarge p{
+.ac-container input:checked ~ article.ac-xlarge p {
 	text-align: justify;
 	font-size: 14px
 }

@@ -28,6 +28,9 @@
 <link rel="stylesheet" type="text/css" href="./css/pdbank.css"
 	media="screen" />
 
+<link rel="stylesheet" type="text/css" href="./css/layout.css"
+	media="screen" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -57,9 +60,72 @@
 
 	</ul>
 </header>
-
-
-
+<div id="slideshow-outer">
+	<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+		data-cycle-speed="1000" data-cycle-timeout="7000"
+		data-cycle-slides="div" data-cycle-prev="#slide-prev"
+		data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+		data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+		data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+		<div class="light" data-cycle-title="Huskies"
+			data-cycle-link="/project/huskies"
+			style="background: url(http://fd7b0930e1949d14b6a7-2bc09d3288337e401bb45a21f009e6ea.r62.cf3.rackcdn.com/23_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Eckersley O'Callaghan"
+			data-cycle-link="/project/eckersley-ocallaghan"
+			style="background: url(http://117f18fe1a893adf57fe-2bea815b2f85abdd4696b249d5477e55.r25.cf3.rackcdn.com/61_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Crypho"
+			data-cycle-link="/project/crypho"
+			style="background: url(http://99237a3449234023e029-adc1db9088b033326ed40113eaa16d67.r31.cf3.rackcdn.com/51_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Ridley Scott Associates"
+			data-cycle-link="/project/ridley-scott-associates"
+			style="background: url(http://8b18fc3669772eee1dfc-f45ae31b98fab9bc0e072370844f33f6.r34.cf3.rackcdn.com/19_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div data-cycle-title="The Clarence Centre"
+			data-cycle-link="/project/the-clarence-centre"
+			style="background: url(http://34443d3464be01c4b998-e832cf3d7092715f99af65f86e4b21e7.r7.cf3.rackcdn.com/28_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div data-cycle-title="Living Rooms"
+			data-cycle-link="/project/living-rooms"
+			style="background: url(http://58fcdb5a16b5598a9fdb-afe5fc1a7f669da2d2f3fe2722425029.r37.cf3.rackcdn.com/47_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Stone Theatre"
+			data-cycle-link="/project/stone-theatre"
+			style="background: url(http://da33c2e0628dc28dd67f-2534b8185bd755badc196495f4384cb8.r68.cf3.rackcdn.com/52_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Industrial Facility"
+			data-cycle-link="/project/industrial-facility"
+			style="background: url(http://7e2a7529ba2858ea1087-a75df464575328fae62c6f42858c8532.r26.cf3.rackcdn.com/17_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Phillip Boulding"
+			data-cycle-link="/project/phillip-boulding"
+			style="background: url(http://faf999ae1f345dd0691f-b9654c44c01277ffc734b9862cdd1efa.r34.cf3.rackcdn.com/09_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		<div class="light" data-cycle-title="Logos"
+			data-cycle-link="/project/logos"
+			style="background: url(http://62b6a5e5f25ebb300581-67112407466a4ef52550f7b440de5a78.r12.cf3.rackcdn.com/2560px-x-1350px-gif-layers.gif) no-repeat center center; background-size: cover;"></div>
+	</div>
+	<div id="hero-statement">
+		<div>
+			<div></div>
+		</div>
+	</div>
+	<div id="slide-title"></div>
+	<!-- slide controls -->
+	<div class="slide-nav-prev">
+		<div id="slide-prev" class="slide-nav">
+			<a class="btn btn-circle" href="#"><img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+		</div>
+	</div>
+	<div class="slide-nav-next">
+		<div id="slide-next" class="slide-nav">
+			<a class="btn btn-circle" href="#"><img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+		</div>
+	</div>
+	<!-- scroll down -->
+	<div class="scroll-button-outer">
+		<div class="page-scroll">
+			<a class="btn btn-circle" href="#about"> <img
+				src="./images/down_button.png" />
+			</a>
+		</div>
+	</div>
+</div>
 <article id="node-2000" class="node node-product-page clearfix">
 
 
@@ -163,12 +229,14 @@
 				<div class="span4 text-hero offset8">
 					<h2>O que foi alcançado</h2>
 
-					<p>As soluções PD_BANK atendem, de forma integrada, modular e
+					<p>
+						As soluções PD_BANK atendem, de forma integrada, modular e
 						parametrizada todas as necessidades de uma instituição financeira:<br />
-						 - Processamento, controle e gestão das áreas de Controladoria e
-						Controles Internos, <br /> - Gestão de Clientes, Mercado & Captação,<br />
-						 - Crédito & Fomento, <br /> - Serviços Bancários <br /> - Suporte aos Canais de
-						Atendimento.</p>
+						- Processamento, controle e gestão das áreas de Controladoria e
+						Controles Internos, <br /> - Gestão de Clientes, Mercado &
+						Captação,<br /> - Crédito & Fomento, <br /> - Serviços Bancários
+						<br /> - Suporte aos Canais de Atendimento.
+					</p>
 
 
 				</div>
