@@ -124,65 +124,65 @@ body.darkTemplate #header.scrollBg{background: #2b2a2f;}
 #slide-prev .btn-circle img{
     width: 32px;
     height: 40px;
-    background: url("./images/previous_button.png") 0 0; 
+    background: url("../images/previous_button.png") 0 0; 
     background-size: cover;
 }
 
 #slide-prev .btn-circle:hover img/*, #slide-prev .btn-circle:focus img*/{
     outline: 0;
-    background: url("./images/previous_button.png") -32px 0; 
+    background: url("../images/previous_button.png") -32px 0; 
     background-size: cover;
 }
 
 #slide-next .btn-circle img{
     width: 32px;
     height: 40px;
-    background: url("./images/next_button.png") 0 0; 
+    background: url("../images/next_button.png") 0 0; 
     background-size: cover;
 }
 
 #slide-next .btn-circle:hover img/*, #slide-next .btn-circle:focus img*/{
     outline: 0;
-    background: url("./images/next_button.png") -32px 0; 
+    background: url("../images/next_button.png") -32px 0; 
     background-size: cover;
 }
 
 #slide-close .btn-circle img{
     width: 32px;
     height: 32px;
-    background: url("./images/close_button.png") 0 0; 
+    background: url("../images/close_button.png") 0 0; 
     background-size: cover;
 }
 
 #slide-close .btn-circle:hover img/*, #slide-next .btn-circle:focus img*/{
     outline: 0;
-    background: url("./images/close_button.png") -32px 0; 
+    background: url("../images/close_button.png") -32px 0; 
     background-size: cover;
 }
 
 .page-scroll .btn-circle img{
     width: 32px;
     height: 40px;
-    background: url("./images/down_button.png") 0 0; 
+    background: url("../images/down_button.png") 0 0; 
     background-size: cover;
 }
 
 .page-scroll .btn-circle:hover img/*, .page-scroll .btn-circle:focus img*/{
     outline: 0;
-    background: url("./images/down_button.png") -32px 0; 
+    background: url("../images/down_button.png") -32px 0; 
     background-size: cover;
 }
 
 .page-scroll.top .btn-circle img{
     width: 32px;
     height: 40px;
-    background: url("./images/up_button.png") 0 0; 
+    background: url("../images/up_button.png") 0 0; 
     background-size: cover;
 }
 
 .page-scroll.top .btn-circle:hover img/*, .page-scroll .btn-circle:focus img*/{
     outline: 0;
-    background: url("./images/up_button.png") -32px 0; 
+    background: url("../images/up_button.png") -32px 0; 
     background-size: cover;
 }
 
@@ -190,17 +190,17 @@ body.darkTemplate #header.scrollBg{background: #2b2a2f;}
 #footer-content { margin: 0 auto; }
 #footer .column-small { height: auto;}
 
-#footer-content img { background: url(./images/footer_design_and_digital.png); background-size: cover; }
-body.darkTemplate #footer-content img { background: url(./images/footer_design_and_digital-light.png); background-size: cover; }
+#footer-content img { background: url(../images/footer_design_and_digital.png); background-size: cover; }
+body.darkTemplate #footer-content img { background: url(../images/footer_design_and_digital-light.png); background-size: cover; }
 
 
 #cookiemessage {background: #28282E; bottom: 0; position: fixed; width: 100%; z-index: 5; border: none;}
 #cookiemessage>div>div{float: left;}
 #closeCookie{background: #2D2D35;}
-.closeCookieMessage img {background: url("./images/close.png"); background-size: cover; vertical-align: top;}
+.closeCookieMessage img {background: url("../images/close.png"); background-size: cover; vertical-align: top;}
 
 #search { position: absolute; bottom: -40px; background: #3C3C44; padding: 0; z-index: 5;}
-#search img {float: right; background: url(./images/magnifier.png); background-size: cover;}
+#search img {float: right; background: url(../images/magnifier.png); background-size: cover;}
 
 #search h1 {float: left; margin: 3px 0 0 20px;}
 .blackback {background: #000 !important; bottom: 0 !important;}
@@ -240,8 +240,8 @@ ul.tabs li a:hover, ul.tabs li a.active, .ui-tabs-active a{ }
 
 #content-header > div, .column-small img {float: left;}
 .close img {background: url(./images/close.png); background-size: cover;}
-#play-showreel.column-small img {background: url(./images/play.png); background-size: cover;}
-#search-box #search-submit img {background: url(./images/submit.png); background-size: cover;}
+#play-showreel.column-small img {background: url(../images/play.png); background-size: cover;}
+#search-box #search-submit img {background: url(../images/submit.png); background-size: cover;}
 #container{ 
 	clear: both;
 }
@@ -339,7 +339,7 @@ body.darkTemplate .item p {color: #ecedee;}
 .contact-cms .cmsarea1, .contact-cms .cmsarea2, .contact-cms .cmsarea3{float:left;}
 .cmsarea4 img { height: auto; width: 100%;}
 .clock { float: left; width: 100%;}
-.clockid1, .clockid2, .clockid3, .clockid4, .clockid5 {background: url(/templates/stylodesign/img/clock.png); background-size: cover !important; height: auto;}
+.clockid1, .clockid2, .clockid3, .clockid4, .clockid5 {background: url(../templates/stylodesign/img/clock.png); background-size: cover !important; height: auto;}
 
 #search-window {
 	background: rgba(60,60,68,0.85);
