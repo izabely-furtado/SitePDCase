@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>PD CASE</title>
-<!-- meta http-equiv="author" content="Izabely Furtado">
-<meta http-equiv="contact" content="izabely.correa@pdcase.com.br"-->
+<meta http-equiv="author" content="Izabely Furtado">
+<meta http-equiv="contact" content="izabely.correa@pdcase.com.br">
 <meta name="keywords"
 	content="pd case, tecnologia, software, desenvolvimento de software, programação, empresa, fábrica de software, MPS-BR, Portal de Crédito, PD Bank, solução tecnológica, .Net, Delphi, Java, JSF, Cobol, PHP, C">
 <meta name="description" content="PD CASE">
@@ -37,12 +37,22 @@
 	href="./css/lightboxValores.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="./css/consultoria.css"
 	media="screen" />
+<link rel="stylesheet" type="text/css" href="./css/home.css"
+	media="screen" />
+
+<!--link rel="stylesheet" href="css/demo.css">
+
+<link rel="stylesheet" href="css/navigation-dark.css">
+
+<link rel="stylesheet" href="slicknav/slicknav.min.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"-->
+
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Generic Page CSS -->
-<link rel="stylesheet" type="text/css" href="./css/home.css"
-	media="screen" />
 
 <style type="text/css">
 @
@@ -74,12 +84,28 @@
 </head>
 
 <body>
+<!--nav class="menu-navigation-dark">
+    <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+    <a href="#"><i class="fa fa-building"></i><span>Empresa</span></a>
+    <a href="#"><i class="fa fa-code"></i><span>Code</span></a>
+    <a href="#"><i class="fa fa-camera-retro"></i><span>Pictures</span></a>
+    <a href="#"><i class="fa fa-code"></i><span>Code</span></a>
+    <a href="#" class="selected"><i class="fa fa-comment"></i><span>Talks</span></a>
+    <a href="#"><i class="fa fa-plane"></i><span>Travel</span></a>
+    <a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+    <a href="#"><i class="fa fa-bookmark"></i><span>Empresa</span></a>
+    <a href="#"><i class="fa fa-heart"></i><span>Favorites</span></a>
+</nav-->
 <header class="group">
+
+
 	<h1 class="logo">
 		<a class="home" href="/" title="Home"> <span class="lion">PD</span>
 			<span class="fill">PD</span> <span class="matte">Case</span>
 		</a>
 	</h1>
+
+
 	<ul class="nav">
 
 	<li><a onClick="ativa()" id="emp" class="about " href="./empresa.html">Empresa</a></li>
@@ -94,6 +120,67 @@
 
 </ul>
 </header>
+
+
+
+<div id="slideshow-outer">
+		<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+			data-cycle-speed="1000" data-cycle-timeout="7000"
+			data-cycle-slides="div" data-cycle-prev="#slide-prev"
+			data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+			data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+			data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Huskies"
+				data-cycle-link="/project/huskies"
+				style="background: url(../images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Huskies"
+				data-cycle-link="/project/huskies"
+				style="background: url(../images/clientes.png) no-repeat center center; background-size: cover;"></div>
+			
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Eckersley O'Callaghan"
+				data-cycle-link="/project/eckersley-ocallaghan"
+				style="background: url(http://117f18fe1a893adf57fe-2bea815b2f85abdd4696b249d5477e55.r25.cf3.rackcdn.com/61_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Crypho"
+				data-cycle-link="/project/crypho"
+				style="background: url(http://99237a3449234023e029-adc1db9088b033326ed40113eaa16d67.r31.cf3.rackcdn.com/51_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="The Clarence Centre"
+				data-cycle-link="/project/the-clarence-centre"
+				style="background: url(http://34443d3464be01c4b998-e832cf3d7092715f99af65f86e4b21e7.r7.cf3.rackcdn.com/28_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="Living Rooms"
+				data-cycle-link="/project/living-rooms"
+				style="background: url(http://58fcdb5a16b5598a9fdb-afe5fc1a7f669da2d2f3fe2722425029.r37.cf3.rackcdn.com/47_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Stone Theatre"
+				data-cycle-link="/project/stone-theatre"
+				style="background: url(http://da33c2e0628dc28dd67f-2534b8185bd755badc196495f4384cb8.r68.cf3.rackcdn.com/52_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Industrial Facility"
+				data-cycle-link="/project/industrial-facility"
+				style="background: url(http://7e2a7529ba2858ea1087-a75df464575328fae62c6f42858c8532.r26.cf3.rackcdn.com/17_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		</div>
+		<div id="hero-statement">
+			<div>
+				<div></div>
+			</div>
+		</div>
+		<div id="slide-title"></div>
+		<!-- slide controls -->
+		<div class="slide-nav-prev">
+			<div id="slide-prev" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+		<div class="slide-nav-next">
+			<div id="slide-next" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+		
+</div>
+
+
+
+
 
 <div id="content">
 
@@ -111,6 +198,62 @@
 	</div>
 
 </div>
+
+
+<!--div id="slideshow-outer">
+		<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+			data-cycle-speed="1000" data-cycle-timeout="7000"
+			data-cycle-slides="div" data-cycle-prev="#slide-prev"
+			data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+			data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+			data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Huskies"
+				data-cycle-link="/project/huskies"
+				style="background: url(../images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
+			
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Eckersley O'Callaghan"
+				data-cycle-link="/project/eckersley-ocallaghan"
+				style="background: url(http://117f18fe1a893adf57fe-2bea815b2f85abdd4696b249d5477e55.r25.cf3.rackcdn.com/61_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Crypho"
+				data-cycle-link="/project/crypho"
+				style="background: url(http://99237a3449234023e029-adc1db9088b033326ed40113eaa16d67.r31.cf3.rackcdn.com/51_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="The Clarence Centre"
+				data-cycle-link="/project/the-clarence-centre"
+				style="background: url(http://34443d3464be01c4b998-e832cf3d7092715f99af65f86e4b21e7.r7.cf3.rackcdn.com/28_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="Living Rooms"
+				data-cycle-link="/project/living-rooms"
+				style="background: url(http://58fcdb5a16b5598a9fdb-afe5fc1a7f669da2d2f3fe2722425029.r37.cf3.rackcdn.com/47_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Stone Theatre"
+				data-cycle-link="/project/stone-theatre"
+				style="background: url(http://da33c2e0628dc28dd67f-2534b8185bd755badc196495f4384cb8.r68.cf3.rackcdn.com/52_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Industrial Facility"
+				data-cycle-link="/project/industrial-facility"
+				style="background: url(http://7e2a7529ba2858ea1087-a75df464575328fae62c6f42858c8532.r26.cf3.rackcdn.com/17_lrg.jpg) no-repeat center center; background-size: cover;"></div>
+		</div>
+		<div id="hero-statement">
+			<div>
+				<div></div>
+			</div>
+		</div>
+		<div id="slide-title"></div>
+		<!-- slide controls -->
+		<div class="slide-nav-prev">
+			<div id="slide-prev" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+		<div class="slide-nav-next">
+			<div id="slide-next" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+		
+</div-->
+
+
+
 
 <div id="content">
 	<div id="banner">
@@ -263,57 +406,7 @@
 </div>
 
 
-<div id="slideshow-outer">
-		<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
-			data-cycle-speed="1000" data-cycle-timeout="7000"
-			data-cycle-slides="div" data-cycle-prev="#slide-prev"
-			data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
-			data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
-			data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
-			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Huskies"
-				data-cycle-link="/project/huskies"
-				style="background: url(../images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
-			
-			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Eckersley O'Callaghan"
-				data-cycle-link="/project/eckersley-ocallaghan"
-				style="background: url(http://117f18fe1a893adf57fe-2bea815b2f85abdd4696b249d5477e55.r25.cf3.rackcdn.com/61_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Crypho"
-				data-cycle-link="/project/crypho"
-				style="background: url(http://99237a3449234023e029-adc1db9088b033326ed40113eaa16d67.r31.cf3.rackcdn.com/51_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="The Clarence Centre"
-				data-cycle-link="/project/the-clarence-centre"
-				style="background: url(http://34443d3464be01c4b998-e832cf3d7092715f99af65f86e4b21e7.r7.cf3.rackcdn.com/28_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-			<div id="divlink" onclick="window.location='./index.html';" data-cycle-title="Living Rooms"
-				data-cycle-link="/project/living-rooms"
-				style="background: url(http://58fcdb5a16b5598a9fdb-afe5fc1a7f669da2d2f3fe2722425029.r37.cf3.rackcdn.com/47_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Stone Theatre"
-				data-cycle-link="/project/stone-theatre"
-				style="background: url(http://da33c2e0628dc28dd67f-2534b8185bd755badc196495f4384cb8.r68.cf3.rackcdn.com/52_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-			<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title="Industrial Facility"
-				data-cycle-link="/project/industrial-facility"
-				style="background: url(http://7e2a7529ba2858ea1087-a75df464575328fae62c6f42858c8532.r26.cf3.rackcdn.com/17_lrg.jpg) no-repeat center center; background-size: cover;"></div>
-		</div>
-		<div id="hero-statement">
-			<div>
-				<div></div>
-			</div>
-		</div>
-		<div id="slide-title"></div>
-		<!-- slide controls -->
-		<div class="slide-nav-prev">
-			<div id="slide-prev" class="slide-nav">
-				<a class="btn btn-circle" href="#"><img
-					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
-			</div>
-		</div>
-		<div class="slide-nav-next">
-			<div id="slide-next" class="slide-nav">
-				<a class="btn btn-circle" href="#"><img
-					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
-			</div>
-		</div>
-		
-	</div>
+
 
 
 
@@ -416,6 +509,29 @@
 <!-- JQuery Library -->
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="slicknav/jquery.slicknav.min.js"></script>
+
+<script>
+
+    $(function(){
+
+        var menu = $('.menu-navigation-dark');
+
+        menu.slicknav();
+
+        // Mark the clicked item as selected
+
+        menu.on('click', 'a', function(){
+            var a = $(this);
+
+            a.siblings().removeClass('selected');
+            a.addClass('selected');
+        });
+    });
+
+</script>
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 <script type="text/javascript" src="https://github.com/izabely-furtado/SitePDCase/blob/master/WebContent/js/global.js"></script>
