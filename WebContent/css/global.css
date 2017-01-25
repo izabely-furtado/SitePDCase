@@ -385,6 +385,18 @@ header
 ul
  
 li
+.contato
+ 
+a
+:hover {
+	background: url(../images/contato_yellow.png) no-repeat 50% 50%
+		#282320;
+}
+header
+ 
+ul
+ 
+li
 .dribbble
  
 a {
@@ -403,27 +415,32 @@ a
 	background: url(../images/facebook_yellow.png) no-repeat 50% 50% #282320;
 }
 
-header
- 
-ul
- 
-li
-.xbox
+header ul li .intranet
  
 a {
 	background: url(../images/key_black.png) no-repeat 50% 50%;
 }
 
-header
+li .contato
  
-ul
- 
-li
-.xbox
+a {
+	background: url(../images/contato_black.png) no-repeat 50% 50%;
+}
+
+header ul li
+.intranet
  
 a
 :hover {
 	background: url(../images/key_amarelo.png) no-repeat 50% 50% #282320;
+}
+
+header ul li
+.contato
+ 
+a
+:hover {
+	background: url(../images/contato_amarelo.png) no-repeat 50% 50% #282320;
 }
 
 header
@@ -441,7 +458,7 @@ li
  
 a
 .active {
-	background-color: #f4d923;
+	background-color: #282320;
 	color: #f4d923;
 }
 
@@ -693,7 +710,10 @@ a
 	header ul {
 		width: 280px;
 	}
-	header ul li.twitter, header ul li.dribbble, header ul li.xbox {
+	header ul li.twitter, header ul li.dribbble, header ul li.intranet {
+		display: none;
+	}
+	header ul li.twitter, header ul li.dribbble, header ul li.contato {
 		display: none;
 	}
 	#content {
@@ -927,12 +947,20 @@ header ul li.dribbble a:hover {
 	background: url(../images/facebook_yellow.png) no-repeat 50% 50% #282320;
 }
 
-header ul li.xbox a {
+header ul li.intranet a {
 	background: url(../images/key_black.png) no-repeat 50% 50%;
 }
 
-header ul li.xbox a:hover {
+header ul li.intranet a:hover {
 	background: url(../images/key_amarelo.png) no-repeat 50% 50% #282320;
+}
+
+header ul li.contato a {
+	background: url(../images/contato_black.png) no-repeat 50% 50%;
+}
+
+header ul li.contato a:hover {
+	background: url(../images/contato_yellow.png) no-repeat 50% 50% #282320;
 }
 
 header ul li a:hover, header ul li a.active {
@@ -1162,7 +1190,13 @@ li
 ul
  
 li
-.xbox {
+.intranet 
+
+ul
+
+li
+.contato
+{
 		display: none;
 	}
 	#content {
