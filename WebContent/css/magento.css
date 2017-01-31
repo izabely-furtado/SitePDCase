@@ -2569,7 +2569,7 @@ form[id*='workflow-tab'] {
 #edit-xmlsitemap {
 	padding-top: 20px
 }
-
+/*
 .btn.btn-info, .btn.form-submit[value="Save"], .btn.form-submit[value="Next"],
 	.form-submit[value="Log in"], .form-submit[value="Finish"] {
 	cursor: pointer;
@@ -2653,7 +2653,7 @@ form[id*='workflow-tab'] {
 	background: #0074bd;
 	color: #fff
 }
-
+*/
 #revisioning-revisions-summary #edit-submit {
 	color: #000
 }
@@ -3454,7 +3454,7 @@ body.view-ck {
 	-moz-border-radius: 3px;
 	border-radius: 3px
 }
-
+/*
 #footer-wrap .footer #magento-com #newsletter .sb-email .btn {
 	line-height: 36px;
 	padding: 0 14px
@@ -3464,7 +3464,7 @@ body.view-ck {
 	display: block;
 	overflow: hidden
 }
-
+*/
 #footer-wrap .footer #magento-com #newsletter .sb-email .sb-email-input::-webkit-input-placeholder
 	{
 	color: #989287
@@ -3879,7 +3879,7 @@ body.view-ck {
 		font-size: 12px
 	}
 }
-
+/*
 .btn {
 	color: #fff;
 	font: 14px/15px 'OpenSansBold', sans-serif;
@@ -3964,7 +3964,7 @@ body.view-ck {
 	color: #fff;
 	box-shadow: inset 0 100px 0 0 #676056
 }
-
+*/
 .ui-state-default .ui-icon {
 	background:
 		url("/sites/all/themes/mag_redesign/images/icons/ico-select.png")
