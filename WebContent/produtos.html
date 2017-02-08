@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PD CASE</title>
+<meta charset="utf-8">
+<meta http-equiv="author" content="Izabely Furtado">
+<meta http-equiv="contact" content="izabely.correa@pdcase.com.br">
+<meta name="keywords"
+	content="pd case, tecnologia, software, desenvolvimento de software, programação, empresa, fábrica de software, MPS-BR, Portal de CrÃÂ©dito, PD Bank, soluÃÂ§ÃÂ£o tecnolÃÂ³gica, .Net, Delphi, Java, JSF, Cobol, PHP, C">
+<meta name="description" content="PD CASE">
+<link rel="shortcut icon" href="./images/favicon.jpg" />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="stylesheet" type="text/css" href="./css/layout2.css"
+	media="screen" />
+
+<link rel="stylesheet"
+	href="http://www.stylodesign.co.uk/templates/stylodesign/css/normalize.css"
+	type="text/css" media="screen,projection" />
+<link rel="stylesheet"
+	href="http://www.stylodesign.co.uk/templates/stylodesign/css/styles.php"
+	type="text/css" media="screen,projection" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/pdbank.css"
+	media="screen" />
+<link rel="stylesheet" type="text/css" href="./css/links.css"
+	media="screen" />
+
+
+<link type="text/css" rel="stylesheet" href="./css/magento.css"
+	media="all" />
+<link rel="stylesheet" type="text/css" href="./css/global.css"
+	media="screen" />
+<link type="text/css" rel="stylesheet" href="./css/magento3.css"
+	media="all" />
+<link type="text/css" rel="stylesheet" href="./css/magento2.css"
+	media="all" />
+
+<link rel="stylesheet" type="text/css" href="./css/lightboxValores.css"
+	media="screen" />
+<link rel="stylesheet" type="text/css" href="./css/global.css"
+	media="screen" />
+
+<link rel="stylesheet" type="text/css" href="./css/consultoria.css"
+	media="screen" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+#about {
+	min-height: 93%;
+}
+</style>
+</head>
+<body id="index">
+	<header class="group">
+		<h1 class="logo">
+			<a class="home" href="/" title="Home"> <span
+				style="background: url(./images/logo.jpg)">PD</span>
+
+			</a>
+		</h1>
+		<ul class="nav">
+
+			<li><a onClick="ativa()" id="emp" class="about "
+				href="./empresa.html">Empresa</a></li>
+			<li><a onClick="ativa()" id="serv" class="about "
+				href="./servicos.html">Serviços</a></li>
+			<li><a onClick="ativa()" id="prod" class="about "
+				href="./produtos.html">Produtos</a></li>
+			<li><a onClick="ativa()" id="cli" class="about "
+				href="./clientes.html">Clientes</a></li>
+			<li><a onClick="ativa()" id="fale" class="about "
+				href="./contato.html">Contato</a></li>
+			<li class="share twitter"><a title="Follow Me on Twitter"
+				href="https://twitter.com/PDCase" target="_blank">Follow Me On
+					Twitter</a></li>
+			<li class="share dribbble"><a title="Follow Me on Dribbble"
+				href="https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/"
+				target="_blank">Follow Me On Facebook</a></li>
+			<li class="share xbox last"><a rel="lightbox"
+				title="Game With Me on Xbox Live">Faça o seu Login</a></li>
+
+		</ul>
+	</header>
+
+	<!-- SLIDE -->
+
+
+
+	<div id="slideshow-outer">
+		<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+			data-cycle-speed="1000" data-cycle-timeout="7000"
+			data-cycle-slides="div" data-cycle-prev="#slide-prev"
+			data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+			data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+			data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+
+			<div id="divlink" onclick="window.location='./index.html';"
+				class="light" data-cycle-title="PD_CASE"
+				data-cycle-link="/project/huskies"
+				style="background: url(./images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
+
+			<div id="divlink" onclick="window.location='./portalCredito.html';"
+				class="light" data-cycle-title="PORTAL_DE_CRÉDITO"
+				data-cycle-link="/project/huskies"
+				style="background: url(./editando/pd_portal.png) no-repeat center center; background-size: cover;"></div>
+
+			<div id="divlink" onclick="window.location='./pdBank.html';"
+				class="light" data-cycle-title="PD_BANK"
+				data-cycle-link="/project/huskies"
+				style="background: url(./editando/pd_bank.png) no-repeat center center; background-size: cover;"></div>
+
+			<div id="divlink" onclick="window.location='./pdPositivo.html';"
+				class="light" data-cycle-title="PD_POSITIVO"
+				data-cycle-link="/project/huskies"
+				style="background: url(./editando/pd_positivo.jpg) no-repeat center center; background-size: cover;"></div>
+
+			<div id="divlink" onclick="window.location='./pdCTA.html';"
+				class="light" data-cycle-title="PD_CTA_BACEN"
+				data-cycle-link="/project/huskies"
+				style="background: url(./editando/pd_cta.png) no-repeat center center; background-size: cover;"></div>
+
+		</div>
+		<div id="hero-statement">
+			<div>
+				<div></div>
+			</div>
+		</div>
+		<div id="slide-title"></div>
+		<!-- slide controls -->
+		<div class="slide-nav-prev">
+			<div id="slide-prev" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+		<div class="slide-nav-next">
+			<div id="slide-next" class="slide-nav">
+				<a class="btn btn-circle" href="#"><img
+					src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<!-- FIM DO SLIDE -->
+
+
+	<div class="border"></div>
+
+	<article id="node-2000" class="node node-product-page clearfix">
+
+		<div id="vaibudega"></div>
+		<div class="widnr second">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span8 offset2 text-center">
+						<h2>Produtos</h2>
+						<p>O profundo conhecimento de negócio e de processos do
+							segmento financeiro, além da grande experiência adquirida dos
+							numerosos casos de sucesso em projetos e desenvolvimento de
+							sistemas de missão crítica, posicionam a PD Case de forma
+							diferenciada, garantindo uma oferta de soluções globais altamente
+
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="widnr valueprop left"
+			onclick="window.location='./pdBank.html';"
+			style="background-image: url(./images/pd_bank.jpg);">
+			<div class="container">
+				<div class="row-fluid flex-row">
+					<div class="span4 text-hero ">
+						<h2>PD Bank</h2>
+						<p>Com o foco no mercado bancário, e a expertise de mais de
+							duas décadas atuando neste segmento, a PD Case desenvolveu o
+							PD_BANK. Trata-se de um conjunto de soluções corporativas que
+							visam atender ao "CORE BUSINESS" dos bancos.</p>
+						<a href="./pdBank.html">>>Saiba mais</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="widnr valueprop right"
+			onclick="window.location='./portalCredito.html';"
+			style="background-image: url(./images/pd_portal.jpg);">
+			<div class="container">
+				<div class="row-fluid flex-row">
+					<div class="span4 text-hero offset8">
+						<h2>Portal de Crédito/Fomento</h2>
+
+						<p>Com a experiência adquirida em mais de 20 anos de atuação
+							em projetos e implantação de soluções de negócios para o mercado
+							financeiro, a PDCASE oferece um conjunto de módulos funcionais
+							para gerenciamentos de processos de crédito, que abrange as
+							etapas de análise e concessão de crédito, bem como a
+							administração de carteiras e gestão e cobrança.</p>
+						<a href="./portalCredito.html">>>Saiba mais</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="widnr valueprop left"
+			onclick="window.location='./pdPositivo.html';"
+			style="background-image: url(./images/pd_positivo.jpg);">
+			<div class="container">
+				<div class="row-fluid flex-row">
+					<div class="span4 text-hero ">
+						<h2>PD Positivo</h2>
+						<h2>Cadastro Positivo</h2>
+						<p>A PD Case apresenta ao mercado a sua nova solução de
+							compliance para adequação das instituições financeiras a lei do
+							Cadastro Positivo. A lei do Cadastro Positivo tem como objetivo
+							acenar ao mercado àqueles cidadãos que possuem um histórico de
+							crédito positivo, ou seja, a identificação do bom pagador.
+							Reconhecendo o bom comportamento de crédito do cidadão, através
+							dos históricos ofertados pelo GBDs do Cadastro Positivo, a
+							operação de crédito passar a ter um risco menor, consequentemente
+							um juro menor.</p>
+						<p>As instituições financeiras devem estar aptas a cumprir as
+							disposições de lei do cadastro positivo até 1º de agosto de 2013.</p>
+						<a href="./pdPositivo.html">>>Saiba mais</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="widnr valueprop right"
+			onclick="window.location='./pdCTA.html';"
+			style="background-image: url(./images/pd_cta.jpg);">
+			<div class="container">
+				<div class="row-fluid flex-row">
+					<div class="span4 text-hero offset8">
+						<h2>PD_CTA (STA BACEN)</h2>
+						<p>Com o foco no mercado bancário, e a expertise de mais de
+							duas décadas atuando neste segmento, a PD Case desenvolveu o
+							PD_BANK. Trata-se de um conjunto de soluções corporativas que
+							visam atender ao "CORE BUSINESS" dos bancos.Sistema Centralizador
+							de Transferência de Arquivos, é a solução corporativa que
+							substitui os aplicativos PSTAW10 e PSTAC10 do BACEN. Gerencia,
+							transmite e controla o histórico dos envios de arquivos ao BACEN
+							em um só lugar. Com interface e usabilidade muito mais fácil e
+							amigável.</p>
+						<a href="./pdCTA.html">>>Saiba mais</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</article>
+
+	<div class="widnr second">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span8 offset2 text-center">
+					<h2></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="widnr second">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span8 offset2 text-center">
+					<h2></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer" class="group">
+		<p class="lion">
+			<img src="./images/logo_MPS_BR2.png" alt="Nine Lion" />
+		</p>
+		<p class="copyright">&copy; Copyright 2016 Izabely Furtado</p>
+		<p class="built-on">
+			ConstruÃ­do em <a href="http://www.pdcase.com" target="_blank">PD
+				CASE</a>
+	</div>
+
+	<div class="lightbox valores">
+		<div class="modal">
+			<a class="close">Close This Window</a> <img src="./images/login.png"
+				alt="Login" />
+			<h2>Login</h2>
+			<form method="post" name="_58_fm" autocomplete="on">
+				<!-- action="http://www.pdcase.com/missao-e-valores?p_auth=7wacuOGV&amp;p_p_id=58&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;saveLastPath=0&amp;_58_struts_action=%2Flogin%2Flogin&amp;_58_doActionAfterLogin=false"
+		    method="post" name="_58_fm" autocomplete="on"-->
+				<input name="_58_formDate" type="hidden" value="1481128700759" /> <input
+					class="aui-field-input aui-field-input-text" id="_58_redirect"
+					name="_58_redirect" type="hidden" value="" />
+
+				<fieldset class="aui-fieldset ">
+					<div class="aui-fieldset-content ">
+						<span class="aui-field aui-field-text"> <label>
+								<p>Nome de ExibiÃ§Ã£o</p>
+						</label>
+							<p>
+								<input name="_58_login" type="text" value="" />
+							</p>
+						</span> <label for="_58_password">
+							<p>Senha</p>
+						</label>
+						<p>
+							<input class="aui-field-input aui-field-input-text"
+								id="_58_password" name="_58_password" type="password" value="" />
+						</p>
+
+					</div>
+				</fieldset>
+				<div>
+					<p>
+						<button class="button button1">Entrar</button>
+					</p>
+
+				</div>
+			</form>
+
+		</div>
+		<div class="overlay"></div>
+	</div>
+
+
+
+	<form action="#" id="hrefFm" method="post" name="hrefFm">
+		<span></span>
+	</form>
+
+	<footer id="footer" role="contentinfo">
+		<span class="rodape">&copy;Copyright 2013 - PD Case
+			InformÃƒÆ’Ã‚Â¡tica - Todos os direitos reservados</span>
+		<p class="powered-by"></p>
+	</footer>
+
+	<!-- JQuery Library -->
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./js/global.js"></script>
+	<script type="text/javascript" src="./js/consultoria.js"></script>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push([ '_setAccount', 'UA-17278639-1' ]);
+		_gaq.push([ '_trackPageview' ]);
+
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+					: 'http://www')
+					+ '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+		type="text/javascript"></script>
+
+	<!-- JQuery Library -->
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="slicknav/jquery.slicknav.min.js"></script>
+
+	<script>
+		$(function() {
+
+			var menu = $('.menu-navigation-dark');
+
+			menu.slicknav();
+
+			// Mark the clicked item as selected
+
+			menu.on('click', 'a', function() {
+				var a = $(this);
+
+				a.siblings().removeClass('selected');
+				a.addClass('selected');
+			});
+		});
+	</script>
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script type="text/javascript"
+		src="https://github.com/izabely-furtado/SitePDCase/blob/master/WebContent/js/global.js"></script>
+	<script type="text/javascript" src="./js/global.js"></script>
+	<script type="text/javascript" src="./js/consultoria.js"></script>
+	<script type="text/javascript" src="./js/google.js"></script>
+	<script type="text/javascript"
+		src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.isotope.min.js"></script>
+	<!--<script type="text/javascript" src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.infinitescroll.min.js"></script>
+<script type="text/javascript" src="http://www.stylodesign.co.uk/templates/stylodesign/js/jwplayer/jwplayer.js"></script>-->
+	<script type="text/javascript"
+		src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.cycle2.min.js"></script>
+	<script type="text/javascript"
+		src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.cycle2.swipe.min.js"></script>
+	<script type="text/javascript"
+		src="http://www.stylodesign.co.uk/templates/stylodesign/js/ios6fix.js"></script>
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script
+		src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+	<script type="text/javascript"
+		src="http://www.stylodesign.co.uk/templates/stylodesign/config/init.js"></script>
+	<script type="text/javascript" src="./js/passa.js"></script>
+
+	<img src="./imagem/pdcaseLogo.png" class="preloader"
+		style="display: none;" />
+	<img src="./editando/pd_bank.png" class="preloader"
+		style="display: none;" />
+	<img src="./editando/pd_positivo.jpg" class="preloader"
+		style="display: none;" />
+	<img src="./editando/pd_portal.png" class="preloader"
+		style="display: none;" />
+
+</body>
+</html>

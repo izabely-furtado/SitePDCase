@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PD CASE</title>
+    <title>PD CASE</title>
+    <meta charset="utf-8">
 <meta http-equiv="author" content="Izabely Furtado">
 <meta http-equiv="contact" content="izabely.correa@pdcase.com.br">
 <meta name="keywords"
@@ -55,421 +56,445 @@
 		</h1>
 		<ul class="nav">
 
-	<li><a onClick="ativa()" id="emp" class="about " href="./empresa.html">Empresa</a></li>
-	<li><a onClick="ativa()" id="serv" class="about " href="./servicos.html">Serviços</a></li>
-	<li><a onClick="ativa()" id="prod" class="about " href="./produtos.html">Produtos</a></li>
-	<li><a onClick="ativa()" id="cli" class="about " href="./clientes.html">Clientes</a></li>
-	<li><a onClick="ativa()" id="fale" class="about " href="./contato.html">Contato</a></li>
-	<li class="share twitter"><a title="Follow Me on Twitter" href="https://twitter.com/PDCase" target="_blank">Follow Me On
-				Twitter</a></li>
-	<li class="share dribbble"><a title="Follow Me on Dribbble" href="https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/" target="_blank">Follow Me On Facebook</a></li>
-	<li class="share xbox last"><a rel="lightbox" title="Game With Me on Xbox Live">Faça o seu Login</a></li>
+			<li><a onClick="ativa()" id="emp" class="about "
+				href="./empresa.html">Empresa</a></li>
+			<li><a onClick="ativa()" id="serv" class="about "
+				href="./servicos.html">Serviços</a></li>
+			<li><a onClick="ativa()" id="prod" class="about "
+				href="./produtos.html">Produtos</a></li>
+			<li><a onClick="ativa()" id="cli" class="about "
+				href="./clientes.html">Clientes</a></li>
+			<li><a onClick="ativa()" id="fale" class="about "
+				href="./contato.html">Contato</a></li>
+			<li class="share twitter"><a title="Follow Me on Twitter"
+				href="https://twitter.com/PDCase" target="_blank">Follow Me On
+					Twitter</a></li>
+			<li class="share dribbble"><a title="Follow Me on Dribbble"
+				href="https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/"
+				target="_blank">Follow Me On Facebook</a></li>
+			<li class="share xbox last"><a rel="lightbox"
+				title="Game With Me on Xbox Live">Faça o seu Login</a></li>
 
-</ul>
+		</ul>
 	</header>
 
-	
+<!-- SLIDE -->
+
+
+
+<div id="slideshow-outer">
+	<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+		data-cycle-speed="1000" data-cycle-timeout="7000"
+		data-cycle-slides="div" data-cycle-prev="#slide-prev"
+		data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+		data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+		data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+
+		<div id="divlink" onclick="window.location='./index.html';"
+			class="light" data-cycle-title="PD_CASE"
+			data-cycle-link="/project/huskies"
+			style="background: url(./images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
+
+		<div id="divlink" onclick="window.location='./portalCredito.html';"
+			class="light" data-cycle-title="PORTAL_DE_CRÉDITO"
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_portal.png) no-repeat center center; background-size: cover;"></div>
+
+		<div id="divlink" onclick="window.location='./pdBank.html';"
+			class="light" data-cycle-title="PD_BANK"
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_bank.png) no-repeat center center; background-size: cover;"></div>
+
+		<div id="divlink" onclick="window.location='./pdPositivo.html';"
+			class="light" data-cycle-title="PD_POSITIVO"
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_positivo.jpg) no-repeat center center; background-size: cover;"></div>
+		
+		<div id="divlink" onclick="window.location='./pdCTA.html';"
+			class="light" data-cycle-title="PD_CTA_BACEN"
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_cta.png) no-repeat center center; background-size: cover;"></div>
+		
+			</div>
+	<div id="hero-statement">
+		<div>
+			<div></div>
+		</div>
+	</div>
+	<div id="slide-title"></div>
+	<!-- slide controls -->
+	<div class="slide-nav-prev">
+		<div id="slide-prev" class="slide-nav">
+			<a class="btn btn-circle" href="#"><img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+		</div>
+	</div>
+	<div class="slide-nav-next">
+		<div id="slide-next" class="slide-nav">
+			<a class="btn btn-circle" href="#"><img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<!-- FIM DO SLIDE -->
+
+
 	<div class="border"></div>
-	
-<div id="page">		
-	<article id="node-2000" class="node node-product-page clearfix">
 
-<div id="vaibudega"></div>
-		<div class="widnr second">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span8 offset2 text-center">
-						<h2>PD Bank</h2>
-						<p>Com o foco no mercado bancário, e a expertise de mais de
-							duas décadas atuando neste segmento, a PD Case desenvolveu o
-							PD_BANK. Trata-se de um conjunto de soluções corporativas que
-							visam atender ao "CORE BUSINESS" dos bancos.</p>
+		<article id="node-2000" class="node node-product-page clearfix">
+
+			<div id="vaibudega"></div>
+			<div class="widnr second">
+				<div class="container">
+					<div class="row-fluid">
+						<div class="span8 offset2 text-center">
+							<h2>PD Bank</h2>
+							<p>Com o foco no mercado bancário, e a expertise de mais de
+								duas décadas atuando neste segmento, a PD Case desenvolveu o
+								PD_BANK. Trata-se de um conjunto de soluções corporativas que
+								visam atender ao "CORE BUSINESS" dos bancos.</p>
 
 
+						</div>
 					</div>
-				</div>
 
-			</div>
-		</div>
-
-		<div class="widnr valueprop left"
-			style="background-image: url(./images/motivacao.png);">
-			<div class="container">
-				<div class="row-fluid flex-row">
-					<div class="span4 text-hero ">
-						<h2>Contexto</h2>
-
-						<p>A alta da economia brasileira, novas regras do Bacen,
-							disputa mais acirrada pelas carteiras de clientes, e rápidas e
-							constantes mudanças tecnológicas compõem um cenário exigente para
-							os bancos. Acompanhar este mercado tem demandado grandes
-							investimentos. A implementação de novos produtos e serviços tem
-							onerado e retardado os cronogramas em muitas instituições.</p>
-
-					</div>
 				</div>
 			</div>
-		</div>
-		<div class="widnr valueprop right"
-			style="background-image: url(./images/contexto.png);">
-			<div class="container">
-				<div class="row-fluid flex-row">
-					<div class="span4 text-hero offset8">
-						<h2>Motivação/Justificativa</h2>
 
-						<p>Com a existência de plataformas tecnológicas heterodoxas,
-							os serviços de desenvolvimento de novos softwares muitas vezes
-							são replicados como forma de agregar as regras de negócios dentro
-							dos diversos canais ou dentro do core bancário.</p>
-						<p>Em regra geral, as soluções imediatistas e/ou atrasos nos
-							cronogramas quase sempre prejudicam o acompanhamento da
-							instituição às tendências de mercado. Daí, a expectativa por
-							sistemas do CORE BUSINESS mais ágeis, robustos, confiáveis, e
-							facilmente gerenciáveis, resultam em frustração em alguns bancos.</p>
+			<div class="widnr valueprop left"
+				style="background-image: url(./images/motivacao.png);">
+				<div class="container">
+					<div class="row-fluid flex-row">
+						<div class="span4 text-hero ">
+							<h2>Contexto</h2>
 
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="widnr valueprop left"
-			style="background-image: url(./images/metodologia.png);">
-			<div class="container">
-				<div class="row-fluid flex-row">
-					<div class="span4 text-hero ">
-						<h2>Metodologia</h2>
+							<p>A alta da economia brasileira, novas regras do Bacen,
+								disputa mais acirrada pelas carteiras de clientes, e rápidas e
+								constantes mudanças tecnológicas compõem um cenário exigente
+								para os bancos. Acompanhar este mercado tem demandado grandes
+								investimentos. A implementação de novos produtos e serviços tem
+								onerado e retardado os cronogramas em muitas instituições.</p>
 
-						<p>Com o conhecimento das práticas legais e comerciais de
-							mercado, as soluções PD_BANK permitem queimar etapas nos
-							processos de desenvolvimento e implementação de novos produtos e
-							serviços, já que na atividade bancária, um grande fator de
-							alavancagem de novos negócios está balizado numa plataforma de
-							sistemas bem projetados com flexibilidade de mudança que permita
-							acompanhar as novas tendências mercadológicas.</p>
-						<p>A flexibilidade no uso das soluções PD_BANK permitem aos
-							bancos usarem somente os módulos mais adequados aos nichos de
-							mercados a serem explorados, sendo estes facilmente adaptáveis às
-							particularidades operacionais e de negócio em total conformidade
-							com os normativos dos órgãos reguladores.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="widnr valueprop right"
-			style="background-image: url(./images/alcancado.png);">
-			<div class="container">
-				<div class="row-fluid flex-row">
-					<div class="span4 text-hero offset8">
-						<h2>O que foi alcançado</h2>
-
-						<p>
-							As soluções PD_BANK atendem, de forma integrada, modular e
-							parametrizada todas as necessidades de uma instituição
-							financeira:<br /> - Processamento, controle e gestão das áreas
-							de Controladoria e Controles Internos, <br /> - Gestão de
-							Clientes, Mercado & Captação,<br /> - Crédito & Fomento, <br />
-							- Serviços Bancários <br /> - Suporte aos Canais de Atendimento.
-						</p>
-
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="wrapper">
-
-			<div id="content">
-				<div class="columns-2" id="main-content" role="main">
-					<div class="portlet-layout">
-						<span id="p_56_INSTANCE_OvBWw61NFGa4"></span>
-						<div class="portlet-body">
-							<section class="portlet">
-
-								<div class="portlet-content">
-									<div class=" portlet-content-container" style="">
-										<div class="portlet-body">
-											<div class="journal-content-article">
-
-												<div class="container">
-													<div class="ac-container">
-														<div>
-															<input id="ac-1" name="accordion-1" type="checkbox" /> <label
-																for="ac-1">GESTÃO DE CLIENTES – Conhecendo e
-																Avaliando o Seu Cliente</label>
-															<article class="ac-xlarge">
-																<p>
-																	<strong>Cadastro de Pessoas </strong>– Congrega as
-																	informações exigíveis pela GESTÃO DE PRODUTOS com
-																	aderência aos requisitos do BACEN e princípios de KYC –
-																	Know Your Customer(BIS).
-																</p>
-																<p>
-																	<strong>Perfil de Pessoas </strong>– Enquadra através
-																	de métricas de análise, o perfil de cada cliente com
-																	intuito de obter as alternativas para alavancagem na
-																	oferta de produtos e serviços.
-																</p>
-																<p>
-																	<strong>Características de Perfis </strong>–
-																	Parametriza os dados a serem analisados do cliente,
-																	para projeção do risco em função da expectativa de uso
-																	de produtos e serviços.
-																</p>
-																<p>
-																	<strong>Mensuração de Risco </strong>– Determina o
-																	risco operacional e de crédito do cliente, através de
-																	processos de "DATA MINING", indicando a viabilidade do
-																	cliente.
-																</p>
-																<p>
-																	<strong>Análise de Reciprocidade </strong>– Projeta a
-																	rentabilidade do cliente em função dos custos e
-																	receitas por uso de produtos e serviços.
-																</p>
-															</article>
-														</div>
-														<div>
-															<input id="ac-2" name="accordion-1" type="checkbox" /> <label
-																for="ac-2">CONTROLADORIA – Controle e Publicação
-																de Informações Legais</label>
-															<article class="ac-xlarge">
-																<p>
-																	<strong>Contábil </strong>– Plano de contas(COSIF e
-																	Interno), modelos contábeis, movimentação contábil
-																	originada nas dependências e conciliação
-																	interdependências.
-																</p>
-																<p>
-																	<strong>Interfaces Contábeis </strong>– Padrão de
-																	integração de sistemas aplicativos com auditoria de
-																	processamento e classificação de modelo de integração.
-																</p>
-																<p>
-																	<strong>Relações de Mercado </strong>– Geração de
-																	arquivos e emissão de relatórios exigidos pelo BANCO
-																	CENTRAL E CVM.
-																</p>
-																<p>
-																	<strong>Contabilidade Gerencial </strong>– Análise
-																	Vertical, Horizontal, performance de produtos e
-																	serviços e agências.
-																</p>
-																<p>
-																	<strong>Gestão Tributária </strong>– Gerenciamento das
-																	obrigações tributárias como empresa independente e
-																	instituição financeira, controlando as DIRF, DCTF, CPMF
-																	e os demais tributos federais.
-																</p>
-															</article>
-														</div>
-														<div>
-															<input id="ac-3" name="accordion-1" type="checkbox" /> <label
-																for="ac-3">CAPTAÇÃO DE MERCADO – Alavancando a
-																Entrada de Recursos</label>
-															<article class="ac-xlarge">
-																<p>
-																	<strong>Contas Correntes </strong>– Controla a
-																	movimentação financeira e informações demandadas pelos
-																	clientes nos investimentos e serviços utilizados.
-																</p>
-																<p>
-																	<strong>Fundos de Investimento </strong>– Controla as
-																	posições de cotistas, com as devidas tributações, bem
-																	como os ativos negociados pela gestão do fundo.
-																</p>
-																<p>
-																	<strong>Depósito a Prazo </strong>– Atende as
-																	aplicações de prazo fixo, nos quais podem ser
-																	utilizadas taxas prefixadas ou indexadores originados
-																	por sistema de ÍNDICES.
-																</p>
-																<p>
-																	<strong>Poupança </strong>– Gerencia as aplicações com
-																	vencimentos mensais atreladas à TR – Taxa Referencial,
-																	permitido criar esquemas próprios de premiação.
-																</p>
-																<p>
-																	<strong>Depósitos Judiciais </strong>– Controla as
-																	aplicações compulsórias originadas por demandas
-																	judiciais na julgadas, podendo vinculadas a POUPANÇA ou
-																	CERTIFICADO DE DEPÓSITOS.
-																</p>
-															</article>
-														</div>
-														<div>
-															<input id="ac-4" name="accordion-1" type="checkbox" /> <label
-																for="ac-4">CRÉDITO E FOMENTO – Empréstimos e
-																Financiamentos aos Clientes</label>
-															<article class="ac-xlarge">
-																<p>
-																	<strong>Crédito Comercial </strong>– Permite criar
-																	linhas de crédito de CURTO PRAZO nas modalidades fixa,
-																	rotativo, parcelada(CDC), consignado e renegociações de
-																	operações.
-																</p>
-																<p>
-																	<strong>Crédito Fomento </strong>– Controla operações
-																	de financiamento de LONGO PRAZO, por recursos
-																	obrigatórios(ROB) e captados de fundos externos ou
-																	constitucionais.
-																</p>
-																<p>
-																	<strong>Risco de Crédito </strong>– Permite mensurar o
-																	RISCO DE CRÉDITO pontual de um cliente ou projeto, com
-																	integrações a entidades externas(p.ex. SERASA).
-																</p>
-																<p>
-																	<strong>Propostas de Financiamento </strong>– Captura
-																	proposta de financiamento de cliente, permitindo
-																	antecipação de necessidades de recursos e viabilidade
-																	econômica.
-																</p>
-																<p>
-																	<strong>Obrigações de Repasses </strong>– Controla as
-																	obrigações passivas das operações de LONGO PRAZO
-																	contratadas por recursos externos ao banco.
-																</p>
-																<p>
-																	<strong>Garantias de Operações </strong>– Gerencia os
-																	bens, avais e fianças dados como garantias nas
-																	operações de CURTO e LONGO PRAZO.
-																</p>
-															</article>
-														</div>
-														<div>
-															<input id="ac-5" name="accordion-1" type="checkbox" /> <label
-																for="ac-5">SERVIÇOS BANCÁRIOS – Integrando
-																Clientes e Empresas</label>
-															<article class="ac-xlarge">
-																<p>
-																	<strong>Arrecadação e Pagamentos </strong>– Controla
-																	todos os convênios de recebimento dos bancos que
-																	possuem padrões de mercado(DARF, GPS, COBRANÇA, GNRE,
-																	TRIBUTOS ESTADUAIS etc.)
-																</p>
-																<p>
-																	<strong>Cobrança Escritural </strong>– Gerencia os
-																	recebíveis das empresas, nos quais são agregados
-																	serviços acessórios na COBRANÇA, permitindo ainda a
-																	antecipação do título via desconto.
-																</p>
-																<p>
-																	<strong>Compensação Eletrônica </strong>– Controla a
-																	troca de arquivo da COMPE, abrangendo as remessas
-																	diárias, bem como o fechamento(FAC).
-																</p>
-																<p>
-																	<strong>Agendamento e Débito Automático </strong>–
-																	Controla os lançamentos futuros a serem debitados no
-																	CONTAS CORRENTES, dando o retorno sobre efetivação.
-																</p>
-																<p>
-																	<strong>Beneficiários do INSS </strong>– Controla todos
-																	os tipos de pagamentos feitos pela união na rede
-																	bancária(Aposentadoria, Bolsa-Família, Fome Zero etc.)
-																</p>
-																<p>
-																	<strong>Intercâmbio Padrão FEBRABAN </strong>– Troca de
-																	arquivos de recebimentos,pagamentos, títulos em
-																	cobrança conforme padrões adotados pela FEBRABAN.
-																</p>
-															</article>
-														</div>
-													</div>
-												</div>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-							</section>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			<div class="widnr valueprop right"
+				style="background-image: url(./images/contexto.png);">
+				<div class="container">
+					<div class="row-fluid flex-row">
+						<div class="span4 text-hero offset8">
+							<h2>Motivação/Justificativa</h2>
+
+							<p>Com a existência de plataformas tecnológicas heterodoxas,
+								os serviços de desenvolvimento de novos softwares muitas vezes
+								são replicados como forma de agregar as regras de negócios
+								dentro dos diversos canais ou dentro do core bancário.</p>
+							<p>Em regra geral, as soluções imediatistas e/ou atrasos nos
+								cronogramas quase sempre prejudicam o acompanhamento da
+								instituição às tendências de mercado. Daí, a expectativa por
+								sistemas do CORE BUSINESS mais ágeis, robustos, confiáveis, e
+								facilmente gerenciáveis, resultam em frustração em alguns
+								bancos.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="widnr valueprop left"
+				style="background-image: url(./images/metodologia.png);">
+				<div class="container">
+					<div class="row-fluid flex-row">
+						<div class="span4 text-hero ">
+							<h2>Metodologia</h2>
+
+							<p>Com o conhecimento das práticas legais e comerciais de
+								mercado, as soluções PD_BANK permitem queimar etapas nos
+								processos de desenvolvimento e implementação de novos produtos e
+								serviços, já que na atividade bancária, um grande fator de
+								alavancagem de novos negócios está balizado numa plataforma de
+								sistemas bem projetados com flexibilidade de mudança que permita
+								acompanhar as novas tendências mercadológicas.</p>
+							<p>A flexibilidade no uso das soluções PD_BANK permitem aos
+								bancos usarem somente os módulos mais adequados aos nichos de
+								mercados a serem explorados, sendo estes facilmente adaptáveis
+								às particularidades operacionais e de negócio em total
+								conformidade com os normativos dos órgãos reguladores.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="widnr valueprop right"
+				style="background-image: url(./images/alcancado.png);">
+				<div class="container">
+					<div class="row-fluid flex-row">
+						<div class="span4 text-hero offset8">
+							<h2>O que foi alcançado</h2>
+
+							<p>
+								As soluções PD_BANK atendem, de forma integrada, modular e
+								parametrizada todas as necessidades de uma instituição
+								financeira:<br /> - Processamento, controle e gestão das áreas
+								de Controladoria e Controles Internos, <br /> - Gestão de
+								Clientes, Mercado & Captação,<br /> - Crédito & Fomento, <br />
+								- Serviços Bancários <br /> - Suporte aos Canais de
+								Atendimento.
+							</p>
 
 
+						</div>
+					</div>
+				</div>
+			</div>
 
-	</article>
-</div>
+			<div class="widnr second">
+				<div class="container">
+					<div class="row-fluid">
+
+						<div id="wrapper">
+
+							<div id="content">
+								<div class="columns-2" id="main-content" role="main">
+									<div class="portlet-layout">
+										<span id="p_56_INSTANCE_OvBWw61NFGa4"></span>
+										<div class="portlet-body">
+											<section class="portlet">
+
+												<div class="portlet-content">
+													<div class=" portlet-content-container" style="">
+														<div class="portlet-body">
+															<div class="journal-content-article">
+
+																<div class="container">
+																	<div class="ac-container">
+																		<div>
+																			<input id="ac-1" name="accordion-1" type="checkbox" />
+																			<label for="ac-1">GESTÃO DE CLIENTES –
+																				Conhecendo e Avaliando o Seu Cliente</label>
+																			<article class="ac-xlarge">
+																				<p>
+																					<strong>Cadastro de Pessoas </strong>– Congrega as
+																					informações exigíveis pela GESTÃO DE PRODUTOS com
+																					aderência aos requisitos do BACEN e princípios de
+																					KYC – Know Your Customer(BIS).
+																				</p>
+																				<p>
+																					<strong>Perfil de Pessoas </strong>– Enquadra
+																					através de métricas de análise, o perfil de cada
+																					cliente com intuito de obter as alternativas para
+																					alavancagem na oferta de produtos e serviços.
+																				</p>
+																				<p>
+																					<strong>Características de Perfis </strong>–
+																					Parametriza os dados a serem analisados do cliente,
+																					para projeção do risco em função da expectativa de
+																					uso de produtos e serviços.
+																				</p>
+																				<p>
+																					<strong>Mensuração de Risco </strong>– Determina o
+																					risco operacional e de crédito do cliente, através
+																					de processos de "DATA MINING", indicando a
+																					viabilidade do cliente.
+																				</p>
+																				<p>
+																					<strong>Análise de Reciprocidade </strong>– Projeta
+																					a rentabilidade do cliente em função dos custos e
+																					receitas por uso de produtos e serviços.
+																				</p>
+																			</article>
+																		</div>
+																		<div>
+																			<input id="ac-2" name="accordion-1" type="checkbox" />
+																			<label for="ac-2">CONTROLADORIA – Controle e
+																				Publicação de Informações Legais</label>
+																			<article class="ac-xlarge">
+																				<p>
+																					<strong>Contábil </strong>– Plano de contas(COSIF e
+																					Interno), modelos contábeis, movimentação contábil
+																					originada nas dependências e conciliação
+																					interdependências.
+																				</p>
+																				<p>
+																					<strong>Interfaces Contábeis </strong>– Padrão de
+																					integração de sistemas aplicativos com auditoria de
+																					processamento e classificação de modelo de
+																					integração.
+																				</p>
+																				<p>
+																					<strong>Relações de Mercado </strong>– Geração de
+																					arquivos e emissão de relatórios exigidos pelo
+																					BANCO CENTRAL E CVM.
+																				</p>
+																				<p>
+																					<strong>Contabilidade Gerencial </strong>– Análise
+																					Vertical, Horizontal, performance de produtos e
+																					serviços e agências.
+																				</p>
+																				<p>
+																					<strong>Gestão Tributária </strong>– Gerenciamento
+																					das obrigações tributárias como empresa
+																					independente e instituição financeira, controlando
+																					as DIRF, DCTF, CPMF e os demais tributos federais.
+																				</p>
+																			</article>
+																		</div>
+																		<div>
+																			<input id="ac-3" name="accordion-1" type="checkbox" />
+																			<label for="ac-3">CAPTAÇÃO DE MERCADO –
+																				Alavancando a Entrada de Recursos</label>
+																			<article class="ac-xlarge">
+																				<p>
+																					<strong>Contas Correntes </strong>– Controla a
+																					movimentação financeira e informações demandadas
+																					pelos clientes nos investimentos e serviços
+																					utilizados.
+																				</p>
+																				<p>
+																					<strong>Fundos de Investimento </strong>– Controla
+																					as posições de cotistas, com as devidas
+																					tributações, bem como os ativos negociados pela
+																					gestão do fundo.
+																				</p>
+																				<p>
+																					<strong>Depósito a Prazo </strong>– Atende as
+																					aplicações de prazo fixo, nos quais podem ser
+																					utilizadas taxas prefixadas ou indexadores
+																					originados por sistema de ÍNDICES.
+																				</p>
+																				<p>
+																					<strong>Poupança </strong>– Gerencia as aplicações
+																					com vencimentos mensais atreladas à TR – Taxa
+																					Referencial, permitido criar esquemas próprios de
+																					premiação.
+																				</p>
+																				<p>
+																					<strong>Depósitos Judiciais </strong>– Controla as
+																					aplicações compulsórias originadas por demandas
+																					judiciais na julgadas, podendo vinculadas a
+																					POUPANÇA ou CERTIFICADO DE DEPÓSITOS.
+																				</p>
+																			</article>
+																		</div>
+																		<div>
+																			<input id="ac-4" name="accordion-1" type="checkbox" />
+																			<label for="ac-4">CRÉDITO E FOMENTO –
+																				Empréstimos e Financiamentos aos Clientes</label>
+																			<article class="ac-xlarge">
+																				<p>
+																					<strong>Crédito Comercial </strong>– Permite criar
+																					linhas de crédito de CURTO PRAZO nas modalidades
+																					fixa, rotativo, parcelada(CDC), consignado e
+																					renegociações de operações.
+																				</p>
+																				<p>
+																					<strong>Crédito Fomento </strong>– Controla
+																					operações de financiamento de LONGO PRAZO, por
+																					recursos obrigatórios(ROB) e captados de fundos
+																					externos ou constitucionais.
+																				</p>
+																				<p>
+																					<strong>Risco de Crédito </strong>– Permite
+																					mensurar o RISCO DE CRÉDITO pontual de um cliente
+																					ou projeto, com integrações a entidades
+																					externas(p.ex. SERASA).
+																				</p>
+																				<p>
+																					<strong>Propostas de Financiamento </strong>–
+																					Captura proposta de financiamento de cliente,
+																					permitindo antecipação de necessidades de recursos
+																					e viabilidade econômica.
+																				</p>
+																				<p>
+																					<strong>Obrigações de Repasses </strong>– Controla
+																					as obrigações passivas das operações de LONGO PRAZO
+																					contratadas por recursos externos ao banco.
+																				</p>
+																				<p>
+																					<strong>Garantias de Operações </strong>– Gerencia
+																					os bens, avais e fianças dados como garantias nas
+																					operações de CURTO e LONGO PRAZO.
+																				</p>
+																			</article>
+																		</div>
+																		<div>
+																			<input id="ac-5" name="accordion-1" type="checkbox" />
+																			<label for="ac-5">SERVIÇOS BANCÁRIOS –
+																				Integrando Clientes e Empresas</label>
+																			<article class="ac-xlarge">
+																				<p>
+																					<strong>Arrecadação e Pagamentos </strong>–
+																					Controla todos os convênios de recebimento dos
+																					bancos que possuem padrões de mercado(DARF, GPS,
+																					COBRANÇA, GNRE, TRIBUTOS ESTADUAIS etc.)
+																				</p>
+																				<p>
+																					<strong>Cobrança Escritural </strong>– Gerencia os
+																					recebíveis das empresas, nos quais são agregados
+																					serviços acessórios na COBRANÇA, permitindo ainda a
+																					antecipação do título via desconto.
+																				</p>
+																				<p>
+																					<strong>Compensação Eletrônica </strong>– Controla
+																					a troca de arquivo da COMPE, abrangendo as remessas
+																					diárias, bem como o fechamento(FAC).
+																				</p>
+																				<p>
+																					<strong>Agendamento e Débito Automático </strong>–
+																					Controla os lançamentos futuros a serem debitados
+																					no CONTAS CORRENTES, dando o retorno sobre
+																					efetivação.
+																				</p>
+																				<p>
+																					<strong>Beneficiários do INSS </strong>– Controla
+																					todos os tipos de pagamentos feitos pela união na
+																					rede bancária(Aposentadoria, Bolsa-Família, Fome
+																					Zero etc.)
+																				</p>
+																				<p>
+																					<strong>Intercâmbio Padrão FEBRABAN </strong>–
+																					Troca de arquivos de recebimentos,pagamentos,
+																					títulos em cobrança conforme padrões adotados pela
+																					FEBRABAN.
+																				</p>
+																			</article>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</article>
+	
 	<div class="widnr second">
 		<div class="container">
 			<div class="row-fluid">
 				<div class="span8 offset2 text-center">
-					<h2>Outros Produtos</h2>
+					<h2></h2>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="widnr proof"
-		style="background-image: url(./images/black.jpg); background-position: center center; background-repeat: no-repeat;">
-		<div class="container">
-			<div class="row flex-row">
-				<div class="span4">
-					<a href="./pdBank.html">
-						<div class="proof-squares wow fadeIn" data-wow-delay="0s">
-							<div class="logo">
-								<img class="img-responsive" src="./images/pdbank.png" alt=""
-									title="" />
-							</div>
-							<div class="words">
-								<div class="caption-first">PD Bank</div>
-								<p>
-								<div class="number">Com o foco no mercado bancário e a
-									expertise de mais de duas décadas atuando neste segmento, a PD
-									Case desenvolveu o PD_BANK.Trata-se de um conjunto de soluções
-									corporativas que visam atender ao "CORE BUSINESS" dos bancos.</div>
-
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="span4">
-					<a href="./cadastroPositivo.html">
-						<div class="proof-squares wow fadeIn" data-wow-delay="0.5s">
-							<div class="logo">
-								<img class="img-responsive" src="./images/valores.png" alt=""
-									title="" />
-							</div>
-							<div class="words">
-								<div class="caption-first">Cadastro Positivo</div>
-								<p>
-								<div class="number">A PD Case apresenta ao mercado a sua
-									nova solução de compliance para adequação das instituições
-									financeiras a lei do Cadastro Positivo. A lei do Cadastro
-									Positivo tem como objetivo acenar ao mercado àqueles cidadãos
-									que são bons pagadores.</div>
-
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="span4">
-					<a href="./staBacen.html">
-						<div class="proof-squares wow fadeIn" data-wow-delay="0.5s">
-							<div class="logo">
-								<img class="img-responsive" src="./images/photo.png" alt=""
-									title="" />
-							</div>
-							<div class="words">
-								<div class="caption-first">STA Bacen</div>
-								<p>
-								<div class="number">É um sistema Centralizador de
-									Transferência de Arquivos que substitui os aplicativos PSTAW10
-									e PSTAC10 do BACEN. Gerencia, transmite e controla o histórico
-									dos envios de arquivos ao BACEN em um só lugar. Com interface e
-									usabilidade muito mais fácil e amigável.</div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-			</div>
-		</div>
-	</div>
 	<div class="widnr second">
 		<div class="container">
 			<div class="row-fluid">
@@ -573,10 +598,39 @@
 	<script
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
 		type="text/javascript"></script>
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-	<!--[if IE]><script type="text/javascript" src="http://www.stylodesign.co.uk/templates/stylodesign/js/coolclock/excanvas.js"></script><![endif]-->
-	<!--<script type="text/javascript" src="http://www.stylodesign.co.uk/templates/stylodesign/js/coolclock/coolclock.js"></script>-->
+	
+	<!-- JQuery Library -->
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="slicknav/jquery.slicknav.min.js"></script>
+
+<script>
+
+    $(function(){
+
+        var menu = $('.menu-navigation-dark');
+
+        menu.slicknav();
+
+        // Mark the clicked item as selected
+
+        menu.on('click', 'a', function(){
+            var a = $(this);
+
+            a.siblings().removeClass('selected');
+            a.addClass('selected');
+        });
+    });
+
+</script>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://github.com/izabely-furtado/SitePDCase/blob/master/WebContent/js/global.js"></script>
+<script type="text/javascript" src="./js/global.js"></script>
+<script type="text/javascript" src="./js/consultoria.js"></script>
+<script type="text/javascript" src="./js/google.js"></script>
 	<script type="text/javascript"
 		src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.isotope.min.js"></script>
 	<!--<script type="text/javascript" src="http://www.stylodesign.co.uk/templates/stylodesign/js/jquery.infinitescroll.min.js"></script>
@@ -596,34 +650,17 @@
 	<script type="text/javascript" src="./js/passa.js"></script>
 
 	<img
-		src="http://fd7b0930e1949d14b6a7-2bc09d3288337e401bb45a21f009e6ea.r62.cf3.rackcdn.com/23_lrg.jpg"
+		src="./imagem/pdcaseLogo.png"
 		class="preloader" style="display: none;" />
 	<img
-		src="http://117f18fe1a893adf57fe-2bea815b2f85abdd4696b249d5477e55.r25.cf3.rackcdn.com/61_lrg.jpg"
+		src="./editando/pd_bank.png"
 		class="preloader" style="display: none;" />
 	<img
-		src="http://99237a3449234023e029-adc1db9088b033326ed40113eaa16d67.r31.cf3.rackcdn.com/51_lrg.jpg"
+		src="./editando/pd_positivo.jpg"
 		class="preloader" style="display: none;" />
 	<img
-		src="http://8b18fc3669772eee1dfc-f45ae31b98fab9bc0e072370844f33f6.r34.cf3.rackcdn.com/19_lrg.jpg"
+		src="./editando/pd_portal.png"
 		class="preloader" style="display: none;" />
-	<img
-		src="http://34443d3464be01c4b998-e832cf3d7092715f99af65f86e4b21e7.r7.cf3.rackcdn.com/28_lrg.jpg"
-		class="preloader" style="display: none;" />
-	<img
-		src="http://58fcdb5a16b5598a9fdb-afe5fc1a7f669da2d2f3fe2722425029.r37.cf3.rackcdn.com/47_lrg.jpg"
-		class="preloader" style="display: none;" />
-	<img
-		src="http://da33c2e0628dc28dd67f-2534b8185bd755badc196495f4384cb8.r68.cf3.rackcdn.com/52_lrg.jpg"
-		class="preloader" style="display: none;" />
-	<img
-		src="http://7e2a7529ba2858ea1087-a75df464575328fae62c6f42858c8532.r26.cf3.rackcdn.com/17_lrg.jpg"
-		class="preloader" style="display: none;" />
-	<img
-		src="http://faf999ae1f345dd0691f-b9654c44c01277ffc734b9862cdd1efa.r34.cf3.rackcdn.com/09_lrg.jpg"
-		class="preloader" style="display: none;" />
-	<img
-		src="http://62b6a5e5f25ebb300581-67112407466a4ef52550f7b440de5a78.r12.cf3.rackcdn.com/2560px-x-1350px-gif-layers.gif"
-		class="preloader" style="display: none;" />
+	
 </body>
 </html>
