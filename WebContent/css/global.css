@@ -12,7 +12,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	outline: 0;
 	list-style: none;
 	align: center;
+	
 }
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+	tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+	legend, table, caption, tbody, tfoot, thead, tr, th, td { overflow: hidden; }
 
 table {
 	text-align: center;
@@ -144,7 +150,7 @@ h1, h2 {
 /* Header */
 header {
 	width: 870px;
-	height: 200px;
+	height: 150px;
 	overflow: hidden;
 	zoom: 1;
 	margin: 0 auto;
@@ -805,7 +811,7 @@ h1, h2 {
 /* Header */
 header {
 	width: 870px;
-	height: 200px;
+	height: 150px;
 	overflow: hidden;
 	zoom: 1;
 	margin: 0 auto;

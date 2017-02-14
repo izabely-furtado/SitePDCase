@@ -62,7 +62,6 @@ $(function() {
     // Colorbox
     
     $(".slideshow a, .ampliar").colorbox({slideshow:true});
-    $(".linkvideo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
         
 
     // Placeholder
