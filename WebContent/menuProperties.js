@@ -36,7 +36,7 @@ function carregaRodape() {
 	document.getElementById("rodape").innerHTML = 
 	"<div id='footer' class='group'>" +
 	"<p class='lion'>" +
-	"	<img style='padding: 40px;' src='./images/logo_MPS_BR2.png' alt='Nine Lion' />" +
+	"	<img style='padding: 10px;' src='./images/logo_MPS_BR2.png' alt='Nine Lion' />" +
 	"</p>" +
 	"<p class='copyright'>&copy; Copyright 2016 Izabely Furtado</p>" +
 	"<p class='built-on'>" + 
