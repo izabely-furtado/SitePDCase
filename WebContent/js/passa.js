@@ -77,7 +77,7 @@ $(window).scroll(function() {
 
 $(function() {
 	// lazyload the projects images
-	jQuery("#container img").lazyload({
+	$("#container img").lazyload({
 		 threshold : 200,
 		 effect : "fadeIn",
 		 failure_limit : 100
