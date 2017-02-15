@@ -33,11 +33,11 @@ $(window).scroll(function() {
 		$('.scroll-button-outer:eq(0)').fadeIn()
     }
 	if (headertop > slideshowHeight) {
-		//$('.cycle-slideshow').cycle('pause');
-		jQuery('#slide').cycle('pause');
+		$('.cycle-slideshow').cycle('pause');
+		//jQuery('#slide').cycle('pause');
     } else {
-		//$('.cycle-slideshow').cycle('resume');
-    	jQuery('#slide').cycle('resume');
+		$('.cycle-slideshow').cycle('resume');
+    	//jQuery('#slide').cycle('resume');
     }
 	
 	
