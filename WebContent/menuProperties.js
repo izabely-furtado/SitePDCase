@@ -24,7 +24,7 @@ function carregaMenu() {
  		"	<li><a onClick='ativa()' id='serv' class='about' href='./servicos.html'>Serviços</a></li> " +
 		"	<li><a onClick='ativa()' id='prod' class='about' href='./produtos.html'>Produtos</a></li> " +
 		"	<li><a onClick='ativa()' id='cli'  class='about' href='./clientes.html'>Clientes</a></li> " +
-		"	<li><a onClick='ativa()' id='fale' class='about  href='./contato.html'>Contato</a></li>   " +
+		"	<li><a onClick='ativa()' id='cont'  class='about' href='./contato.html'>Contato</a></li> " +
 		"	<li class='share twitter'><a title='Follow Me on Twitter' href='https://twitter.com/PDCase' target='_blank'>Follow Me On Twitter</a></li>" +
 		"	<li class='share dribbble'><a title='Follow Me on Dribbble'	href='https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/' target='_blank'>Follow Me On Facebook</a></li>" +
 		"	<li class='share xbox last'><a rel='lightbox' title='Game With Me on Xbox Live'>Faça o seu Login</a></li>" +
