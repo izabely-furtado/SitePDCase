@@ -48,36 +48,7 @@ to {
 }
 
 }
-.bg-loading {
-	cursor: progress;
-	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(0, 0, 0,
-		0.1)), color-stop(0.25, transparent), color-stop(0.5, transparent),
-		color-stop(0.5, rgba(0, 0, 0, 0.1)),
-		color-stop(0.75, rgba(0, 0, 0, 0.1)), color-stop(0.75, transparent),
-		to(transparent));
-	background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.1) 25%,
-		transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%,
-		rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
-	background-image: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.1) 25%,
-		transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%,
-		rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
-	background-image: -o-linear-gradient(90deg, rgba(0, 0, 0, 0.1) 25%,
-		transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%,
-		rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
-	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 25%,
-		transparent 25%, transparent 50%, rgba(0, 0, 0, 0.1) 50%,
-		rgba(0, 0, 0, 0.1) 75%, transparent 75%, transparent);
-	background-size: 400%;
-	-webkit-background-size: 400%;
-	-moz-background-size: 400%;
-	-o-background-size: 400%;
-	-ms-background-size: 400%;
-	animation: button-loading 6s linear infinite;
-	-webkit-animation: button-loading 6s linear infinite;
-	-moz-animation: button-loading 6s linear infinite;
-	-ms-animation: button-loading 6s linear infinite;
-	-o-animation: button-loading 6s linear infinite
-}
+
 
 html.overlay-open .navbar-fixed-top {
 	z-index: 400
@@ -377,172 +348,6 @@ form#search-block-form {
 	font-weight: normal
 }
 
-@font-face {
-	font-family: 'GraphikBlack';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Black.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikBlackItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-BlackItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikBold';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Bold.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikBoldItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-BoldItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikExtralight';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Extralight.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikExtralightItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-ExtralightItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikLight';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Light.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikLightItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-LightItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikMedium';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Medium.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikMediumItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-MediumItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikRegular';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Regular.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikRegularItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-RegularItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikSemibold';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Semibold.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikSemiboldItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-SemiboldItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikSuper';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Super.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikSuperItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-SuperItalic.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikThin';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Thin.otf);
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'GraphikThinItalic';
-	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-ThinItalic.otf);
-	font-style: normal;
-	font-style: normal;
-	font-weight: normal
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 300;
-	src: local('Open Sans Light'), local('OpenSans-Light'),
-		url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff)
-		format('woff')
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Open Sans'), local('OpenSans'),
-		url(https://themes.googleusercontent.com/static/fonts/opensans/v6/uYKcPVoh6c5R0NpdEY5A-Q.woff)
-		format('woff')
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
-		url(https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff)
-		format('woff')
-}
 
 fieldset.search-advanced {
 	padding-bottom: 1.5em;
@@ -1832,101 +1637,6 @@ body #admin-menu .dropdown a>.strong {
 #block-system-help p {
 	margin-bottom: 0
 }
-/*
-a {
-	color: #c14800;
-	font-size: 14px;
-	/*text-transform: uppercase*/
-}
-*/
-a:hover {
-	color: #000000;
-	text-decoration: none
-}
-
-a:active {
-	text-decoration: none
-}
-
-a:focus {
-	text-decoration: none
-}
-
-a:visited {
-	text-decoration: none
-}
-
-a.bold {
-	font-family: 'OpenSansBold'
-}
-
-a.arrow {
-	background:
-		url(/sites/all/themes/mag_redesign/images/icons/ico-arrows.png) right
-		top no-repeat;
-	padding-right: 21px;
-	margin-right: 4px;
-	line-height: normal
-}
-
-a.arrow:hover {
-	background:
-		url(/sites/all/themes/mag_redesign/images/icons/ico-arrows.png) right
-		-16px no-repeat
-}
-
-a.left-arrow {
-	background:
-		url("/sites/all/themes/mag_redesign/images/icons/ico-arrows-left.png")
-		no-repeat scroll left top rgba(0, 0, 0, 0);
-	padding-left: 20px
-}
-
-a.left-arrow:hover {
-	background:
-		url("/sites/all/themes/mag_redesign/images/icons/ico-arrows-left.png")
-		no-repeat scroll left -16px rgba(0, 0, 0, 0)
-}
-
-a.top-arrow {
-	position: relative;
-	padding-right: 25px;
-	margin-right: 4px;
-	line-height: normal;
-	background:
-		url(/sites/all/themes/mag_redesign/images/icons/ico-arrows-top.png)
-		right 1px no-repeat
-}
-
-a.top-arrow:hover {
-	background:
-		url(/sites/all/themes/mag_redesign/images/icons/ico-arrows-top.png)
-		right -19px no-repeat
-}
-
-a.white {
-	color: #fff
-}
-
-a.white:hover {
-	color: #fff
-}
-
-a.white.arrow {
-	background:
-		url(/sites/all/themes/mag_redesign/images/icons/ico-arrows.png) right
-		bottom no-repeat;
-	padding-right: 21px;
-	margin-right: 4px;
-	line-height: normal
-}
-
-a.pdf {
-	background: url(/sites/all/themes/mag_redesign/images/icons/ico-pdf.png)
-		right center no-repeat;
-	padding-right: 26px;
-	margin-right: 4px
-}
 
 .main-container {
 	padding-top: 105px
@@ -2461,7 +2171,7 @@ form[id*='workflow-tab'] {
 .nav-tabs>li {
 	margin-bottom: -4px
 }
-
+/*
 .nav-tabs>.active>a {
 	background-color: #fff;
 	border: 0;
@@ -2501,7 +2211,7 @@ form[id*='workflow-tab'] {
 	background-color: #a6a7a2;
 	border-color: #a6a7a2
 }
-
+*/
 .action-links>li>a, .workflow-current-state, #edit-workflow>.control-group>label,
 	#edit-workflow>.control-group>.controls>.form-radios>.form-type-radio>label,
 	.form-item-categories>label, .panels-layouts-checkboxes .panels-layouts-category,
@@ -2569,91 +2279,7 @@ form[id*='workflow-tab'] {
 #edit-xmlsitemap {
 	padding-top: 20px
 }
-/*
-.btn.btn-info, .btn.form-submit[value="Save"], .btn.form-submit[value="Next"],
-	.form-submit[value="Log in"], .form-submit[value="Finish"] {
-	cursor: pointer;
-	padding: 5px 10px;
-	margin-bottom: 1em;
-	margin-right: 1em;
-	color: #fff;
-	text-align: center;
-	font-weight: normal;
-	font-size: 1.077em;
-	font-family: "Lucida Grande", Verdana, sans-serif;
-	background: #4d8f46;
-	border-radius: 0
-}
 
-.btn.btn-info:hover, .btn.form-submit[value="Save"]:hover, .btn.form-submit[value="Next"]:hover,
-	.form-submit[value="Log in"]:hover, .form-submit[value="Finish"]:hover
-	{
-	background: #0a6700
-}
-
-.btn.form-submit[value="Cancel"], .btn.form-submit[value="Delete"] {
-	cursor: pointer;
-	padding: 5px 10px;
-	margin-bottom: 1em;
-	margin-right: 1em;
-	color: #fff;
-	text-align: center;
-	font-weight: normal;
-	font-size: 1.077em;
-	font-family: "Lucida Grande", Verdana, sans-serif;
-	background: #b73939;
-	border-radius: 0
-}
-
-.btn.form-submit[value="Cancel"]:hover, .btn.form-submit[value="Delete"]:hover
-	{
-	background: #900
-}
-
-.btn.form-submit[value="Preview"], .btn.form-submit[value="Back"], .btn.form-submit[value="Upload"]
-	{
-	cursor: pointer;
-	padding: 5px 10px;
-	margin-bottom: 1em;
-	margin-right: 1em;
-	color: #fff !important;
-	text-align: center;
-	font-weight: normal;
-	font-size: 1.077em;
-	font-family: "Lucida Grande", Verdana, sans-serif;
-	background: #0074bd;
-	border-radius: 0
-}
-
-.btn.form-submit[value="Preview"]:hover, .btn.form-submit[value="Back"]:hover,
-	.btn.form-submit[value="Upload"]:hover {
-	background: #004c99
-}
-
-.form-submit[value="Show layout designer"], .form-submit[value="Reuse layout"],
-	.btn.form-submit[value="Remove"], .btn.form-submit[value="View changes"],
-	input[type="file"] {
-	cursor: pointer;
-	border: 0;
-	padding: 5px 10px;
-	margin-bottom: 1em;
-	margin-right: 1em;
-	color: #777;
-	text-align: center;
-	font-weight: normal;
-	font-size: 1.077em;
-	font-family: "Lucida Grande", Verdana, sans-serif;
-	background: #f0f0f0;
-	border-radius: 0
-}
-
-.form-submit[value="Show layout designer"]:hover, .form-submit[value="Reuse layout"]:hover,
-	.btn.form-submit[value="Remove"]:hover, .btn.form-submit[value="View changes"]:hover,
-	input[type="file"]:hover {
-	background: #0074bd;
-	color: #fff
-}
-*/
 #revisioning-revisions-summary #edit-submit {
 	color: #000
 }

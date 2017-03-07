@@ -142,6 +142,4 @@ var _gaq = _gaq || [];
 window.onload = function() {
 	carregaMenu();
 	carregaRodape();
-	teste();
-	teste2();
 }

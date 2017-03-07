@@ -379,7 +379,6 @@ form#search-block-form {
 
 @font-face {
 	font-family: 'GraphikBlack';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Black.otf);
 	font-style: normal;
 	font-weight: normal
 }
@@ -387,14 +386,12 @@ form#search-block-form {
 @font-face {
 	font-family: 'GraphikBlackItalic';
 	src:
-		url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-BlackItalic.otf);
 	font-style: normal;
 	font-weight: normal
 }
 
 @font-face {
 	font-family: 'GraphikBold';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Bold.otf);
 	font-style: normal;
 	font-weight: normal
 }
@@ -425,7 +422,6 @@ form#search-block-form {
 
 @font-face {
 	font-family: 'GraphikLight';
-	src: url(/sites/all/themes/mag_redesign/fonts/graphik/Graphik-Light.otf);
 	font-style: normal;
 	font-weight: normal
 }

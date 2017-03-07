@@ -77,12 +77,13 @@ $(window).scroll(function() {
 
 $(function() {
 	// lazyload the projects images
-	$("#container img").lazyload({
+	/*
+    $("#container img").lazyload({
 		 threshold : 200,
 		 effect : "fadeIn",
 		 failure_limit : 100
 	 });
-	
+	*/
 	//page scrolling when hitting one of the buttons
 	$('.page-scroll a').bind('click', function(event) { 
 				var $anchor = $(this);
