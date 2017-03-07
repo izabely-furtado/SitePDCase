@@ -43,7 +43,7 @@
 	media="screen" />
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
-
+<link href="./css/menuResp.css" rel="stylesheet">
 
 <!-- JQuery Library -->
 <script type="text/javascript" src="./menuProperties.js"></script>
@@ -88,20 +88,14 @@
 <script type="text/javascript" src="./js/global.js"></script>
 <script type="text/javascript" src="./js/consultoria.js"></script>
 
+<script type="text/javascript" src="./js/menuResp.js"></script>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<header class="group">
-	<h1 class="logo">
-		<a class="home" href="/" title="Home"> <span
-			style="background: url(./images/logo.jpg)">PD</span>
 
-		</a>
-	</h1>
 	<div id="menu"></div>
-</header>
 
 
 
@@ -171,7 +165,9 @@
 
 <!-- FIM DO SLIDE -->
 
+<span style="font-size:30px;cursor:pointer; position:absolute; top:4%; left:1%; z-index: 999999;" onclick="openNav()"><img alt="menu" src="./images/menu.png"><img alt="home" src="./images/logo-pd.png"></span>
 
+<div id="main">
 <article id="node-2000" class="node node-product-page clearfix">
 
 
@@ -265,6 +261,6 @@
 </article>
 
 
-<div id="rodape"></div>
+<div id="rodape"></div></div>
 </body>
 </html>

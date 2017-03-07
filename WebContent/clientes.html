@@ -43,7 +43,7 @@
 	media="screen" />
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
-
+<link href="./css/menuResp.css" rel="stylesheet">
 
 <!-- JQuery Library -->
 <script type="text/javascript" src="./menuProperties.js"></script>
@@ -83,6 +83,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 
+
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./js/global.js"></script>
@@ -93,20 +94,16 @@
 <script type="text/javascript" src="./js/jquery.scrollstop.min.js"></script>
 <script type="text/javascript" src="./js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="./js/jquery.cicle2.min.js"></script>
-
+<script type="text/javascript" src="./js/menuResp.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body >
-<header class="group">
-	<h1 class="logo">
-		<a class="home" href="/" title="Home"> <span
-			style="background: url(./images/logo.jpg)">PD</span>
 
-		</a>
-	</h1>
-	<div id="menu"></div>
-</header>
+
+<div id="menu"></div>
+
+
 
 
 <!-- SLIDE -->
@@ -167,7 +164,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- FIM DO SLIDE -->
+<br />
+<span style="font-size:30px;cursor:pointer; position:absolute; top:4%; left:1%; z-index: 999999;" onclick="openNav()"><img alt="menu" src="./images/menu.png"><img alt="home" src="./images/logo-pd.png"></span>
 
+<div id="main">
 
 <article id="node-2000" class="node node-product-page clearfix">
 
@@ -308,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div id="rodape"></div>
-
+</div>
 </body>
 
 </html>

@@ -184,12 +184,12 @@ body {
 	color: #333;
 	background-color: #fff
 }
-
+/*
 a {
 	color: #636466;
 	text-decoration: none
 }
-
+*/
 a:hover, a:focus {
 	color: #f4d923;
 	text-decoration: underline
@@ -3299,11 +3299,11 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	margin-bottom: 20px;
 	list-style: none
 }
-
+/*
 .nav>li>a {
 	display: block
 }
-
+*/
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration: none;
 	background-color: #eee

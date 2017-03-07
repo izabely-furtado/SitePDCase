@@ -1832,13 +1832,13 @@ body #admin-menu .dropdown a>.strong {
 #block-system-help p {
 	margin-bottom: 0
 }
-
+/*
 a {
 	color: #c14800;
 	font-size: 14px;
 	/*text-transform: uppercase*/
 }
-
+*/
 a:hover {
 	color: #000000;
 	text-decoration: none
