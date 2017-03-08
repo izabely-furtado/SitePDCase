@@ -85,7 +85,7 @@ function carregaRodape() {
 function carregaCSS() {
 	document.getElementById("css").innerHTML = 
 		"<link rel='stylesheet' href='http://www.stylodesign.co.uk/templates/stylodesign/css/normalize.css' type='text/css' media='screen,projection' />" + 
-		"<link rel='stylesheet' href='http://www.stylodesign.co.uk/templates/stylodesign/css/styles.php'    type='text/css' media='screen,projection' />" + 
+		"<link rel='stylesheet' href='./css/styles.php.css'    type='text/css' media='screen,projection' />" + 
 		"<link rel='stylesheet' type='text/css' href='./css/layout2.css' 		media='screen' />" + 
 		"<link rel='stylesheet' type='text/css' href='./css/pdbank.css'  		media='screen' />" + 
 		"<link rel='stylesheet' type='text/css' href='./css/links.css'   		media='screen' />" + 
