@@ -35,8 +35,8 @@ function carregaMenu() {
 	    "<li><a style='font-size: 15px;' href='./pdSRC.html'>PD SRC</a></li>" +
 	    "<li><a style='font-size: 15px;' href='./pdBank.html'>PD Bank</a></li>" +
 	    "<li><a style='font-size: 15px;' href='./pdGAR.html'>PD GAR</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdPositivo.html'>PD Positivo</a></li>" +
 	    "<li><a style='font-size: 15px;' href='./pdCTA.html'>PD CTA</a></li>" +
+	    "<li><a style='font-size: 15px;' href='./pdPositivo.html'>PD Positivo</a></li>" +
 	    "</ul>" +
 	    "<a href='./clientes.html'>Clientes</a>" +
 	    "<a href='./contato.html'>Contato</a>" +
