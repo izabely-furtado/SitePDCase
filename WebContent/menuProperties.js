@@ -42,9 +42,8 @@ function carregaMenu() {
 	    "<a href='./contato.html'>Contato</a>" +
 	    "</div>";
 		/*
-		 * "<ol class='nav'>" +
-		 *  " <li><a onClick='ativa()' id='emp' class='about'
-		 * href='./empresa.html'>Empresa</a></li> " + " <li><a
+		 * "<ol class='nav'>" + " <li><a onClick='ativa()' id='emp'
+		 * class='about' href='./empresa.html'>Empresa</a></li> " + " <li><a
 		 * onClick='ativa()' id='serv' class='about'
 		 * href='./servicos.html'>Serviços</a></li> " + " <li><a
 		 * onClick='ativa()' id='prod' class='about'
@@ -59,27 +58,44 @@ function carregaMenu() {
 		 * href='https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/'
 		 * target='_blank'>Follow Me On Facebook</a></li>" + "
 		 * <li class='share xbox last'><a rel='lightbox' title='Game With Me on
-		 * Xbox Live'>Faça o seu Login</a></li>" +
-		 *  "</ul>";
+		 * Xbox Live'>Faça o seu Login</a></li>" + "</ul>";
 		 */
 }
-
+/*
+ * function carregaRodape() { document.getElementById("rodape").innerHTML = "<div
+ * id='footer' class='group'>" + "<p class='lion'>" + " <img style='padding:
+ * 10px;' src='./images/logo_MPS_BR2.png' alt='Nine Lion' />" + "</p>" + "<p class='copyright'>&copy;
+ * Copyright 2016 Izabely Furtado</p>" + "<p class='built-on'>" + "
+ * Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a>" + "</p>" + "</div>"; }
+ */
 function carregaRodape() {
 	document.getElementById("rodape").innerHTML = 
-	"<div id='footer' class='group'>" +
-	"<p class='lion'>" +
-	"	<img style='padding: 10px;' src='./images/logo_MPS_BR2.png' alt='Nine Lion' />" +
-	"</p>" +
-	"<p class='copyright'>&copy; Copyright 2016 Izabely Furtado</p>" +
-	"<p class='built-on'>" + 
-	"	Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a>" +
-	"</p>" + 
-	"</div>" + 
-	
-	"<footer id='footer' role='contentinfo' style='color:black'>" +
-	"<span class='rodape'>&copy;Copyright 2013 - PD Case Informática - Todos os direitos reservados</span>"
-	"<p class='powered-by'></p>"
-	"</footer>"
+"		<footer>" +
+"			<div class='container-fluid footer-primary'>" +
+"			    <div class='container'>" +
+"			      <div class='row'>" +
+"			        <div class='col-md-2' ><div class='logo-footer'><a href='#'><img src='./images/logo-footer.png' class='img-responsive' /></a></div></div>" +
+"			        <div class='col-md-7' style=' text-align:center;'>" +
+"			          <p class='footer-address'><span class='text'>Alameda Oscar Niemeyer, nº 891 - Sala 708 - Vila da Serra - Belo Horizonte / Nova Lima - MG - CEP 34006-065</span><br /><a href='tel:(31) 3505-1940'>PDCASE ATENDE <span class='footer-tel'> (31) 3505-1940</span></a></p>" +
+"			        </div>" +
+"			        " +
+"			      </div>" +
+"			    </div>" +
+"			 </div>" +
+"			 <div class='container-fluid footer-secondary'>" +
+"			 	<div class='container'>" +
+"			 		<div class='container'>" +
+"			 			<div class='row'>" +
+"				    <div class='col-md-6' style='text-align:center; '>" +
+"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD CASE INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span>" +
+"				    </div>" +
+"				    <div class='col-md-6' style='text-align:center;'>" +
+"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a> por Izabely Furtado</span></div>" +
+"				      &nbsp;" +
+"				    </div>" +
+"				</div>" +
+"			</div>" +
+"		</footer>";
 }
 
 function carregaCSS() {
