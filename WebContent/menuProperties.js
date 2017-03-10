@@ -82,19 +82,16 @@ function carregaRodape() {
 "			      </div>" +
 "			    </div>" +
 "			 </div>" +
-"			 <div class='container-fluid footer-secondary'>" +
+"			 <div class='container-fluid footer-secondary' >" +
 "			 	<div class='container'>" +
-"			 		<div class='container'>" +
-"			 			<div class='row'>" +
-"				    <div class='col-md-6' style='text-align:center; '>" +
-"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD CASE INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span>" +
-"				    </div>" +
-"				    <div class='col-md-6' style='text-align:center;'>" +
-"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a> por Izabely Furtado</span></div>" +
-"				      &nbsp;" +
-"				    </div>" +
+"			 		<div class='row'>" +
+	"				    <div class='col-md-6' style='text-align:center; '>" +
+	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD CASE INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
+	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a> por Izabely Furtado</span>" + "" +
+			"           </div>" +
+"					</div>" +
 "				</div>" +
-"			</div>" +
+"			  </div>" +
 "		</footer>";
 }
 
