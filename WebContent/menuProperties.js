@@ -27,7 +27,7 @@ function carregaMenu() {
 	    "<li><a style='font-size: 15px;' href='./mpsBR.html'>MPS-BR</a></li>" +
 	    "<li><a style='font-size: 15px;' href='./fabricaSoftware.html'>Fabrica de Software</a></li>" +
 	    "<li><a style='font-size: 15px;' href='./gestaoProcessos.html'>Gestão de Processos</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./PDMobile.html'>Mobile</a></li>" +
+	    "<li><a style='font-size: 15px;' href='./pdMobile.html'>Mobile</a></li>" +
 	    "</ul>" +
 	    "<a href='./produtos.html'>Produtos</a>" +
 	    "<ul>" +

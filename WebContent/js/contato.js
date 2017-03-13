@@ -10,7 +10,8 @@ function ChangeEstado() {
 			document.getElementById("endereco").innerHTML = "<table style='text-align:center'> <th><p style='font-weight: bold'>VITÓRIA - ES</p> </th> "
 					+ "<table style='text-align:left;'><tr><td style='font-weight: bold'>Telefone:</td><td> (27) 3314-1141 </td></tr>"
 					+ "<tr><td style='font-weight: bold'>Endereço:</td>"
-					+ "<td>Av. Des. José Batalha, 90 sala 100 </td></tr><tr><td></td>"
+					+ "<td>Av. Des. José Batalha, 90</td></tr><tr><td></td>" 
+					+ "<td>Sala 100 </td></tr><tr><td></td>"
 					+ "<td>Ed. Itália - Consolação </td></tr><tr><td></td>"
 					+ "<td>CEP 29045-530 </td></tr><tr><td></td></tr></table></table></table></br>";
 		} else if ($("#IdEstado").val() == "sp") {
@@ -47,7 +48,8 @@ function ChangeEstado() {
 			document.getElementById("endereco").innerHTML = "<table style='text-align:center'> <th><p style='font-weight: bold'>FORTALEZA - CE</p> </th>"
 					+ "<table style='text-align:left;'><tr><td style='font-weight: bold'>Telefone: </td><td> (85) 8814-0065 </td></tr>"
 					+ "<tr><td style='font-weight: bold'>Endereço:</td>"
-					+ "<td>Av. Dom Luís, 500, bairro Meireles</td></tr><tr><td></td>"
+					+ "<td>Av. Dom Luís, 500</td></tr><tr><td></td> "
+					+ "<td>Bairro Meireles</td></tr><tr><td></td>"
 					+ "<td>Shopping Aldeota Expansão, Business Center, sala 1528</td></tr><tr><td></td>"
 					+ "<td>CEP 60160-230</td></tr><tr><td></td>"
 					+ "</tr></table></table></table></br>";
@@ -84,7 +86,8 @@ function ChangeEstado() {
 			document.getElementById("endereco").innerHTML = "<table style='text-align:center'> <th><p style='font-weight: bold'>BELÉM – PA</p> </th>"
 					+ "<table style='text-align:left;'><tr><td style='font-weight: bold'>Telefone: </td><td> 91 3223.0619 </td></tr>"
 					+ "<tr><td style='font-weight: bold'>Endereço:</td>"
-					+ "<td>Av. Assis Vasconcelos, 265 - 3º andar</td></tr><tr><td></td>"
+					+ "<td>Av. Assis Vasconcelos, 265</td></tr><tr><td></td>" 
+					+ "<td>3º andar</td></tr><tr><td></td>"
 					+ "<td>Edifício Victor VI</td></tr><tr><td></td>"
 					+ "<td>CEP 66010-010</td></tr><tr><td></td>"
 					+ "</tr></table></table></table></br>";
@@ -100,7 +103,8 @@ function ChangeEstado() {
 			document.getElementById("endereco").innerHTML = "<table style='text-align:center'> <th><p style='font-weight: bold'>BELO HORIZONTE – MG</p> </th>"
 					+ "<table style='text-align:left;'><tr><td style='font-weight: bold'>Telefone: </td><td> 31 3505.1940 </td></tr>"
 					+ "<tr><td style='font-weight: bold'>Endereço:</td>"
-					+ "<td>Alameda da Serra, 891 – sala 708 </td></tr><tr><td></td>"
+					+ "<td>Alameda da Serra, 891</td></tr><tr><td></td>"
+					+ "<td>Sala 708 </td></tr><tr><td></td>"
 					+ "<td>Vila da Serra – CEP 34000-000</td>"
 					+ "</tr></table></table></table></br>";
 		}
