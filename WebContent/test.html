@@ -10,20 +10,9 @@
 <meta name="description" content="PD CASE">
 <link rel="shortcut icon" href="./images/favicon.jpg" />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<!-- 
-<script type="text/javascript" src="./menuProperties.js"></script>
- -->
-<script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script>
-<link rel=stylesheet id=layerslider-css
-	href='./css/layerslider.css?ver=6.1.0'
-	type='text/css' media=all />
-<link rel=stylesheet id=rs-plugin-settings-css
-	href='./css/settings.css?ver=5.2.4.1'
-	type='text/css' media=all />
-<link rel=stylesheet id=rs-plugin-settings-inline-css 
-	href='./css/index1.css'
-	type='text/css'>
 
+<script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script>
+<script type="text/javascript" src="./menuProperties.js"></script>
 <link rel=stylesheet id=style-css
 	href='./css/TheFox/style.css?ver=4.7.3'
 	type='text/css' media=all />
@@ -60,6 +49,23 @@
 <link rel=stylesheet id=zilla-likes-css
 	href='./css/TheFox/zilla-likes.css?ver=4.7.3'
 	type='text/css' media=all />
+<!-- Styles -->
+
+<link type="text/css" rel="stylesheet" href="./css/magento.css"
+	media="all" />
+<link rel="stylesheet" type="text/css" href="./css/global.css"
+	media="screen" />
+<link href="assets/css/main.css" rel="stylesheet">
+<!-- Styles -->
+
+<link href="./css/menuResp.css" rel="stylesheet">
+
+<!-- JQuery Library -->
+
+<script type="text/javascript" src="./js/global.js"></script>
+
+<script type="text/javascript" src="./js/menuResp.js"></script>
+
 <script type='text/javascript'
 	src='./js/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript'
@@ -73,39 +79,11 @@ var LS_Meta={"v":"6.1.0"};
 	src='./js/layerslider.kreaturamedia.jquery.js?ver=6.1.0'></script>
 <script type='text/javascript'
 	src='./js/layerslider.transitions.js?ver=6.1.0'></script>
-<script type='text/javascript'
-	src='./js/jquery.themepunch.tools.min.js?ver=5.2.4.1'></script>
-<script type='text/javascript'
-	src='./js/jquery.themepunch.revolution.min.js?ver=5.2.4.1'></script>
-<meta name=generator
-	content="Powered by LayerSlider 6.1.0 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
-<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
-<link rel='https://api.w.org/' href='http://innovea.com.br/wp-json/' />
-<link rel=EditURI type="application/rsd+xml" title=RSD
-	href="http://innovea.com.br/xmlrpc.php?rsd" />
-<link rel=wlwmanifest type="application/wlwmanifest+xml"
-	href="http://innovea.com.br//wp-includes/wlwmanifest.xml" />
-<meta name=generator content="WordPress 4.7.3" />
-<link rel=shortlink href='http://innovea.com.br/' />
-<link rel=alternate type="application/json+oembed"
-	href="http://innovea.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Finnovea.com.br%2F" />
-<link rel=alternate type="text/xml+oembed"
-	href="http://innovea.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Finnovea.com.br%2F&#038;format=xml" />
+
 <!-- Custom Styling -->
 <link rel=stylesheet id=prettyphotocss-css
 	href='./css/index2.css'
 	type='text/css' />
-<meta name=generator
-	content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://innovea.com.br//wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
-<!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://innovea.com.br//wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
-<meta name=generator
-	content="Powered by Slider Revolution 5.2.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-<!--Start of Zopim Live Chat Script-->
-<!-- 
-<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="//v2.zopim.com/?3CTiYacy0GoumStBvAH9coJB4YAc39Lp";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");</script>
--->
-<!--End of Zopim Live Chat Script-->
 
 <link rel=stylesheet data-type=vc_shortcodes-custom-css
 	href='./css/index3.css'
@@ -127,7 +105,11 @@ var LS_Meta={"v":"6.1.0"};
 
 <body
 	class="home page-template-default page page-id-1584 page-parent wpb-js-composer js-comp-ver-4.11.1 vc_responsive">
+<div id="menu"></div>
 
+
+
+	
 	<div id=jpreOverlay class="dark_loader	 tf_complex_loader">
 		<div id=jpreLoader>
 			<div id=jpreBar></div>
@@ -223,96 +205,38 @@ var LS_Meta={"v":"6.1.0"};
 			data-pagespeed-url-hash=2749754879
 			 />
 	</div>
-	<div id=top_bg class=menu_slide>
-		<div id=header_container>
+	<span
+		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; padding:2px; z-index: 99999;"
+		onclick="openNav()">
+		
+		<img alt="menu" src="./images/menu.png"><!-- img
+		alt="home" src="./images/logo-pd.png"-->
+	
+	</span>
+	
+	<div id=top_bg class=menu_slide style="padding:0px; width: 100%; ">
+		<div id=header_container style="padding:0px; width: 100%; ">
 			<!-- header -->
 			<header
-				class="header_shadow nav_type_1 sticky_header  header_to_shrink clearfix">
-				<div class=wrapper></div>
-			</header>
+				class="header_shadow nav_type_1 sticky_header  header_to_shrink clearfix" style="height: 0px; width: 100%; ">
+				<span
+		style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:0px; z-index: 9999;"
+		onclick="openNav()">
+		<a href='./index.html'> <img src='./images/logo-footer.png'
+							class='img-responsive' />
+						</a>
+	</span>
+	
+				</header>
 			<!-- header END-->
+			
 		</div>
-		<div>
-			<div id=rev_slider_70_1_wrapper
-				class="rev_slider_wrapper fullscreen-container"
-				style="background-color: #ffffff; padding: 0px;">
-				<!-- START REVOLUTION SLIDER 5.2.4.1 fullscreen mode -->
-				
-			</div>
-			<!-- END REVOLUTION SLIDER -->
-		</div>
-		<div class="section def_section">
-			<div class="wrapper section_wrapper">
-				<div id=fw_c class="clearfix tf_single_page">
-					<div id=sobre-nos
-						class="vc_row wpb_row vc_row-fluid vc_custom_1459219336724 full-width-section ">
-						<div class="vc_span6 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418459519995">
-								<div class=wpb_wrapper>
-									<h2
-										style="font-size: 36px; color: #2c3e50; text-align: left; font-family: Lato; font-weight: 300; font-style: normal"
-										class="vc_custom_heading vc_custom_1436652486360">Inovação,
-										Criatividade, Compromisso</h2>
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1470269273970 ">
-										<div class=wpb_wrapper id=ct_c9rfeyqotokx9wag182e>
-											<p>
-												<span style="color: #767389;">Somos uma empresa
-													especializada no desenvolvimento de soluções para o mercado
-													digital, seja na versão web ou mobile, entre outros.
-													Inovação e tecnologia fazem parte do nosso DNA e
-													acreditamos que através delas podemos mudar o mundo.
-													Oferecemos soluções em todas as fases de um projeto, de
-													forma a contribuir com a geração de resultados para o seu
-													negócio.</span>
-											</p>
+		
+		
 
-										</div>
-									</div>
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1470269308927 ">
-										<div class=wpb_wrapper id=ct_mqw3srdcivh9mokyi2hn>
-											<p>
-												<span style="color: #767389;">Com planejamento e uma
-													gestão de projetos bem definida, conseguimos oferecer um
-													método eficiente e eficaz para o desenvolvimento de
-													projetos web, aplicativos mobile e consultoria
-													especializada em marketing e outras soluções digitais.</span>
-											</p>
-
-										</div>
-									</div>
-									<div class="ta_left tf_btn_pos" id=b_84amrz0gk6jpvzmo6s3q>
-										<a
-											class="rd_stroke_bt smallmedium_rd_bt border_1px  bt_icon_right  rda_fadeInLeft "
-											href="#nossos-servicos" target=""><span>CONHEÇA
-												NOSSAS SOLUÇÕES</span><i class=mfg-right-open></i></a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="vc_span6 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418459525974">
-								<div class=wpb_wrapper>
-
-									<div class="wpb_single_image wpb_content_element vc_align_left">
-										<div class=wpb_wrapper>
-
-											<div class="vc_single_image-wrapper   vc_box_border_grey">
-												<img width=1040 height=614
-													src="./images/pad2.png"
-													class="vc_single_image-img attachment-full" alt=""
-													data-pagespeed-url-hash=3249261048
-													 />
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
+		
+		<div id=fw_c class="clearfix tf_single_page">
+					
 					</div>
 					<div
 						class="vc_row wpb_row vc_row-fluid vc_custom_1436685348673 full-width-section  rd_parallax_section "
@@ -514,8 +438,7 @@ var LS_Meta={"v":"6.1.0"};
 									<div class="ta_center tf_btn_pos" id=b_7bmn0ezsxt2mw548b7ab>
 										<a
 											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=marketing target=""><span>SAIBA MAIS</span><i
-											class=mfg-right-open></i></a>
+											href=marketing target=""><span>SAIBA MAIS</span></a>
 									</div>
 									<div class=vc_empty_space style="height: 32px">
 										<span class=vc_empty_space_inner></span>
@@ -574,8 +497,7 @@ var LS_Meta={"v":"6.1.0"};
 									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
 										<a
 											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span><i
-											class=mfg-right-open></i></a>
+											href=apps target=""><span>SAIBA MAIS</span></a>
 									</div>
 									<div class=vc_empty_space style="height: 32px">
 										<span class=vc_empty_space_inner></span>
@@ -638,7 +560,7 @@ var LS_Meta={"v":"6.1.0"};
 										<a
 											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
 											href=desenvolvimento-web target=""><span>SAIBA
-												MAIS</span><i class=mfg-right-open></i></a>
+												MAIS</span></a>
 									</div>
 									<div class=vc_empty_space style="height: 32px">
 										<span class=vc_empty_space_inner></span>
@@ -1290,7 +1212,7 @@ j$("#tm_pdxt3zn6vqn4sfwtcw5w .rd_testimonials").carouFredSel({responsive:true,wi
 
 			</div>
 		</div>
-
+-->
 		<div id=footer_bg>
 			<div id=footer_coms>
 				<div class=wrapper>
@@ -1352,7 +1274,7 @@ var zilla_likes={"ajaxurl":"http:\/\/innovea.com.br\/wp-admin\/admin-ajax.php"};
 	<script type='text/javascript'>//<![CDATA[
 var _wpcf7={"recaptcha":{"messages":{"empty":"Por favor, verifique se voc\u00ea n\u00e3o \u00e9 um rob\u00f4."}},"cached":"1"};
 //]]></script>
-
+</div>
 
 </body>
 </html>
