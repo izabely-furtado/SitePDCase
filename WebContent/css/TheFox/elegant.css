@@ -1,4 +1,13 @@
-
+@font-face {
+	font-family: 'elg';
+	src:url('../includes/font/ElegantIcons.eot');
+	src:url('../includes/font/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('../includes/font/ElegantIcons.woff') format('woff'),
+		url('../includes/font/ElegantIcons.ttf') format('truetype'),
+		url('../includes/font/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
 	font-family: 'elg';
