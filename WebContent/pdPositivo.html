@@ -56,7 +56,7 @@
 
 	<div id="menu"></div>
 <!-- SLIDE -->
-<div id="slideshow-outer">
+<div id="slideshow-outer" style="padding-top: 76px;">
 	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="1000" data-cycle-timeout="7000"
 		data-cycle-slides="div" data-cycle-prev="#slide-prev" data-cycle-next="#slide-next"
 		data-cycle-overlay="#slide-title" data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
@@ -115,8 +115,21 @@
 <br />
 <!-- FIM DO SLIDE -->
 
-<span style="font-size:30px;cursor:pointer; position:absolute; top:4%; left:1%; z-index: 999999;" onclick="openNav()"><img alt="menu" src="./images/menu.png"><img alt="home" src="./images/logo-pd.png"></span>
-
+<span
+		style="position: absolute; top: 0%; left: 0%; z-index: 999999; background-color:black; width: 100%; padding:6px"
+		onclick="openNav()">
+		<a href='./index.html'> <img src='./images/logo-footer.png'
+							class='img-responsive' />
+						</a>
+	</span>
+	<span
+		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; z-index: 999999;"
+		onclick="openNav()">
+		
+		<img alt="menu" src="./images/menu.png"><!-- img
+		alt="home" src="./images/logo-pd.png"-->
+	
+	</span>
 <div id="main">
 <article id="node-2000" class="node node-product-page clearfix">
 
