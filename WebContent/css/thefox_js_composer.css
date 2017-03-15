@@ -535,7 +535,7 @@
   width: 23.125%;
 }
 .vc_row-fluid .vc_span2 {
-  width: 14.583333333333334%;
+  width: 0.583333333333334%;
 }
 .vc_row-fluid .vc_span1 {
   width: 6.041666666666667%;
@@ -1586,7 +1586,7 @@ body ul.wpb_thumbnails-fluid li .entry-content *:last-child {
 /* Grid adjustments */
 .wpb_grid .wpb_thumbnails-fluid > .vc_span2,
 .wpb_filtered_grid .wpb_thumbnails-fluid > .vc_span2 {
-  width: 14.016666666666667%;
+  width: 14.16666666666667%;
 }
 .wpb_grid .wpb_thumbnails-fluid > .vc_span3,
 .wpb_filtered_grid .wpb_thumbnails-fluid > .vc_span3 {
