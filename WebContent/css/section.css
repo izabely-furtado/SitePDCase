@@ -24,3 +24,14 @@
 	background-repeat: no-repeat;
 	background-size: auto;
 }
+.section4 {
+	background-image: url("../images/section_2_bg.jpg");
+}
+.sectioncli {
+	background-image: url("../images/cli_sec.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+html, body {
+	height:auto;
+}
