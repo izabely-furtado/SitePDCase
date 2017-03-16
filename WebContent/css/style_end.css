@@ -97,7 +97,7 @@ div.timeline_event:nth-of-type(even) {
 	width:50%;
 	float:left;
 	padding-right: 105px;
-	margin-bottom:100px;
+	margin-bottom:00px;
 	position:relative;
 }
 div.timeline_event:nth-of-type(odd) {
@@ -144,7 +144,7 @@ div.timeline_event:nth-of-type(odd):before {
 	font-size:18px;
 	font-weight:bold;
 	line-height:30px;
-	margin-bottom:8px;
+	margin-bottom:0px;
 }
 .timeline_event_ctn .v_line {
 	background: none repeat scroll 0 0 #ebebeb;
@@ -1215,7 +1215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12e5bb', end
 	padding:39px 30px 79px;
 	text-align:center;
 	border:1px solid #e2ebf0;
-	margin-bottom:1px;
+	margin-bottom:0px;
 }
 .rd_pt_5 .pricetable h4.pricetable-price {
 	padding: 0;
@@ -2248,7 +2248,7 @@ width: 65%;
 }
 .rd_pt_13 .pricetable h4.pricetable-price {
   padding: 0px 14px 70px;
-  margin-bottom:10px!important;
+  margin-bottom:0px!important;
 	font-weight: 600;
 	font-size: 20px;
 	font-family:"Open Sans";
@@ -3268,7 +3268,7 @@ width: 65%;
 }
 .wpb_text_column ul li {
 	list-style: square;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .module_text_area ul br {
 	display: none;
@@ -3953,7 +3953,7 @@ border-radius: 5px;
 .alert {
 	text-align:center;
 	padding:30px;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	position:relative;
 	font-size:14px;
 }
@@ -4015,7 +4015,7 @@ border-radius: 5px;
 }
 .rd_solid_alert .rd_alert_title {
 	font-size:14px;
-	margin-bottom:6px;
+	margin-bottom:0px;
 	text-transform:uppercase;
 	font-weight:900;
 	color:black
@@ -4140,7 +4140,7 @@ border-radius: 5px;
 }
 .rd_clear_alert .rd_alert_title {
 	font-size:14px;
-	margin-bottom:6px;
+	margin-bottom:0px;
 	text-transform:uppercase;
 	font-weight:900;
 }
@@ -4227,7 +4227,7 @@ border-radius: 5px;
 }
 .rd_big_alert .rd_alert_title {
 	font-size:18px;
-	margin-bottom:8px;
+	margin-bottom:0px;
 }
 .rd_big_alert .rd_alert_content {
 	float:left;
@@ -4665,7 +4665,7 @@ h4 .dropcap {
 	line-height: 45px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	margin-bottom:2px;
+	margin-bottom:0px;
 }
 .count_title {
 	font-weight: 700!important;
@@ -4754,7 +4754,7 @@ h4 .dropcap {
 	font-weight: 300;
 	letter-spacing:normal;
 	margin-top: 37px;
-	margin-bottom: 27px;
+	margin-bottom: 0px;
 	position: relative;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -4790,7 +4790,7 @@ h4 .dropcap {
 	line-height: 48px;
 	font-weight: 300;
 	letter-spacing:normal;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	position: relative;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -4818,7 +4818,7 @@ h4 .dropcap {
 	font-weight: 300;
 	letter-spacing:normal;
 	font-family:"Open Sans";
-	margin-bottom: 38px;
+	margin-bottom: 0px;
 	position: relative;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -4896,7 +4896,7 @@ h4 .dropcap {
 	font-weight: 400;
 	letter-spacing: 2px;
 	margin-top: 43px;
-	margin-bottom: 24px;
+	margin-bottom: 0px;
 	position: relative;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -5142,7 +5142,7 @@ h4 .dropcap {
 	font-weight: 300;
 	letter-spacing: 2px;
 	margin-top: 7px;
-	margin-bottom: 12px;
+	margin-bottom: 0px;
 	position: relative;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -5192,7 +5192,7 @@ h4 .dropcap {
 .icon_box {
 	display:block;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	overflow:hidden;
 	cursor:pointer;
 }
@@ -5243,7 +5243,7 @@ h3.mi_heading {
 .icon_box_si {
 	display:block;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	overflow:hidden;
 }
 .icon_box_si i {
@@ -5335,7 +5335,7 @@ h3.mi_heading {
 .icon_box_rounded {
 	display:block;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	overflow:hidden;
 }
 .icon_box_rounded i {
@@ -5370,7 +5370,7 @@ h3.mi_heading {
 .icon_box_rounded p {
 	padding:9px 0 0 0;
 	text-align:left;
-	margin-bottom:9px;
+	margin-bottom:0px;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
@@ -5388,7 +5388,7 @@ h3.mi_heading {
 .icon_box_rounded_trend {
 	display:block;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	overflow:hidden;
 }
 .icon_box_rounded_trend i {
@@ -5426,7 +5426,7 @@ h3.mi_heading {
 .icon_box_rounded_trend p {
 	padding:9px 0 0 89px;
 	text-align:left;
-	margin-bottom:9px;
+	margin-bottom:0px;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
@@ -5444,7 +5444,7 @@ h3.mi_heading {
 .icon_box_rounded_stroke {
 	display:block;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	overflow:hidden;
 }
 .icon_box_rounded_stroke i {
@@ -8174,7 +8174,7 @@ margin-bottom:9px;
 .rd_list_1 .list_item_ctn {
 	float: left;
 	width: 100%;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	border-bottom:1px solid;
 }
 .rd_list_1 .list_item_ctn:last-child {
@@ -8184,12 +8184,12 @@ margin-bottom:9px;
 	margin-left: 35px;
 }
 .rd_list_1 .list_desc p {
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 .rd_list_1 .list_desc h3 {
 	font-size: 16px;
 	font-weight: 700;
-	margin-bottom:5px;
+	margin-bottom:0px;
 }
 .rd_list_1 .list_icn {
 	float:left;
@@ -8215,16 +8215,16 @@ margin-bottom:9px;
 	margin-left: 35px;
 }
 .rd_list_1_alt .list_desc p {
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 .rd_list_1_alt .list_desc h3 {
 	font-size: 16px;
 	font-weight: 700;
-	margin-bottom:5px;
+	margin-bottom:0px;
 }
 .rd_list_1_alt .list_icn {
 	float:left;
-	margin-right: 20px;
+	margin-right: 0px;
 	font-size: 14px;
 	margin-top: 5px;
 	-webkit-transition: all 0.2s linear;
@@ -8236,7 +8236,7 @@ margin-bottom:9px;
 .rd_list_2 .list_item_ctn {
 	float: left;
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	position:relative;
 	overflow: hidden;
 }
@@ -8256,12 +8256,12 @@ margin-bottom:9px;
 	margin-left: 70px;
 }
 .rd_list_2 .list_desc p {
-	margin-bottom: 35px;
+	margin-bottom: 0px;
 }
 .rd_list_2 .list_desc h3 {
 	font-size: 18px;
 	font-weight: 700;
-	margin-bottom:14px;
+	margin-bottom:0px;
 }
 .rd_list_2 .list_icn {
 	float:left;
@@ -8269,7 +8269,7 @@ margin-bottom:9px;
 	font-size: 45px;
 	height: 55px;
 	line-height: 40px;
-	margin-top: 4px;
+	margin-top: 0px;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
@@ -8281,7 +8281,7 @@ margin-bottom:9px;
 .rd_list_3 .list_item_ctn {
 	float: left;
 	width: 100%;
-	margin-bottom: 26px;
+	margin-bottom: 0px;
 }
 .rd_list_3 .list_item_ctn:hover i {
 	background:rgba(0,0,0,0.3);
@@ -8302,7 +8302,7 @@ margin-bottom:9px;
 	font-size: 14px;
 	font-weight: 900;
 	text-transform:uppercase;
-	margin-bottom:20px;
+	margin-bottom:0px;
 }
 .rd_list_3 .list_item_ctn:hover .list_icn span {
 	color:#fff!important;
@@ -8396,7 +8396,7 @@ margin-bottom:9px;
 	font-size: 18px;
 	font-weight: 700;
 	margin-top:18px;
-	margin-bottom:24px;
+	margin-bottom:0px;
 }
 .rd_list_5 .list_item_ctn:hover .list_icn span {
 	color:#fff!important;
