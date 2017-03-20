@@ -1,6 +1,6 @@
 @CHARSET "ISO-8859-1";
 .section2 {
-	background-image: url("../images/section_0_bg.jpg");
+	background-image: url("../images/sec3.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
 }
@@ -31,6 +31,14 @@
 	background-image: url("../images/cli_sec.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
+}
+.sectiontest {
+	background-image: url("../images/test.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.sectiontest {
+	background-color: #83bfab;;
 }
 html, body {
 	height:auto;
