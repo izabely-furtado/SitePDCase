@@ -32,6 +32,10 @@
 .section4 {
 	background-image: url("../images/section_2_bg.jpg");
 }
+
+.section5 {
+	background-image: url("../images/sec.jpg");
+}
 .sectioncli {
 	background-image: url("../images/cli_sec.jpg");
 	background-repeat: no-repeat;

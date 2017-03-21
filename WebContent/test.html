@@ -138,76 +138,7 @@ var LS_Meta={"v":"6.1.0"};
 			<div class=thefox_loader_logo_bg></div>
 			<div class=thefox_loader_logo>
 				<script data-pagespeed-no-defer>//<![CDATA[
-(function() {
-	var g=this;
-	function h(b,d){
-		var a=b.split("."),c=g;
-		a[0]in c||!c.execScript||c.execScript("var "+a[0]);
-		for(var e;a.length&&(e=a.shift());)
-			a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};
-			function l(b){
-				var d=b.length;if(0<d){
-					for(var a=Array(d),c=0;c<d;c++)
-						a[c]=b[c];
-					return a
-			}
-		return[]
-	};
-  function m(b){
-	  var d=window;
-	  if(d.addEventListener)
-		  d.addEventListener("load",b,!1);
-	  else if(d.attachEvent)
-		  d.attachEvent("onload",b);
-	  else{
-		  var a=d.onload;
-		  d.onload=function(){
-			  b.call(this);
-			  a&&a.call(this)
-		   }
-	   }
-   };
-   var n;
-   function p(b,d,a,c,e) {
-	   this.h=b;
-	   this.j=d;
-	   this.l=a;
-	   this.f=e;
-	   this.g={
-			   height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth
-			   };
-	   this.i=c;
-	   this.b={};
-	   this.a=[];
-	   this.c={}
-   }
-   function q(b,d){
-	   var a,c,e=d.getAttribute("data-pagespeed-url-hash");
-	   if(a=e&&!(e in b.c))
-		   if(0>=d.offsetWidth&&0>=d.offsetHeight)
-			   a=!1;
-		   else{
-			   c=d.getBoundingClientRect();
-			   var f=document.body;
-			   a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);
-			   c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);
-			   f=a.toString()+","+c;
-			   b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&c<=b.g.width)
-		}a&&(b.a.push(e),b.c[e]=!0)
-	}p.prototype.checkImageForCriticality=function(b){
-		b.getBoundingClientRect&&q(this,b)
-	};
-	h("pagespeed.CriticalImages.checkImageForCriticality",function(b){
-		n.checkImageForCriticality(b)
-	});
-	h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});
-	function r(b){
-		b.b={};
-		for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)
-			a=a.concat(l(document.getElementsByTagName(d[c])));
-		if(0!=a.length&&a[0].getBoundingClientRect){
-			for(c=0;d=a[c];++c)q(b,d);
-			a="oh="+b.l;b.f&&(a+="&n="+b.f);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(t())),131072>=a.length+e.length&&(a+=e),d=!0);u=a;if(d){c=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(v){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded")></script>
+(function() {	var g=this;	function h(b,d){		var a=b.split("."),c=g;		a[0]in c||!c.execScript||c.execScript("var "+a[0]);		for(var e;a.length&&(e=a.shift());)			a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};			function l(b){				var d=b.length;if(0<d){					for(var a=Array(d),c=0;c<d;c++)						a[c]=b[c];					return a			}		return[]	};  function m(b){	  var d=window;	  if(d.addEventListener)	  d.addEventListener("load",b,!1);	  else if(d.attachEvent)		  d.attachEvent("onload",b);	  else{		  var a=d.onload;		  d.onload=function(){			  b.call(this);			  a&&a.call(this)		   }	   }   };   var n;   function p(b,d,a,c,e) {	   this.h=b;	   this.j=d;	   this.l=a;	   this.f=e;	   this.g={			   height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth			   };	   this.i=c;	   this.b={};	   this.a=[];	   this.c={}   }   function q(b,d){	   var a,c,e=d.getAttribute("data-pagespeed-url-hash");	   if(a=e&&!(e in b.c))		   if(0>=d.offsetWidth&&0>=d.offsetHeight)			   a=!1;		   else{			   c=d.getBoundingClientRect();			   var f=document.body;			   a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);			   c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);			   f=a.toString()+","+c;			   b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&c<=b.g.width)		}a&&(b.a.push(e),b.c[e]=!0)	}p.prototype.checkImageForCriticality=function(b){		b.getBoundingClientRect&&q(this,b)	};	h("pagespeed.CriticalImages.checkImageForCriticality",function(b){		n.checkImageForCriticality(b)	});	h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});	function r(b){		b.b={};		for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)			a=a.concat(l(document.getElementsByTagName(d[c])));		if(0!=a.length&&a[0].getBoundingClientRect){			for(c=0;d=a[c];++c)q(b,d);			a="oh="+b.l;b.f&&(a+="&n="+b.f);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(t())),131072>=a.length+e.length&&(a+=e),d=!0);u=a;if(d){c=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(v){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded")></script>
 				<img src="./images/pdcaseLogo_Transparente.png"
 					data-pagespeed-url-hash=1864168008 />
 			</div>
@@ -217,26 +148,12 @@ var LS_Meta={"v":"6.1.0"};
 			data-pagespeed-url-hash=2749754879 />
 	</div>
 
-	<!-- span
-		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; padding:2px; z-index: 99999;"
-		onclick="openNav()">
-		
-		<img alt="menu" src="./images/menu.png"><!-- img
-		alt="home" src="./images/logo-pd.png"-->
 
-	<!--/span-->
 	<div id=top_bg class=menu_slide
 		style="padding: 0px; width: 100%; height: 100%">
 		<div id=header_container style="padding: 0px; width: 100%;">
 			<!-- header -->
-			<!-- span
-		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; padding:2px; z-index: 99999;"
-		onclick="openNav()">
-		
-		<img alt="menu" src="./images/menu.png"><!-- img
-		alt="home" src="./images/logo-pd.png"-->
 
-			<!-- /span-->
 			<header onclick="openNav()"
 				class="header_shadow nav_type_1 sticky_header  header_to_shrink clearfix"
 				style="height: 0px; width: 100%;">
@@ -562,98 +479,18 @@ var LS_Meta={"v":"6.1.0"};
 
 		<a id="sec4"></a>
 		<div
-			class="vc_row wpb_row vc_row-fluid vc_custom_1436685374161 full-width-section  rd_parallax_section "
+			class="vc_row wpb_row vc_row-fluid section5 full-width-section  rd_parallax_section "
 			style="color: #ffffff;">
 			<div class="vc_span12 wpb_column vc_column_container ">
 				<div class="vc_column-inner ">
 					<div class=wpb_wrapper>
 						<br />
-						<div class="wpb_column vc_column_container vc_span4">
-							<br /> <br /> <br /> <br /> <br /> <br /> <br />
-							<h2
-								style="font-size: 26px; text-align: center; color: white; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
-								class="vc_custom_heading vc_custom_1487016672308">Nossos
-								Clientes</h2>
-							<div
-								class="wpb_text_column wpb_content_element  width-800 vc_custom_1436868331522 ">
-								<div class=wpb_wrapper id=ct_tkmh5rdhpd0gaepefsjl>
-									<p style="text-align: center; color: gold;">
-										A PD CASE prima pelo relacionamento com seus clientes buscando
-										soluões práticas, de vanguarda, com foco em resultados reais.
-										Conheça alguns:<br /> <a style="font-weight: bold;"
-											href="./clientes.html">SAIBA MAIS</a>
-									</p>
-
-								</div>
-							</div>
-						</div>
-						<div class="wpb_column vc_column_container vc_span4">
-							<div class="vc_column-inner ">
-								<div class=wpb_wrapper>
-									<div
-										class="wpb_single_image wpb_content_element vc_align_left  ">
-										<div class=wpb_wrapper>
-
-											<div class="vc_single_image-wrapper   vc_box_border_grey">
-												<br /> <br /> <img width=892 height=1378
-													src="./images/cli-cli-cli.png"
-													class="vc_single_image-img attachment-full" alt=""
-													data-pagespeed-url-hash=3011686929 /><a href="#sec5"
-													style="padding-left: 44%;"><img alt="abaixo"
-													src="./images/abaixo.png"></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="wpb_column vc_column_container vc_span4">
-							<div class="vc_column-inner vc_custom_1418546014420">
-								<div class=wpb_wrapper>
-									<!-- lists -->
-									<div class="rd_list_5 rd_list_left">
-										<div class=list_item_ctn id=rand_mt99llvh9zkgxuw1h8rc>
-											<div class=list_icn>
-												<img alt="test" src="./images/emo1.png">
-											</div>
-											<div class=list_desc>
-												<h3>Mercado Financeiro</h3>
-												<p>A PDCASE oferece projetos de sistemas corporativos
-													resultantes de práticas sedimentadas no mercado</p>
-												<p></p>
-											</div>
-										</div>
-										<div class=list_item_ctn id=rand_ibowje11jcgkgj2r7ow0>
-											<div class=list_icn>
-												<img alt="test" src="./images/emo1.png">
-											</div>
-											<div class=list_desc>
-												<h3>Setor Público</h3>
-												<p></p>
-												<p>Nossas equipes podem dimensionar e avaliar
-													estratégias de construção e implantação.</p>
-												<p></p>
-											</div>
-										</div>
-										<div class=list_item_ctn id=rand_hhpwbchnlqeorgjvuw9v>
-											<div class=list_icn>
-												<img alt="test" src="./images/emo1.png">
-											</div>
-											<div class=list_desc>
-												<h3>Setor Privado</h3>
-												<p></p>
-												<p>A PDCASE fornecer interfaces ajustadas às
-													necessidades gerenciais da alta direção.</p>
-												<p></p>
-											</div>
-										</div>
-									</div>
-
-									<!-- lists END-->
-								</div>
-								<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-							</div>
-						</div>
+						<!-- h2
+							style="font-size: 26px; text-align: center; color: white; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
+							class="vc_custom_heading vc_custom_1487016672308">Excelência no Processo de Desenvolvimento de Sistemas</h2-->
+						<img alt="certificada" src="./images/sec-mps.png"> <a
+							href="#sec5" style="padding-left: 48%;"><img alt="abaixo"
+							src="./images/abaixo.png"></a><br /> <br /> <br /> <br />
 					</div>
 				</div>
 			</div>
@@ -665,164 +502,111 @@ var LS_Meta={"v":"6.1.0"};
 		</div>
 		<div id=sec5></div>
 		<div
-			class="vc_row wpb_row  section4 vc_row-fluid full-width-section  rd_parallax_section "
-			style="color: black; background-color: #83bfab">
-			<div class="vc_span12 wpb_column vc_column_container sectioncolor">
+			class="vc_row wpb_row vc_row-fluid  section4 vli	  rd_parallax_section "
+			style="color: #676056; width: 100%; height: 100%; padding-top: 0px;">
+			<div class="vc_span12 vc_col-xs-1 wpb_column vc_column_container ">
 				<div class="vc_column-inner ">
 					<div class=wpb_wrapper>
+						<br /> <br /> <br />
 						<h2
-							style="color: black; font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important; padding-top: 10px;"
-							class="vc_custom_heading vc_custom_1487016672308">PD
-							Produtos</h2>
-						<div class="vc_row wpb_row vc_inner vc_row-fluid ">
-							<div class="wpb_column vc_column_container vc_span4">
-								<div class="vc_column-inner vc_custom_1418546009146"
-									style="padding-left: 5%; padding-bottom: 0px">
+							style="font-size: 26px; text-align: center; color: #676056; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
+							class="vc_custom_heading vc_custom_1487016672308">O que
+							fazemos?</h2>
+						<br /> <br />
+						<div style="padding-left: 0.5%"
+							class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1419055470221">
+
+							<div class="wpb_column vc_column_container vc_span2">
+								<div class="vc_column-inner vc_custom_1436688162486">
 									<div class=wpb_wrapper>
-										<!-- lists -->
-										<div class="rd_list_5 rd_list_right"
-											style="padding-bottom: 0px">
-											<div class=list_item_ctn id=rand_yfns2toi7d6o035mkwul
-												style="margin: 0px;">
-												<div class=list_icn style="background: #00546c;">
-													<img alt="test" src="./images/emo13.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black;">PD BANK</h3>
-													<p style="color: black;">
-														Conjunto de soluções corporativas que visam atender ao
-														"CORE BUSINESS" dos bancos.<br /> <a
-															style="font-weight: bold" href="./pdBank.html">SAIBA
-															MAIS</a>
-													</p>
-												</div>
-											</div>
-											<div class=list_item_ctn id=rand_vph8a61mku3cmwckyhgf
-												style="margin: 0px;">
-												<div class=list_icn style="background: #f8b600">
-													<img alt="test" src="./images/emo15.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black;">PD POSITIVO</h3>
-													<p style="color: black;">
-														A PD CASE possui uma solução de compliance que adequa as
-														instituições a lei do Cadastro Positivo.<br /> <a
-															style="font-weight: bold" href="./pdPositivo.html">SAIBA
-															MAIS</a>
-													</p>
-
-												</div>
-											</div>
-											<div class=list_item_ctn id=rand_0bn6pyicy6vk0v52v3cu
-												style="margin: 0px;">
-												<div class=list_icn style="background: #8dccdb">
-													<img alt="test" src="./images/emo17.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black">PD CRÉDITO</h3>
-													<p style="color: black;">
-														O Portal de Crédito e Fomento possui um conjunto de
-														módulos funcionais para gerenciamentos de processos de
-														crédito<br /> <a style="font-weight: bold"
-															href="./portalCredito.html">SAIBA MAIS</a>
-													</p>
-
-												</div>
-											</div>
-										</div>
-
-										<!-- lists END-->
-									</div>
-								</div>
-							</div>
-							<div class="wpb_column vc_column_container vc_span4">
-								<div class="vc_column-inner ">
-									<div class=wpb_wrapper>
-										<div
-											class="wpb_single_image wpb_content_element vc_align_left   vc_custom_1418543824479">
-											<div class=wpb_wrapper>
-
-												<div class="vc_single_image-wrapper   vc_box_border_grey">
-													<img width=892 height=1378 src="./images/prodserv.png"
-														class="vc_single_image-img attachment-full" alt=""
-														data-pagespeed-url-hash=3011686929 /><a href="#sec6"
-														style="padding-left: 45%;"><img alt="abaixo"
-														src="./images/abaixo.png"></a>
-												</div>
-											</div>
+										<div class="rd_pie_02 rd_pie_chart "
+											id=rd_z10yxrwwf8sbtlp5rmf0>
+											<img alt="fabrica" src="./images/fabrica.png"
+												style="opacity: 0.7;">
+											<h3 style="color: #676056;" class=rd_pc_heading>Fábrica
+												de Projetos de Software</h3>
+											<p style="color: #676056;" class=rd_pc_text>
+												.NET, Mainframe, <br /> Java e Mobile <br />
+											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="wpb_column vc_column_container vc_span4">
-								<div class="vc_column-inner vc_custom_1418546014420">
+							<div class="wpb_column vc_column_container vc_span2">
+								<div class="vc_column-inner vc_custom_1419055453331">
 									<div class=wpb_wrapper>
-										<!-- lists -->
-										<div class="rd_list_5 rd_list_left">
-											<div class=list_item_ctn id=rand_mt99llvh9zkgxuw1h8rc
-												style="margin: 0px;">
-												<div class=list_icn style="background: #009dad;">
-													<img alt="test" src="./images/emo14.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black;">PD GAR</h3>
-													<p style="color: black;">
-														Gestão de Ativos Reutilizáveis.<br /> <a
-															style="font-weight: bold" href="./pdGAR.html">SAIBA
-															MAIS</a>
-													</p>
-
-												</div>
-											</div>
-											<div class=list_item_ctn id=rand_ibowje11jcgkgj2r7ow0
-												style="margin: 0px;">
-												<div class=list_icn style="background: #f8b600;">
-													<img alt="test" src="./images/emo16.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black;">PD CTA</h3>
-													<p style="color: black;">
-														O Sistema Centralizador de Transferência de Arquivos pode
-														substituir os aplicativos PSTAW10 e PSTAC10 do BACEN.<br />
-														<a style="font-weight: bold" href="./pdCTA.html">SAIBA
-															MAIS</a>
-													</p>
-
-												</div>
-											</div>
-											<div class=list_item_ctn id=rand_hhpwbchnlqeorgjvuw9v
-												style="margin: 0px;">
-												<div class=list_icn style="background: #00546c;">
-													<img alt="test" src="./images/emo18.png">
-												</div>
-												<div class=list_desc>
-													<h3 style="color: black;">PD SRC</h3>
-													<p style="color: black;">
-														O Sistema e Recuperação de Crédito é utilizado por áreas
-														gestoras, gerentes das áreas de negócio (agências),
-														cobradoras de crédito, Call Center e diretoria.<br /> <a
-															style="font-weight: bold" href="./pdSRC.html">SAIBA
-															MAIS</a>
-													</p>
-
-												</div>
-											</div>
+										<div class="rd_pie_02 rd_pie_chart "
+											id=rd_rsd3h1ihihmqwbl4ecgm>
+											<img alt="bank" src="./images/bank.png" style="opacity: 0.7;">
+											<h3 style="color: #676056;" class=rd_pc_heading>PD Bank</h3>
+											<p style="color: #676056;" class=rd_pc_text>
+												Soluções para o <br />Mercado Financeiro
+											</p>
 										</div>
-
-										<!-- lists END-->
 									</div>
 								</div>
 							</div>
+							<div class="wpb_column vc_column_container vc_span2">
+								<div class="vc_column-inner vc_custom_1419055453331">
+									<div class=wpb_wrapper>
+										<div class="rd_pie_02 rd_pie_chart "
+											id=rd_rsd3h1ihihmqwbl4ecgm>
+											<img alt="integra" src="./images/integra.png"
+												style="opacity: 0.7;">
+											<h3 style="color: #676056;" class=rd_pc_heading>Serviços
+												de Integração e Migração de Plataformas</h3>
+											<p style="color: #676056;" class=rd_pc_text>
+												Mainframe, <br /> Oracle e Sql Server
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_span2">
+								<div class="vc_column-inner vc_custom_1419055460358">
+									<div class=wpb_wrapper>
+										<div class="rd_pie_02 rd_pie_chart "
+											id=rd_89qo4kxv0tg6skmdvfho>
+											<img alt="terceiriza" src="./images/terceiriza.png"
+												style="opacity: 0.7;">
+											<h3 style="color: #676056;" class=rd_pc_heading>Outsourcing</h3>
+											<p style="color: #676056;" class=rd_pc_text>
+												Com mão de obra <br /> especializada
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_span2">
+								<div class="vc_column-inner vc_custom_1419055436117">
+									<div class=wpb_wrapper>
+										<div class="rd_pie_02 rd_pie_chart "
+											id=rd_cidti8m8znrpwg0bnx4i>
+											<img alt="consultoria" src="./images/consultoria.png"
+												style="opacity: 0.7;">
+											<h3 style="color: #676056;" class=rd_pc_heading>
+												Projetos e Consultoria<br /> em TI
+											</h3>
+											<p style="color: #676056;" class=rd_pc_text>
+												Executados por profissionais <br /> na área.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
+						<br /> <a href="#sec6" style="padding-left: 48%;"><img
+							alt="abaixo" src="./images/abaixo.png"></a><br /> <br /> <br />
+						<br />
 					</div>
 				</div>
 			</div>
-			<br /> <br /> <br />
-
 			<div class=parallax_wrap id=rd_wuseiufiacb689okbd86_parallaxid>
 				<div class="parallax_bg parallax_fixed"></div>
 			</div>
 		</div>
+
 
 		<a id="sec6"></a>
 		<div
@@ -921,7 +705,7 @@ var LS_Meta={"v":"6.1.0"};
 											<div class=list_desc>
 												<h3>Outsourcing</h3>
 												<p>
-													Terceirização 	com mão de obra especializada<br /> <a
+													Terceirização com mão de obra especializada<br /> <a
 														style="font-weight: bold;" href="#">SAIBA MAIS</a>
 												</p>
 											</div>
@@ -946,11 +730,11 @@ var LS_Meta={"v":"6.1.0"};
 											<div class=list_desc>
 												<h3>Gestão de Processos</h3>
 												<p>
-													A PD CASE possui um processo bem estruturado, claro,
-													ágil, seguro e que também é continuamente melhorado visando
-													a geração eficiente de produtos considerando os critérios
-													de qualidade, prazos de entrega e gestão eficiente do
-													controle de mudanças.<br /> <a style="font-weight: bold;"
+													A PD CASE possui um processo bem estruturado, claro, ágil,
+													seguro e que também é continuamente melhorado visando a
+													geração eficiente de produtos considerando os critérios de
+													qualidade, prazos de entrega e gestão eficiente do controle
+													de mudanças.<br /> <a style="font-weight: bold;"
 														href="./gestaoProcessos.html">SAIBA MAIS</a>
 												</p>
 												<p></p>
@@ -961,7 +745,7 @@ var LS_Meta={"v":"6.1.0"};
 
 									<!-- lists END-->
 								</div>
-								<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+
 							</div>
 						</div>
 					</div>
@@ -973,519 +757,188 @@ var LS_Meta={"v":"6.1.0"};
 		</div>
 		<a id="sec7"></a>
 		<div
-			class="vc_row wpb_row vc_row-fluid  section4 vli	  rd_parallax_section "
-			style="color: #676056; width: 100%; height: 100%; padding-top: 0px;">
-			<div class="vc_span12 vc_col-xs-1 wpb_column vc_column_container ">
+			class="vc_row wpb_row  section4 vc_row-fluid full-width-section  rd_parallax_section "
+			style="color: black; background-color: #83bfab">
+			<div class="vc_span12 wpb_column vc_column_container sectioncolor">
 				<div class="vc_column-inner ">
 					<div class=wpb_wrapper>
-						<br /> <br /> <br />
 						<h2
-							style="font-size: 26px; text-align: center; color: #676056; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
-							class="vc_custom_heading vc_custom_1487016672308">O que
-							fazemos?</h2>
-						<br /> <br />
-						<div style="padding-left: 0.5%"
-							class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1419055470221">
+							style="color: black; font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important; padding-top: 10px;"
+							class="vc_custom_heading vc_custom_1487016672308">PD
+							Produtos</h2>
+						<div class="vc_row wpb_row vc_inner vc_row-fluid ">
+							<div class="wpb_column vc_column_container vc_span4">
+								<div class="vc_column-inner vc_custom_1418546009146"
+									style="padding-left: 5%; padding-bottom: 0px">
+									<div class=wpb_wrapper>
+										<!-- lists -->
+										<div class="rd_list_5 rd_list_right"
+											style="padding-bottom: 0px">
+											<div class=list_item_ctn id=rand_yfns2toi7d6o035mkwul
+												style="margin: 0px;">
+												<div class=list_icn style="background: #00546c;">
+													<img alt="test" src="./images/emo13.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black;">PD BANK</h3>
+													<p style="color: black;">
+														Conjunto de soluções corporativas que visam atender ao
+														"CORE BUSINESS" dos bancos.<br /> <a
+															style="font-weight: bold" href="./pdBank.html">SAIBA
+															MAIS</a>
+													</p>
+												</div>
+											</div>
+											<div class=list_item_ctn id=rand_vph8a61mku3cmwckyhgf
+												style="margin: 0px;">
+												<div class=list_icn style="background: #f8b600">
+													<img alt="test" src="./images/emo15.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black;">PD POSITIVO</h3>
+													<p style="color: black;">
+														A PD CASE possui uma solução de compliance que adequa as
+														instituições a lei do Cadastro Positivo.<br /> <a
+															style="font-weight: bold" href="./pdPositivo.html">SAIBA
+															MAIS</a>
+													</p>
 
-							<div class="wpb_column vc_column_container vc_span2">
-								<div class="vc_column-inner vc_custom_1436688162486">
-									<div class=wpb_wrapper>
-										<div class="rd_pie_02 rd_pie_chart "
-											id=rd_z10yxrwwf8sbtlp5rmf0>
-											<img alt="fabrica" src="./images/fabrica.png"
-												style="opacity: 0.7;">
-											<h3 style="color: #676056;" class=rd_pc_heading>Fábrica
-												de Projetos de Software</h3>
-											<p style="color: #676056;" class=rd_pc_text>
-												.NET, Mainframe, <br /> Java e Mobile <br />
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="wpb_column vc_column_container vc_span2">
-								<div class="vc_column-inner vc_custom_1419055453331">
-									<div class=wpb_wrapper>
-										<div class="rd_pie_02 rd_pie_chart "
-											id=rd_rsd3h1ihihmqwbl4ecgm>
-											<img alt="bank" src="./images/bank.png" style="opacity: 0.7;">
-											<h3 style="color: #676056;" class=rd_pc_heading>PD Bank</h3>
-											<p style="color: #676056;" class=rd_pc_text>
-												Soluções para o <br />Mercado Financeiro
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="wpb_column vc_column_container vc_span2">
-								<div class="vc_column-inner vc_custom_1419055453331">
-									<div class=wpb_wrapper>
-										<div class="rd_pie_02 rd_pie_chart "
-											id=rd_rsd3h1ihihmqwbl4ecgm>
-											<img alt="integra" src="./images/integra.png"
-												style="opacity: 0.7;">
-											<h3 style="color: #676056;" class=rd_pc_heading>Serviços
-												de Integração e Migração de Plataformas</h3>
-											<p style="color: #676056;" class=rd_pc_text>
-												Mainframe, <br /> Oracle e Sql Server
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="wpb_column vc_column_container vc_span2">
-								<div class="vc_column-inner vc_custom_1419055460358">
-									<div class=wpb_wrapper>
-										<div class="rd_pie_02 rd_pie_chart "
-											id=rd_89qo4kxv0tg6skmdvfho>
-											<img alt="terceiriza" src="./images/terceiriza.png"
-												style="opacity: 0.7;">
-											<h3 style="color: #676056;" class=rd_pc_heading>Outsourcing</h3>
-											<p style="color: #676056;" class=rd_pc_text>
-												Com mão de obra <br /> especializada
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="wpb_column vc_column_container vc_span2">
-								<div class="vc_column-inner vc_custom_1419055436117">
-									<div class=wpb_wrapper>
-										<div class="rd_pie_02 rd_pie_chart "
-											id=rd_cidti8m8znrpwg0bnx4i>
-											<img alt="consultoria" src="./images/consultoria.png"
-												style="opacity: 0.7;">
-											<h3 style="color: #676056;" class=rd_pc_heading>
-												Projetos e Consultoria<br /> em TI
-											</h3>
-											<p style="color: #676056;" class=rd_pc_text>
-												Executados por profissionais <br /> na área.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
+												</div>
+											</div>
+											<div class=list_item_ctn id=rand_0bn6pyicy6vk0v52v3cu
+												style="margin: 0px;">
+												<div class=list_icn style="background: #8dccdb">
+													<img alt="test" src="./images/emo17.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black">PD CRÉDITO</h3>
+													<p style="color: black;">
+														O Portal de Crédito e Fomento possui um conjunto de
+														módulos funcionais para gerenciamentos de processos de
+														crédito<br /> <a style="font-weight: bold"
+															href="./portalCredito.html">SAIBA MAIS</a>
+													</p>
 
+												</div>
+											</div>
+										</div>
+
+										<!-- lists END-->
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_span4">
+								<div class="vc_column-inner ">
+									<div class=wpb_wrapper>
+										<div
+											class="wpb_single_image wpb_content_element vc_align_left   vc_custom_1418543824479">
+											<div class=wpb_wrapper>
+
+												<div class="vc_single_image-wrapper   vc_box_border_grey">
+													<img width=892 height=1378 src="./images/prodserv.png"
+														class="vc_single_image-img attachment-full" alt=""
+														data-pagespeed-url-hash=3011686929 /><a href="#sec8"
+														style="padding-left: 45%;"><img alt="abaixo"
+														src="./images/abaixo.png"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wpb_column vc_column_container vc_span4">
+								<div class="vc_column-inner vc_custom_1418546014420">
+									<div class=wpb_wrapper>
+										<!-- lists -->
+										<div class="rd_list_5 rd_list_left">
+											<div class=list_item_ctn id=rand_mt99llvh9zkgxuw1h8rc
+												style="margin: 0px;">
+												<div class=list_icn style="background: #009dad;">
+													<img alt="test" src="./images/emo14.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black;">PD GAR</h3>
+													<p style="color: black;">
+														Gestão de Ativos Reutilizáveis.<br /> <a
+															style="font-weight: bold" href="./pdGAR.html">SAIBA
+															MAIS</a>
+													</p>
+
+												</div>
+											</div>
+											<div class=list_item_ctn id=rand_ibowje11jcgkgj2r7ow0
+												style="margin: 0px;">
+												<div class=list_icn style="background: #f8b600;">
+													<img alt="test" src="./images/emo16.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black;">PD CTA</h3>
+													<p style="color: black;">
+														O Sistema Centralizador de Transferência de Arquivos pode
+														substituir os aplicativos PSTAW10 e PSTAC10 do BACEN.<br />
+														<a style="font-weight: bold" href="./pdCTA.html">SAIBA
+															MAIS</a>
+													</p>
+
+												</div>
+											</div>
+											<div class=list_item_ctn id=rand_hhpwbchnlqeorgjvuw9v
+												style="margin: 0px;">
+												<div class=list_icn style="background: #00546c;">
+													<img alt="test" src="./images/emo18.png">
+												</div>
+												<div class=list_desc>
+													<h3 style="color: black;">PD SRC</h3>
+													<p style="color: black;">
+														O Sistema e Recuperação de Crédito é utilizado por áreas
+														gestoras, gerentes das áreas de negócio (agências),
+														cobradoras de crédito, Call Center e diretoria.<br /> <a
+															style="font-weight: bold" href="./pdSRC.html">SAIBA
+															MAIS</a>
+													</p>
+
+												</div>
+											</div>
+										</div>
+
+										<!-- lists END-->
+									</div>
+								</div>
+							</div>
 						</div>
-						<br /> <a href="#sec4" style="padding-left: 48%;"><img
-							alt="abaixo" src="./images/abaixo.png"></a><br /> <br /> <br />
-						<br />
 					</div>
 				</div>
 			</div>
+			<br /> <br /> <br />
+
 			<div class=parallax_wrap id=rd_wuseiufiacb689okbd86_parallaxid>
 				<div class="parallax_bg parallax_fixed"></div>
 			</div>
 		</div>
-
-		<div id=nossos-servicos class="vc_row wpb_row vc_row-fluid   ">
+		<a id="sec8"></a>
+		<div
+			class="vc_row wpb_row vc_row-fluid vc_custom_1436685374161 full-width-section  rd_parallax_section "
+			style="color: #ffffff;">
 			<div class="vc_span12 wpb_column vc_column_container ">
 				<div class="vc_column-inner ">
 					<div class=wpb_wrapper>
 						<br />
-						<h2
-							style="font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
-							class="vc_custom_heading vc_custom_1487016672308">Nossos
-							Produtos e Soluções Para Sua Empresa</h2>
-						<div
-							class="wpb_text_column wpb_content_element  width-800 vc_custom_1470269356389 ">
-							<div class=wpb_wrapper id=ct_xmpjbq02b11myaxmzyip>
-								<p style="text-align: center;">
-									<span style="color: #767389;">O profundo conhecimento de
-										negócio e de processos do segmento financeiro, além da grande
-										experiência adquirida dos numerosos casos de sucesso em
-										projetos e desenvolvimento de sistemas de missão crítica,
-										posicionam a PD CASE de forma diferenciada, garantindo uma
-										oferta de soluções globais altamente competitivas.</span>
-								</p>
-
-							</div>
-						</div>
-						<img alt="teste" src="./images/teste.png">
-					</div>
-
-					<div
-						class="vc_row wpb_row vc_row-fluid vc_custom_1418533833927 full-width-content ">
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541859320">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1482980721883">
-										<div class=wpb_wrapper>
-
-											<a href=marketing target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_credito.png" width=184 height=164
-														alt="Planejamento e Consultoria"
-														title="Planejamento e Consultoria"
-														data-pagespeed-url-hash=2444445668 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1482955526362">PD
-										Crédito</h2>
-									<div class=vc_empty_space style="height: 12px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1485384074099 ">
-										<div class=wpb_wrapper id=ct_ofa7wf4mzgpzgkgykc8y>
-											<p style="text-align: center; color: #767389;">Portal de
-												Crédito e Fomento</p>
-
-										</div>
-									</div>
-									<div class=vc_empty_space style="height: 22px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541870548">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   ">
-										<div class=wpb_wrapper>
-
-											<a href=apps target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_src.png" width=184 height=164
-														alt=Aplicativos title=Aplicativos
-														data-pagespeed-url-hash=3396497851 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1468302346848">PD SRC</h2>
-
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1485384215715 ">
-										<div class=wpb_wrapper id=ct_plsiobrgt4jft87bolhn>
-											<p style="text-align: center; color: #767389;">Sistema e
-												Recuperação de Crédito</p>
-
-										</div>
-									</div>
-
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541885152">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
-										<div class=wpb_wrapper>
-
-											<a href=desenvolvimento-web target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_bank.png" width=184 height=164
-														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
-														data-pagespeed-url-hash=1693799606 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1468302332593">PD Bank</h2>
-									<div class=vc_empty_space style="height: 22px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1479575671991 ">
-										<div class=wpb_wrapper id=ct_mxh5jj4o2vj1ofc9ma7f>
-											<p style="text-align: center; color: #767389;">"Core
-												Business" dos Bancos</p>
-
-										</div>
-									</div>
-									<div class=vc_empty_space style="height: 12px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541885152">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
-										<div class=wpb_wrapper>
-
-											<a href=desenvolvimento-web target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_gar.png" width=184 height=164
-														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
-														data-pagespeed-url-hash=1693799606 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1468302332593">PD GAR</h2>
-									<div class=vc_empty_space style="height: 22px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1479575671991 ">
-										<div class=wpb_wrapper id=ct_mxh5jj4o2vj1ofc9ma7f>
-											<p style="text-align: center; color: #767389;">Gestão de
-												Ativos Reutilizáveis</p>
-
-										</div>
-									</div>
-									<div class=vc_empty_space style="height: 12px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541885152">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
-										<div class=wpb_wrapper>
-
-											<a href=desenvolvimento-web target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_cta.png" width=184 height=164
-														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
-														data-pagespeed-url-hash=1693799606 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1468302332593">PD CTA</h2>
-									<div class=vc_empty_space style="height: 6px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1479575671991 ">
-										<div class=wpb_wrapper id=ct_mxh5jj4o2vj1ofc9ma7f>
-											<p style="text-align: center; color: #767389;">Sistema
-												Centralizador de Transferência de Arquivos</p>
-
-										</div>
-									</div>
-
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-						<div class="vc_span2 wpb_column vc_column_container ">
-							<div class="vc_column-inner vc_custom_1418541885152">
-								<div class=wpb_wrapper>
-
-									<div
-										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
-										<div class=wpb_wrapper>
-
-											<a href=desenvolvimento-web target=_self><div
-													class="vc_single_image-wrapper   vc_box_border_grey">
-													<img class="vc_single_image-img "
-														src="./images/ini_positivo.png" width=184 height=164
-														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
-														data-pagespeed-url-hash=1693799606 />
-												</div></a>
-										</div>
-									</div>
-									<h2
-										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
-										class="vc_custom_heading vc_custom_1468302332593">PD
-										Positivo</h2>
-
-
-									<div
-										class="wpb_text_column wpb_content_element  vc_custom_1479575671991 ">
-										<div class=wpb_wrapper id=ct_mxh5jj4o2vj1ofc9ma7f>
-											<p style="text-align: center; color: #767389;">Adequando
-												as instituições a lei do Cadastro Positivo.</p>
-
-										</div>
-									</div>
-									<div class=vc_empty_space style="height: 6px">
-										<span class=vc_empty_space_inner></span>
-									</div>
-									<div class="ta_center tf_btn_pos" id=b_actb2li4e19ni6c3grti>
-										<a
-											class="rd_normal_bt mediumlarge_rd_bt bt_icon_right  rda_fadeInLeft "
-											href=apps target=""><span>SAIBA MAIS</span></a>
-									</div>
-
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<a href="#sec6" style="padding-left: 48%;"><img alt="abaixo"
-						src="./images/abaixo.png"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<a id="sec5"></a>
-
-	<div id=nossos-servicos class="vc_row wpb_row vc_row-fluid">
-		<div class="vc_span12 wpb_column vc_column_container ">
-			<div class="vc_column-inner ">
-				<div class=wpb_wrapper>
-					<br />
-					<h2
-						style="font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
-						class="vc_custom_heading vc_custom_1487016672308">Nossos
-						Produtos e Soluções Para Sua Empresa</h2>
-					<div
-						class="wpb_text_column wpb_content_element  width-800 vc_custom_1470269356389 ">
-						<div class=wpb_wrapper id=ct_xmpjbq02b11myaxmzyip>
-							<p style="text-align: center;">
-								<span style="color: #767389;">O profundo conhecimento de
-									negócio e de processos do segmento financeiro, além da grande
-									experiência adquirida dos numerosos casos de sucesso em
-									projetos e desenvolvimento de sistemas de missão crítica,
-									posicionam a PD CASE de forma diferenciada, garantindo uma
-									oferta de soluções globais altamente competitivas.</span>
-							</p>
-
-						</div>
-					</div>
-					<div syle="box-sizing: border-box;">
-						<img alt="teste" src="./images/teste.png" style="float: left;">
-						<img alt="teste" src="./images/test3.png" style="float: right;">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="sec6"></div>
-	<div id=sec7></div>
-	<div
-		class="vc_row wpb_row vc_row-fluid vc_custom_1436685374161 full-width-section  rd_parallax_section "
-		style="color: #ffffff;">
-		<div class="vc_span12 wpb_column vc_column_container ">
-			<div class="vc_column-inner ">
-				<div class=wpb_wrapper>
-					<h2
-						style="font-size: 36px; color: #ffffff; text-align: center; font-family: Lato; font-weight: 300; font-style: normal"
-						class="vc_custom_heading vc_custom_1479576144616">Especialidades
-						e Diferenciais iNNOVEA</h2>
-					<div
-						class="wpb_text_column wpb_content_element  width-800 vc_custom_1436868331522 ">
-						<div class=wpb_wrapper id=ct_tkmh5rdhpd0gaepefsjl>
-							<p style="text-align: center;">Desenvolvemos soluções em
-								marketing e desenvolvimento digital que maximizem seu ROI
-								(Retorno Sobre Investimento), multiplicando o a sua
-								interatividade com seu cliente e transformando isto em
-								conversões reais.</p>
-
-						</div>
-					</div>
-					<div
-						class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1418543832543">
 						<div class="wpb_column vc_column_container vc_span4">
-							<div class="vc_column-inner vc_custom_1418546009146">
-								<div class=wpb_wrapper>
-									<!-- lists -->
-									<div class="rd_list_5 rd_list_right">
-										<div class=list_item_ctn id=rand_yfns2toi7d6o035mkwul>
-											<div class=list_icn>
-												<i class=elg-icon_lightbulb_alt></i>
-											</div>
-											<div class=list_desc>
-												<h3>Estratégia</h3>
-												<p>Desenvolvemos não apenas serviços em marketing
-													digital e desenvolvimento web/mobile: nosso comprometimento
-													é, acima de tudo, desenvolver resultados satisfatórios.</p>
-												<p></p>
-											</div>
-										</div>
-										<div class=list_item_ctn id=rand_vph8a61mku3cmwckyhgf>
-											<div class=list_icn>
-												<i class=elg-icon_lifesaver></i>
-											</div>
-											<div class=list_desc>
-												<h3>Suporte Especializado</h3>
-												<p></p>
-												<p>Disponibilizamos um serviço de suporte especializado
-													para ajudar você a resolver questões acerca de nossas
-													ferramentas, bem como instruí-lo quanto à operação.</p>
-												<p></p>
-											</div>
-										</div>
-										<div class=list_item_ctn id=rand_0bn6pyicy6vk0v52v3cu>
-											<div class=list_icn>
-												<i class=elg-icon_like></i>
-											</div>
-											<div class=list_desc>
-												<h3>Fácil Operação</h3>
-												<p>Nossas ferramentas são desenvolvidas de forma
-													intuitiva, com o intuito a facilitar a operação pelo
-													usuário, e claro, sem exigir grandes conhecimentos para
-													isto.</p>
-												<p></p>
-											</div>
-										</div>
-									</div>
+							<br /> <br /> <br /> <br /> <br /> <br /> <br />
+							<h2
+								style="font-size: 26px; text-align: center; color: white; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
+								class="vc_custom_heading vc_custom_1487016672308">Nossos
+								Clientes</h2>
+							<div
+								class="wpb_text_column wpb_content_element  width-800 vc_custom_1436868331522 ">
+								<div class=wpb_wrapper id=ct_tkmh5rdhpd0gaepefsjl>
+									<p style="text-align: center; color: gold;">
+										A PD CASE prima pelo relacionamento com seus clientes buscando
+										soluões práticas, de vanguarda, com foco em resultados reais.
+										Conheça alguns:<br /> <a style="font-weight: bold;"
+											href="./clientes.html">SAIBA MAIS</a>
+									</p>
 
-									<!-- lists END-->
 								</div>
 							</div>
 						</div>
@@ -1493,13 +946,16 @@ var LS_Meta={"v":"6.1.0"};
 							<div class="vc_column-inner ">
 								<div class=wpb_wrapper>
 									<div
-										class="wpb_single_image wpb_content_element vc_align_left   vc_custom_1418543824479">
+										class="wpb_single_image wpb_content_element vc_align_left  ">
 										<div class=wpb_wrapper>
 
 											<div class="vc_single_image-wrapper   vc_box_border_grey">
-												<img width=892 height=1378 src="./images/nexus3.png"
+												<br /> <br /> <img width=892 height=1378
+													src="./images/cli-cli-cli.png"
 													class="vc_single_image-img attachment-full" alt=""
-													data-pagespeed-url-hash=3011686929 />
+													data-pagespeed-url-hash=3011686929 /><a href="#sec9"
+													style="padding-left: 44%;"><img alt="abaixo"
+													src="./images/abaixo.png"></a>
 											</div>
 										</div>
 									</div>
@@ -1513,39 +969,36 @@ var LS_Meta={"v":"6.1.0"};
 									<div class="rd_list_5 rd_list_left">
 										<div class=list_item_ctn id=rand_mt99llvh9zkgxuw1h8rc>
 											<div class=list_icn>
-												<i class=elg-icon_laptop></i>
+												<img alt="test" src="./images/emo1.png">
 											</div>
 											<div class=list_desc>
-												<h3>Multidispositivos</h3>
-												<p>Nossas soluções são desenvolvidas sempre com o foco
-													na utilização de múltiplos dispositivos e, se possível,
-													disponibilizadas também para o formato mobile.</p>
+												<h3>Mercado Financeiro</h3>
+												<p>A PDCASE oferece projetos de sistemas corporativos
+													resultantes de práticas sedimentadas no mercado</p>
 												<p></p>
 											</div>
 										</div>
 										<div class=list_item_ctn id=rand_ibowje11jcgkgj2r7ow0>
 											<div class=list_icn>
-												<i class=elg-icon_wallet></i>
+												<img alt="test" src="./images/emo1.png">
 											</div>
 											<div class=list_desc>
-												<h3>Resultados x Investimento</h3>
+												<h3>Setor Público</h3>
 												<p></p>
-												<p>Nossas soluções são desenvolvidas sempre pensando na
-													acessibilidade financeira, garantindo que todos possam ter
-													acesso ao novo mundo digital, sem exceções.</p>
+												<p>Nossas equipes podem dimensionar e avaliar
+													estratégias de construção e implantação.</p>
 												<p></p>
 											</div>
 										</div>
 										<div class=list_item_ctn id=rand_hhpwbchnlqeorgjvuw9v>
 											<div class=list_icn>
-												<i class=elg-icon_star_alt></i>
+												<img alt="test" src="./images/emo1.png">
 											</div>
 											<div class=list_desc>
-												<h3>Geração de Valor</h3>
+												<h3>Setor Privado</h3>
 												<p></p>
-												<p>Nosso maior comprometimento é com os resultados e
-													metas de nossos clientes. Portanto desenvolvemos soluções
-													que visam multiplicar o retorno dos investimentos.</p>
+												<p>A PDCASE fornecer interfaces ajustadas às
+													necessidades gerenciais da alta direção.</p>
 												<p></p>
 											</div>
 										</div>
@@ -1553,202 +1006,231 @@ var LS_Meta={"v":"6.1.0"};
 
 									<!-- lists END-->
 								</div>
+								<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class=parallax_wrap id=rd_wuseiufiacb689okbd86_parallaxid>
-			<div class="parallax_bg parallax_fixed"></div>
+		<div>
+			<div class=parallax_wrap id=rd_wuseiufiacb689okbd86_parallaxid>
+				<div class="parallax_bg parallax_fixed"></div>
+			</div>
 		</div>
-	</div>
+		<a id=sec9></a>
 
-	<div id=clientes
-		class="vc_row wpb_row vc_row-fluid vc_custom_1436667678920  ">
-		<div class="vc_span12 wpb_column vc_column_container ">
-			<div class="vc_column-inner ">
-				<div class=wpb_wrapper>
-					<h2
-						style="font-size: 36px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 300; font-style: normal"
-						class="vc_custom_heading vc_custom_1436685909146">Conheça
-						Alguns de Nossos Clientes</h2>
+		<div id=nossos-servicos class="vc_row wpb_row vc_row-fluid   ">
+			<div class="vc_span12 wpb_column vc_column_container ">
+				<div class="vc_column-inner ">
+					<div class=wpb_wrapper>
+						<br />
+						<h2
+							style="font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
+							class="vc_custom_heading vc_custom_1487016672308">Onde
+							Estamos</h2>
+						<div
+							class="wpb_text_column wpb_content_element  width-800 vc_custom_1470269356389 ">
+							<div class=wpb_wrapper id=ct_xmpjbq02b11myaxmzyip>
+								<p style="text-align: center;">
+									<span style="color: #767389;">Para atender as demandas
+										de serviços em todo o território nacional, a PD Case
+										estabeleceu sua matriz em MINAS GERAIS, além de escritorios
+										regionais em BELÉM, FORTALEZA E VITÓRIA, atuando ainda em
+										projetos em outros estados.
+									</span>
+									</p>
+							</div>
+						</div>
+						
+					</div>
+
 					<div
-						class="wpb_text_column wpb_content_element  width-800 vc_custom_1470279561336 ">
-						<div class=wpb_wrapper id=ct_lebaydomcyckhncwbq3m>
-							<p style="text-align: center;">
-								<span style="color: #767389;">Nós desenvolvemos soluções
-									em marketing digital e desenvolvimento web/mobile com paixão e
-									determinação, fazendo dos objetivos dos nossos clientes os
-									nossos objetivos. O Resultado? Clientes muito satisfeitos.</span>
-							</p>
+						class="vc_row wpb_row vc_row-fluid vc_custom_1418533833927 full-width-content ">
+						<div class="vc_span3 wpb_column vc_column_container ">
+							<div class="vc_column-inner vc_custom_1418541859320">
+								<div class=wpb_wrapper>
 
+									<div
+										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1482980721883">
+										<div class=wpb_wrapper>
+
+											<a href=marketing target=_self><div
+													class="vc_single_image-wrapper   vc_box_border_grey">
+													<img class="vc_single_image-img "
+														src="./images/mapa-ce.png" width=184 height=164
+														alt="Planejamento e Consultoria"
+														title="Planejamento e Consultoria"
+														data-pagespeed-url-hash=2444445668 />
+												</div></a>
+										</div>
+										<h2
+										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
+										class="vc_custom_heading vc_custom_1482955526362">Fortaleza - CE</h2>
+									<div class=vc_empty_space style="height: 12px">
+										<span class=vc_empty_space_inner></span>
+									</div>
+
+									<div
+										class="wpb_text_column wpb_content_element  vc_custom_1485384074099 ">
+										<div class=wpb_wrapper id=ct_ofa7wf4mzgpzgkgykc8y>
+											<p style="text-align: center; color: #767389;">Telefone:	(85) 8814-0065<br/>
+Endereço:	Av. Dom Luís, 500
+Bairro Meireles
+Shopping Aldeota Expansão, Business Center, sala 1528
+CEP 60160-230</p>
+
+										</div>
+									</div>
+									</div>
+									
+									
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class=clearfix style="padding-top: 0px"></div>
-					<script type="text/javascript" charset=utf-8>var j$=jQuery;j$.noConflict();"use strict";j$(window).load(function(){j$("#rd_93fisggh1ccv4fkxm40m .partners").carouFredSel({responsive:true,width:"100%",scroll:1,auto:false,prev:"#rd_93fisggh1ccv4fkxm40m .partners_left",next:"#rd_93fisggh1ccv4fkxm40m .partners_right",swipe:{onTouch:true,onMouse:false},items:{width:"280",height:"variable",visible:{min:1,max:5}}});});</script>
 
+						<div class="vc_span3 wpb_column vc_column_container ">
+							<div class="vc_column-inner vc_custom_1418541870548">
+								<div class=wpb_wrapper>
 
-					<div class=sponsors id=rd_93fisggh1ccv4fkxm40m>
-						<div class=partners_nav>
-							<p class=partners_left></p>
-							<p class=partners_right></p>
+									<div
+										class="wpb_single_image wpb_content_element vc_align_center   ">
+										<div class=wpb_wrapper>
+
+											<a href=apps target=_self><div
+													class="vc_single_image-wrapper   vc_box_border_grey">
+													<img class="vc_single_image-img "
+														src="./images/mapa-es.png" width=184 height=164
+														alt=Aplicativos title=Aplicativos
+														data-pagespeed-url-hash=3396497851 />
+												</div></a>
+										</div>
+									<h2
+										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
+										class="vc_custom_heading vc_custom_1482955526362">Vitória - ES</h2>
+									
+
+									<div
+										class="wpb_text_column wpb_content_element  vc_custom_1485384074099 ">
+										<div class=wpb_wrapper id=ct_ofa7wf4mzgpzgkgykc8y>
+											<p style="text-align: center; color: #767389;">Telefone:	(27) 3314-1141<br/>
+Endereço:	Av. Des. José Batalha, 90
+Sala 100
+Ed. Itália - Consolação<br />
+CEP 29045-530</p>
+
+										</div>
+									</div>
+									</div>
+
+									
+								</div>
+							</div>
 						</div>
-						<!-- 
-										<ul class=partners>
-											<li><a href="https://www.hyundai-motor.com.br/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.hyundai-motor.com.br/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/hyundai.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/hyundai.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/hyundai-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=719464036
-													 />
-											</a></li>
 
-											<li><a href="http://www.samsung.com/br/home/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.samsung.com/br/home/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2015/07/Samsung.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2015/07/Samsung.png 360w, http://innovea.com.br//wp-content/uploads/2015/07/Samsung-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=2024787700
-													 />
-											</a></li>
+						<div class="vc_span3 wpb_column vc_column_container ">
+							<div class="vc_column-inner vc_custom_1418541885152">
+								<div class=wpb_wrapper>
 
-											<li><a href="https://www.oabmg.org.br/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.oabmg.org.br/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/OAB-MG2.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/OAB-MG2.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/OAB-MG2-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=3975660489
-													 />
-											</a></li>
+									<div
+										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
+										<div class=wpb_wrapper>
 
-											<li><a
-												href="http://www.claro.com.co/portal/co/pc/personas/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.claro.com.co/portal/co/pc/personas/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/Claro2.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Claro2.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Claro2-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=2558341929
-													 />
-											</a></li>
+											<a href=desenvolvimento-web target=_self><div
+													class="vc_single_image-wrapper   vc_box_border_grey">
+													<img class="vc_single_image-img "
+														src="./images/mapa-mg.png" width=184 height=164
+														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
+														data-pagespeed-url-hash=1693799606 />
+												</div></a>
+										</div>
+									<h2
+										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
+										class="vc_custom_heading vc_custom_1482955526362">Belo Horizonte - MG</h2>
+									<div class=vc_empty_space style="height: 12px">
+										<span class=vc_empty_space_inner></span>
+									</div>
 
-											<li><a href="http://www.bmw.com/com/en/owners/bmw_apps/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.bmw.com/com/en/owners/bmw_apps/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/BMW3.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/BMW3.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/BMW3-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=1030137219
-													 />
-											</a></li>
-										</ul> -->
-					</div>
+									<div
+										class="wpb_text_column wpb_content_element  vc_custom_1485384074099 ">
+										<div class=wpb_wrapper id=ct_ofa7wf4mzgpzgkgykc8y>
+											<p style="text-align: center; color: #767389;">Telefone:	(31) 3505-1940<br/>
+Endereço:	Alameda da Serra, 891
+Sala 708 - 
+Vila da Serra<br />CEP 34000-000
+</p>
 
-					<div class=clearfix style="padding-top: 0px"></div>
-					<div class=clearfix style="padding-top: 0px"></div>
-					<script type="text/javascript" charset=utf-8>var j$=jQuery;j$.noConflict();"use strict";j$(window).load(function(){j$("#rd_jdmtide9y1l2x65yf8xy .partners").carouFredSel({responsive:true,width:"100%",scroll:1,auto:false,prev:"#rd_jdmtide9y1l2x65yf8xy .partners_left",next:"#rd_jdmtide9y1l2x65yf8xy .partners_right",swipe:{onTouch:true,onMouse:false},items:{width:"280",height:"variable",visible:{min:1,max:5}}});});</script>
-
-
-					<div class=sponsors id=rd_jdmtide9y1l2x65yf8xy>
-						<div class=partners_nav>
-							<p class=partners_left></p>
-							<p class=partners_right></p>
+										</div>
+									</div>
+									</div>
+									
+									
+								</div>
+							</div>
 						</div>
-						<!-- 
-										<ul class=partners>
-											<li><a
-												href="https://www.itesso.com/en/solutions/brilliant"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.itesso.com/en/solutions/brilliant', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="./images/Brilliant.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Brilliant.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Brilliant-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=1162913933
-													 />
-											</a></li>
+						<div class="vc_span3 wpb_column vc_column_container ">
+							<div class="vc_column-inner vc_custom_1418541885152">
+								<div class=wpb_wrapper>
 
-											<li><a href="http://www.platebydzintra.com/home.html"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.platebydzintra.com/home.html', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="./images/Plate.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Plate.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Plate-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=3891704920
-													 />
-											</a></li>
+									<div
+										class="wpb_single_image wpb_content_element vc_align_center   vc_custom_1436833106389">
+										<div class=wpb_wrapper>
 
-											<li><a href="http://www.nicebus.com/Home.aspx"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.nicebus.com/Home.aspx', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/Nice.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Nice.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Nice-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=3516258041
-													 />
-											</a></li>
+											<a href=desenvolvimento-web target=_self><div
+													class="vc_single_image-wrapper   vc_box_border_grey">
+													<img class="vc_single_image-img "
+														src="./images/mapa-pa.png" width=184 height=164
+														alt=DesenvolvimentoWeb title=DesenvolvimentoWeb
+														data-pagespeed-url-hash=1693799606 />
+												</div></a>
+										</div>
+									<h2
+										style="font-size: 18px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 700; font-style: normal"
+										class="vc_custom_heading vc_custom_1482955526362">Belém - PA</h2>
+									<div class=vc_empty_space style="height: 12px">
+										<span class=vc_empty_space_inner></span>
+									</div>
 
-											<li><a href="http://www.telenor.com/"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.telenor.com/', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/Telenor.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Telenor.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Telenor-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=4018423301
-													 />
-											</a></li>
+									<div
+										class="wpb_text_column wpb_content_element  vc_custom_1485384074099 ">
+										<div class=wpb_wrapper id=ct_ofa7wf4mzgpzgkgykc8y>
+											<p style="text-align: center; color: #767389;">Telefone:	(91) 3223-0619<br/>
+Endereço:	Av. Assis Vasconcelos, 265
+3º andar
+Edifício Victor VI<br />
+CEP 66010-010</p>
 
-											<li><a
-												href="http://colormedia.vn/tin-tuc/tuyen-dung.html"
-												onclick="__gaTracker('send', 'event', 'outbound-article', 'http://colormedia.vn/tin-tuc/tuyen-dung.html', '\n            ');"
-												target=_blank> <img width=360 height=249
-													src="http://innovea.com.br//wp-content/uploads/2016/04/Color-Media2.png"
-													class="attachment-sponsor_tn size-sponsor_tn wp-post-image"
-													alt="" title=""
-													srcset="http://innovea.com.br//wp-content/uploads/2016/04/Color-Media2.png 360w, http://innovea.com.br//wp-content/uploads/2016/04/Color-Media2-300x208.png 300w"
-													sizes="(max-width: 360px) 100vw, 360px"
-													data-pagespeed-url-hash=2026302276
-													 />
-											</a></li>
-										</ul> -->
+										</div>
+									</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						
+						
 					</div>
-
-					<div class=clearfix style="padding-top: 0px"></div>
+					<a href="#sec10" style="padding-left: 48%;"><img alt="abaixo"
+						src="./images/abaixo.png"></a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<a id="sec10"></a>
+
+
+
+
 	<div id=depoimentos
 		class="vc_row wpb_row vc_row-fluid vc_custom_1436661040519 full-width-section ">
 		<div class="vc_span12 wpb_column vc_column_container ">
 			<div class="vc_column-inner ">
 				<div class=wpb_wrapper>
 					<h2
-						style="font-size: 36px; color: #2c3e50; text-align: center; font-family: Lato; font-weight: 300; font-style: normal"
-						class="vc_custom_heading vc_custom_1436661069311">O Que
-						Nossos Clientes Dizem Sobre Nós</h2>
+						style="font-size: 26px; text-align: center; font-family: Arial; font-weight: bold; font-style: normal; margin-bottom: 0px !important"
+						class="vc_custom_heading vc_custom_1487016672308">O Que Dizem
+						Sobre Nós</h2>
 					<div
 						class="wpb_text_column wpb_content_element  width-800 vc_custom_1470279584430 ">
 						<div class=wpb_wrapper id=ct_pkk1xm9193r59dx4ojuy>
@@ -1756,7 +1238,7 @@ var LS_Meta={"v":"6.1.0"};
 								<span style="color: #767389;">Cada vez que desenvolvemos
 									um projeto, nossa meta é sempre a excelência. Garantindo sempre
 									a melhor qualidade em nossos serviços, buscamos a satisfação de
-									nossos clientes.</span>
+									nossos clientes e funcionários.</span>
 							</p>
 
 						</div>
@@ -1769,68 +1251,56 @@ j$("#tm_pdxt3zn6vqn4sfwtcw5w .rd_testimonials").carouFredSel({responsive:true,wi
 							<div class=rd_testimonial>
 
 								<div class=tm_text>
-									<span style="color: #333333;">“Nossa empresa precisava
-										ter um app mas só tínhamos a ideia. A equipe da iNNOVEA nos
-										auxiliou muito e até melhorou nossa ideia inicial com
-										sugestões que por fim surpreendemos nossos clientes com um app
-										bonito e melhor até do que havíamos planejado. Recomendo
-										100%!”</span>
+									<span style="color: #333333;">“Todas as entregas são
+										garantidas”</span>
 								</div>
 								<div class=tm_author_info>
-									<div class=tm_author>Jean Carlson</div>
-
-									<div class=tm_info>Academias My Body Fit Life</div>
-
+									<div class=tm_author>Paola Dias</div>
+									<div class=tm_info>
+										<img alt=estrelas src=./images/estrelas.png />
+									</div>
 
 									<div class=tm_image>
-										<img class="" src="./images/Dean-Carlson-250x250.png"
-											width=250 height=250 alt=Dean-Carlson title=Dean-Carlson
-											data-pagespeed-url-hash=1202489453 />
+										<img class="" src="./images/paola.png" width=250 height=250
+											alt=Paola title=Paola data-pagespeed-url-hash=1202489453 />
 									</div>
 								</div>
 							</div>
 							<div class=rd_testimonial>
 
 								<div class=tm_text>
-									<span style="color: #333333;">&#8220;A iNNOVEA é
-										incrível! Eles desenvolveram um grande app para a nossa loja,
-										que utilizamos para melhorar nossas vendas e nossos clientes
-										amaram, além de e destacar nossos produtos e serviços,
-										permitindo que nossos clientes estejam sempre conectados com a
-										nossa empresa.&#8221;</span>
+									<span style="color: #333333;">“Empresa de Tecnologia
+										informação.”</span>
 								</div>
 								<div class=tm_author_info>
-									<div class=tm_author>Celine Castro</div>
-
-									<div class=tm_info>Lojas Sam's</div>
-
+									<div class=tm_author>Catharina Malta</div>
+									<div class=tm_info>
+										<img alt=estrelas src=./images/estrelas.png />
+									</div>
 
 									<div class=tm_image>
-										<img class="" src="./images/Celine-Castro-250x250.png"
-											width=250 height=250 alt="Celine Castro"
-											title="Celine Castro" data-pagespeed-url-hash=1186663029 />
+										<img class="" src="./images/catharina.png" width=250
+											height=250 alt="Catharina Malta" title="Celine Castro"
+											data-pagespeed-url-hash=1186663029 />
 									</div>
 								</div>
 							</div>
 							<div class=rd_testimonial>
 
 								<div class=tm_text>
-									<span style="color: #333333;">&#8220;Eu tenho uma
-										clínica relativamente nova e ainda estou construindo a minha
-										base de clientes. O aplicativo desenvolvido pela iNNOVEA é
-										demais, especialmente por ser inovador, ajuda as pessoas a
-										encontrar a minha clínica e destaca os meus serviços. Eu
-										realmente gostei.&#8221;</span>
+									<span style="color: #333333;">“Ótimo lugar para
+										trabalhar” </span>
 								</div>
 								<div class=tm_author_info>
-									<div class=tm_author>Dr. Roberto Lofsky</div>
+									<div class=tm_author>Jobert Dias</div>
 
-									<div class=tm_info>Clínica Veterinária Wilmot</div>
-
+									<div class=tm_info>
+										<img alt=estrelas src=./images/estrelas.png />
+									</div>
 
 									<div class=tm_image>
-										<img class="" src="./images/Dr.-Robert.png" width=250
-											height=245 alt=Dr.-Robert title=Dr.-Robert
+										<img class="" src="./images/jobert.png" width=250 height=245
+											alt=Dr.-Robert title=Jobert
 											data-pagespeed-url-hash=4186211888 />
 									</div>
 								</div>
@@ -2077,7 +1547,7 @@ j$("#tm_pdxt3zn6vqn4sfwtcw5w .rd_testimonials").carouFredSel({responsive:true,wi
 		</div>
 	</div>
 
-	<a id=to_top><i class=fa-angle-up></i></a>
+	<a id=to_top><img alt="seta pra cima" src="./images/seta-top.png"></a>
 
 	<script type="text/javascript">function revslider_showDoubleJqueryError(sliderID){var errorMessage="Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";errorMessage+="<br> This includes make eliminates the revolution slider libraries, and make it not work.";errorMessage+="<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";errorMessage+="<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";errorMessage="<span style='font-size:16px;color:#BC0C06;'>"+errorMessage+"</span>";jQuery(sliderID).show().html(errorMessage);}</script>
 
