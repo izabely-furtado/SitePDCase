@@ -4,6 +4,11 @@
 	background-repeat: no-repeat;
 	background-size: auto;
 }
+.section12 {
+	background-image: url("../images/habilidades.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
 
 .section2 h1{
 	font-family: "nudista-web-1", "Helvetica Neue", Arial, serif;
