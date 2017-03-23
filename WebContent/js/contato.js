@@ -103,9 +103,9 @@ function ChangeEstado() {
 			document.getElementById("endereco").innerHTML = "<table style='text-align:center'> <th><p style='font-weight: bold'>BELO HORIZONTE – MG</p> </th>"
 					+ "<table style='text-align:left;'><tr><td style='font-weight: bold'>Telefone: </td><td> 31 3505.1940 </td></tr>"
 					+ "<tr><td style='font-weight: bold'>Endereço:</td>"
-					+ "<td>Alameda da Serra, 891</td></tr><tr><td></td>"
+					+ "<td>Alameda Oscar Niemayer, 891</td></tr><tr><td></td>"
 					+ "<td>Sala 708 </td></tr><tr><td></td>"
-					+ "<td>Vila da Serra – CEP 34000-000</td>"
+					+ "<td>Vila da Serra – CEP 34.006-065</td>"
 					+ "</tr></table></table></table></br>";
 		}
 	}
