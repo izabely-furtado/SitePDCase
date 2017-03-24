@@ -494,11 +494,11 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  margin-left: 2.5%;
+  margin-left: 0%;
 }
 
 .vc_row-fluid [class*="vc_span"]:first-child {
-  margin-left: 0;
+  margin-left: 1%;
 }
 .vc_row-fluid .vc_span12,
 .wpb_teaser_grid.wpb_carousel .vc_span12 {
