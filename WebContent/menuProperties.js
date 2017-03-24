@@ -19,27 +19,27 @@
 function carregaMenu() {
 	document.getElementById("menu").innerHTML = 
 		"<div id='mySidenav' class='sidenav' style='z-index: 99999999;'>" +
-		"<a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>" +
-	    "<a href='./empresa.html'>Empresa</a>" +
-	    "<a href='./servicos.html'>Serviços</a>" +
-	    "<ul>" +
-	    "<li><a style='font-size: 15px;' href='./consultoria.html'>Consultoria</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./mpsBR.html'>MPS-BR</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./fabricaSoftware.html'>Fabrica de Software</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./gestaoProcessos.html'>Gestão de Processos</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdMobile.html'>Mobile</a></li>" +
-	    "</ul>" +
-	    "<a href='./produtos.html'>Produtos</a>" +
-	    "<ul>" +
-	    "<li><a style='font-size: 15px;' href='./portalCredito.html'>Portal de Crédito</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdSRC.html'>PD SRC</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdBank.html'>PD Bank</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdGAR.html'>PD GAR</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdCTA.html'>PD CTA</a></li>" +
-	    "<li><a style='font-size: 15px;' href='./pdPositivo.html'>PD Positivo</a></li>" +
-	    "</ul>" +
-	    "<a href='./clientes.html'>Clientes</a>" +
-	    "<a href='./contato.html'>Contato</a>" +
+			"<a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>" +
+		    "<a href='./empresa.html'>Empresa</a>" +
+		    "<a href='./servicos.html'>Serviços</a>" +
+		    "<ul>" +
+			    "<li><a style='font-size: 15px;' href='./consultoria.html'>Consultoria</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./mpsBR.html'>MPS-BR</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./fabricaSoftware.html'>Fabrica de Software</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./gestaoProcessos.html'>Gestão de Processos</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdMobile.html'>Mobile</a></li>" +
+		    "</ul>" +
+		    "<a href='./produtos.html'>Produtos</a>" +
+		    "<ul>" +
+			    "<li><a style='font-size: 15px;' href='./portalCredito.html'>Portal de Crédito</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdSRC.html'>PD SRC</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdBank.html'>PD Bank</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdGAR.html'>PD GAR</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdCTA.html'>PD CTA</a></li>" +
+			    "<li><a style='font-size: 15px;' href='./pdPositivo.html'>PD Positivo</a></li>" +
+		    "</ul>" +
+		    "<a href='./clientes.html'>Clientes</a>" +
+		    "<a href='./contato.html'>Contato</a>" +
 	    "</div>";
 		/*
 		 * "<ol class='nav'>" + " <li><a onClick='ativa()' id='emp'
