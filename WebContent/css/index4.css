@@ -627,6 +627,10 @@
 	color: #a1b1bc;
 }
 
+#passa2.rd_tm_3 .rd_tm_pager a:after {
+	background-color:Maroon;
+}
+
 #passa2.rd_tm_3 .rd_tm_pager a.selected:after {
 	background: black;
 }
