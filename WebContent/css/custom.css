@@ -116,7 +116,7 @@ a.return-btn {
   position: absolute;
   top: 10px;
   right: 0;
-  margin-right: 14px;
+  margin-right: 91%;
   cursor: pointer;
   border: 1px solid white;
   background: black;
@@ -190,7 +190,7 @@ nav.menu-overlay .right {
 nav.menu-overlay .right .infos {
   text-align: right;
   display: inline-block;
-  width: 178px;
+  width: 60%;
 }
 @media (max-width: 768px) {
   nav.menu-overlay .right .infos {
@@ -256,7 +256,8 @@ nav.menu-overlay {
 }
 nav.menu-overlay .menu-close {
   top: 10px;
-  right: 14px;
+  margin-right: 91%;
+  right: 0px;
   height: 40px;
   width: 42px;
   background: black;
