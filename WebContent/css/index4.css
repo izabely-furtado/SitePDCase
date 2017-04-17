@@ -639,6 +639,40 @@
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
+
+/*passa 3*/
+#passa3.rd_tm_3 .tm_author {
+	color: #2c3e50;
+}
+
+#passa3.rd_tm_3 .tm_text, #passa3.rd_tm_3 .tm_text:after,
+	#passa3.rd_tm_3 .tm_image {
+	color: #a1b1bc;
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa3.rd_tm_3 .rd_tm_pager a {
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa3.rd_tm_3 .tm_info {
+	color: #a1b1bc;
+}
+
+#passa3.rd_tm_3 .rd_tm_pager a:after {
+	background-color:#009ead;
+}
+
+#passa3.rd_tm_3 .rd_tm_pager a.selected:after {
+	background: black;
+}
+
+#passa3 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 /* fim do passando */
 
 #rd_ynbdz7qz64yorrigzjqi {
