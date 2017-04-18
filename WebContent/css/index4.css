@@ -595,11 +595,11 @@
 }
 
 #passa1.rd_tm_3 .rd_tm_pager a.selected:after {
-	background: black;
+	background: gold;
 }
 
 #passa1.rd_tm_3 .rd_tm_pager a:after {
-	background: gold;
+	background: rgba(255, 215, 0, 0.22);;
 }
 #passa1 {
 	margin-top: 20px;
@@ -628,11 +628,11 @@
 }
 
 #passa2.rd_tm_3 .rd_tm_pager a:after {
-	background-color:Maroon;
+	background-color:rgba(147, 103, 59, 0.22);
 }
 
 #passa2.rd_tm_3 .rd_tm_pager a.selected:after {
-	background: black;
+	background: Maroon;
 }
 
 #passa2 {
@@ -662,11 +662,11 @@
 }
 
 #passa3.rd_tm_3 .rd_tm_pager a:after {
-	background-color:#009ead;
+	background-color:rgba(0, 192, 204, 0.22);;
 }
 
 #passa3.rd_tm_3 .rd_tm_pager a.selected:after {
-	background: black;
+	background: #009ead;
 }
 
 #passa3 {
