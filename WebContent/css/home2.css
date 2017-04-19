@@ -37,10 +37,17 @@
 }
 
 #banner2 h1 .conhecimento {
+	letter-spacing: 0.0030em;
+	font-size: 69px;
+	
+}
+
+#banner2 h1 .conhecimento3 {
 	letter-spacing: 0.040em;
 	font-size: 69px;
 	
 }
+
 
 #banner2 h1 .conhecimento1 {
 	letter-spacing: 0.00em;

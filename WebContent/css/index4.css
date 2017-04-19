@@ -673,6 +673,39 @@
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
+/*passa 4*/
+#passa4.rd_tm_3 .tm_author {
+	color: #2c3e50;
+}
+
+#passa4.rd_tm_3 .tm_text, #passa4.rd_tm_3 .tm_text:after,
+	#passa4.rd_tm_3 .tm_image {
+	color: #a1b1bc;
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa4.rd_tm_3 .rd_tm_pager a {
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa4.rd_tm_3 .tm_info {
+	color: #a1b1bc;
+}
+
+#passa4.rd_tm_3 .rd_tm_pager a:after {
+	background-color:rgba(0, 0, 0, 0.22);;
+}
+
+#passa4.rd_tm_3 .rd_tm_pager a.selected:after {
+	background: black;
+}
+
+#passa4 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 /* fim do passando */
 
 #rd_ynbdz7qz64yorrigzjqi {
