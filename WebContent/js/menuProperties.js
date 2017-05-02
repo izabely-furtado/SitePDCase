@@ -17,7 +17,7 @@
  * 
  */
 
-/*function carregaMenuNovo() {
+function carregaMenuNovo() {
     document.getElementById("menu").innerHTML = "<div id='dl-menu' class='dl-menuwrapper'>" +
 					"<button class='dl-trigger'>Open Menu</button>" +
 					"<ul class='dl-menu'>" +
@@ -85,51 +85,6 @@
 						"</ul>" +
 				"</div>";
 
-}*/
-function carregaMenu() {
-	document.getElementById("menu").innerHTML = 
-		"<div id='mySidenav' class='sidenav' style='z-index: 99999999;'>" +
-			"<a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>" +
-			"<a href='./empresa.html'>Empresa</a>" +
-			"<a href='./servicos.html'>Serviços</a>" +
-			"<ul>" +
-				"<li><a style='font-size: 15px;' href='./consultoria.html'>Consultoria</a></li>" +
-				"<li><a style='font-size: 15px;' href='./mpsBR.html'>MPS-BR</a></li>" +
-				"<li><a style='font-size: 15px;' href='./fabricaSoftware.html'>Fabrica de Software</a></li>" +
-				"<li><a style='font-size: 15px;' href='./gestaoProcessos.html'>Gestão de Processos</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdMobile.html'>Mobile</a></li>" +
-			"</ul>" +
-			"<a href='./produtos.html'>Produtos</a>" +
-			"<ul>" +
-				"<li><a style='font-size: 15px;' href='./portalCredito.html'>Portal de Crédito</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdSRC.html'>PD SRC</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdBank.html'>PD Bank</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdGAR.html'>PD GAR</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdCTA.html'>PD CTA</a></li>" +
-				"<li><a style='font-size: 15px;' href='./pdPositivo.html'>PD Positivo</a></li>" +
-			"</ul>" +
-			"<a href='./clientes.html'>Clientes</a>" +
-			"<a href='./contato.html'>Contato</a>" +
-		"</div>";
-		/*
-		 * "<ol class='nav'>" + " <li><a onClick='ativa()' id='emp'
-		 * class='about' href='./empresa.html'>Empresa</a></li> " + " <li><a
-		 * onClick='ativa()' id='serv' class='about'
-		 * href='./servicos.html'>Serviços</a></li> " + " <li><a
-		 * onClick='ativa()' id='prod' class='about'
-		 * href='./produtos.html'>Produtos</a></li> " + " <li><a
-		 * onClick='ativa()' id='cli' class='about'
-		 * href='./clientes.html'>Clientes</a></li> " + " <li><a
-		 * onClick='ativa()' id='cont' class='about'
-		 * href='./contato.html'>Contato</a></li><ol> " + " <ul><li class='share twitter'><a
-		 * title='Follow Me on Twitter' href='https://twitter.com/PDCase'
-		 * target='_blank'>Follow Me On Twitter</a></li>" + "
-		 * <li class='share dribbble'><a title='Follow Me on Dribbble'
-		 * href='https://www.facebook.com/PD-Case-Inform%C3%A1tica-190166917694155/'
-		 * target='_blank'>Follow Me On Facebook</a></li>" + "
-		 * <li class='share xbox last'><a rel='lightbox' title='Game With Me on
-		 * Xbox Live'>Faça o seu Login</a></li>" + "</ul>";
-		 */
 }
 /*
  * function carregaRodape() { document.getElementById("rodape").innerHTML = "<div
@@ -223,6 +178,6 @@ var _gaq = _gaq || [];
  * 
  */
 window.onload = function() {
-	carregaMenu();
+	carregaMenuNovo();
 	carregaRodape();
 }

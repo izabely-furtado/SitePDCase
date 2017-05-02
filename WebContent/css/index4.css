@@ -706,6 +706,39 @@
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
+/*passa 5*/
+#passa5.rd_tm_3 .tm_author {
+	color: #2c3e50;
+}
+
+#passa5.rd_tm_3 .tm_text, #passa5.rd_tm_3 .tm_text:after,
+	#passa5.rd_tm_3 .tm_image {
+	color: #a1b1bc;
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa5.rd_tm_3 .rd_tm_pager a {
+	background: #ffffff;
+	border: 1px solid #eef1f3;
+}
+
+#passa5.rd_tm_3 .tm_info {
+	color: #a1b1bc;
+}
+
+#passa5.rd_tm_3 .rd_tm_pager a:after {
+	background-color:rgba(0, 0, 0, 0.22);;
+}
+
+#passa5.rd_tm_3 .rd_tm_pager a.selected:after {
+	background: black;
+}
+
+#passa5 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 /* fim do passando */
 
 #rd_ynbdz7qz64yorrigzjqi {
