@@ -223,6 +223,6 @@ var _gaq = _gaq || [];
  * 
  */
 window.onload = function() {
-	carregaMenu();
+	//carregaMenu();
 	carregaRodape();
 }
