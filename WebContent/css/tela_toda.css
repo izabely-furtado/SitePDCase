@@ -6,3 +6,105 @@
     
 }
 
+@media screen and (max-height: 662px) {
+	.espaco 
+	{
+	    padding-top:60px;
+	}
+	
+}
+@media screen and (min-height: 663px) and (max-height: 769px){
+	.espaco 
+	{
+	    padding-top:100px;
+	}
+	
+}
+@media screen and (min-height: 770px) and (max-height: 889px) {
+	.espaco 
+	{
+	    padding-top:120px;
+	}
+	
+}
+@media screen and (min-height: 900px) {
+	.espaco 
+	{
+	    padding-top:170px;
+	}
+	
+}
+/* sessão 2 */
+@media screen and (max-height: 662px) {
+	.espaco2 
+	{
+	    padding-top:0px;
+	}
+	
+}
+@media screen and (min-height: 663px) and (max-height: 769px){
+	.espaco2
+	{
+	    padding-top:0px;
+	}
+	
+}
+@media screen and (min-height: 770px) and (max-height: 889px) {
+	.espaco2 
+	{
+	    padding-top:0px;
+	}
+	
+}
+
+
+
+
+@media screen and (min-height: 900px) {
+	.espaco2
+	{
+	    padding-top:0px;
+	}
+	
+}
+
+/*
+
+
+Criamos aplicativos de uma nova geração que ampliam o valor da sua marca para seus clientes, em todos os lugares.
+
+Os aplicativos oferecem à sua empresa informações sobre seus produtos ou serviços, 
+integrados às suas estratégias de comunicação e marketing de forma que os seus funcionários e 
+clientes realmente fiquem sempre bem informados.
+
+
+*/
+/*
+@media screen and (max-height: 869px) {
+	.espaco 
+	{
+	    padding-top:40px;
+	}
+}
+
+@media screen and (max-height 908px) {
+	.espaco 
+	{
+	    padding-top:40px;
+	}
+}
+
+@media screen and (max-height: 1080px) {
+	.espaco 
+	{
+	    padding-top:40px;
+	}
+}
+
+@media screen and (min-height: 320px) and (max-height: 640px) {
+	.espaco 
+	{
+	    padding-top:40px;
+	}
+}
+*/
