@@ -91,7 +91,7 @@ function carregaMenuNovo() {
  * id='footer' class='group'>" + "<p class='lion'>" + " <img style='padding:
  * 10px;' src='./images/logo_MPS_BR2.png' alt='Nine Lion' />" + "</p>" + "<p class='copyright'>&copy;
  * Copyright 2016 Izabely Furtado</p>" + "<p class='built-on'>" + "
- * Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a>" + "</p>" + "</div>"; }
+ * Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a>" + "</p>" + "</div>"; }
  */
 function carregaRodape() {
 	document.getElementById("rodape").innerHTML = 
@@ -111,8 +111,8 @@ function carregaRodape() {
 "			 	<div class='container'>" +
 "			 		<div class='row'>" +
 	"				    <div class='col-md-6' style='text-align:center; '>" +
-	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD CASE INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
-	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD CASE</a> por Izabely Furtado</span>" + "" +
+	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
+	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado</span>" + "" +
 			"           </div>" +
 "					</div>" +
 "				</div>" +
