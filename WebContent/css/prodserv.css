@@ -15,6 +15,23 @@
     /*font-weight:bold;*/
 }
 
+.prodserv2 {
+    background-color: gray; /* Green */
+    width: 11.5%;
+    border: none;
+    color: white;
+    padding: 22px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /*font-weight:bold;*/
+}
+
 
 .button2:hover {
 	background-color: gold;

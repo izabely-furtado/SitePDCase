@@ -8,13 +8,13 @@
 #banner3 {
 	position: relative;
 	width: 870px;
-	margin: 0 auto 80px;
+	margin: 0 auto 40px;
 }
 
 #banner3 h1 {
 	font-size: 45px;
 	text-align: center;
-	background: url(../images/home/test4.gif) fixed;
+	background: url(../images/tenor.gif) fixed;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -37,8 +37,8 @@
 }
 
 #banner3 h1 .conhecimento {
-	letter-spacing: 0.0em;
-	font-size: 60px;
+	letter-spacing: 0.00em;
+	font-size: 62px;
 	
 }
 
@@ -48,23 +48,23 @@
 }
 
 #banner3 h1 .aplicado {
-	letter-spacing: 0.040em;
-	font-size: 78.5px;
+	letter-spacing: 0.04682em;
+	font-size: 43.5px;
 	
 }
 
 #banner3 h1 .aplicado1 {
-	letter-spacing: 0.0em;
-	font-size: 29px;
+	letter-spacing: 0.1888em;
+	font-size: 78px;
 	
 }
 #banner3 h1 .tecnologia {
-	letter-spacing: 0.21820em;
-	font-size: 78px;
+	letter-spacing: 0.06274em;
+	font-size: 51px;
 }
 
 #banner3 h1 .tecnologia1 {
-	letter-spacing: 0.200em;
+	letter-spacing: 0.00em;
 	font-size: 41.5px;
 	
 }
@@ -74,11 +74,11 @@
 	text-align: center;
 	font-size: 11px;
 	line-height: 127px; /**/
-	letter-spacing: 0.4em;
+	letter-spacing: 0.8em;
 	text-transform: uppercase;
 	-webkit-text-stroke: 1px transparent;
 	-moz-text-stroke: 1px transparent;
-	padding-top: 40px; /**/
+	padding-top: 50px; /**/
 	position: absolute;
 	top: 0;
 	left: 50%;

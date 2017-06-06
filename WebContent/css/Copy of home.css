@@ -5,16 +5,16 @@
 	width: 100%;
 }
 
-#banner3 {
+#banner {
 	position: relative;
 	width: 870px;
-	margin: 0 auto 80px;
+	margin: 0 auto 40px;
 }
 
-#banner3 h1 {
-	font-size: 45px;
+#banner h1 {
+	font-size: 90px;
 	text-align: center;
-	background: url(../images/home/test4.gif) fixed;
+	background: url(../images/tenor.gif) fixed;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -30,55 +30,40 @@
 	letter-spacing: 20px;
 }
 
-#banner3 h1 span {
+#banner h1 span {
 	display: block;
 	width: 870px;
 	margin: 0 auto;
 }
 
-#banner3 h1 .conhecimento {
-	letter-spacing: 0.0em;
-	font-size: 60px;
-	
+#banner h1 .conhecimento {
+	letter-spacing: 0.010em;
 }
 
-#banner3 h1 .conhecimento1 {
-	letter-spacing: 0.00em;
-	font-size: 49.8px;
+#banner h1 .responsabilidade {
+	letter-spacing: 0.000000010em;
+	font-size: 35px;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 
-#banner3 h1 .aplicado {
-	letter-spacing: 0.040em;
-	font-size: 78.5px;
-	
+#banner h1 .aplicado {
+	letter-spacing: 0.202em;
 }
 
-#banner3 h1 .aplicado1 {
-	letter-spacing: 0.0em;
-	font-size: 29px;
-	
-}
-#banner3 h1 .tecnologia {
-	letter-spacing: 0.21820em;
-	font-size: 78px;
+#banner h1 .tecnologia {
+	letter-spacing: 0.194em;
 }
 
-#banner3 h1 .tecnologia1 {
-	letter-spacing: 0.200em;
-	font-size: 41.5px;
-	
-}
-
-
-#banner3 p {
+#banner p {
 	text-align: center;
 	font-size: 11px;
 	line-height: 127px; /**/
-	letter-spacing: 0.4em;
+	letter-spacing: 0.5em;
 	text-transform: uppercase;
 	-webkit-text-stroke: 1px transparent;
 	-moz-text-stroke: 1px transparent;
-	padding-top: 40px; /**/
+	padding-top: 50px; /**/
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -86,7 +71,7 @@
 	width: 870px;
 }
 
-#banner3 p span {
+#banner p span {
 	display: block;
 }
 
@@ -94,13 +79,13 @@
 	a {
 		font-size: 11px;
 	}
-	#banner3 {
+	#banner {
 		margin-bottom: 40px;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 100px;
 	}
-	#banner3 p {
+	#banner p {
 		font-size: 16px;
 		padding-top: 70px; /**/
 		line-height: 137px; /**/
@@ -112,19 +97,19 @@
 	a {
 		font-size: 11px;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 90px;
 		width: 100%;
 		text-align: center;
 	}
-	#banner3 {
+	#banner {
 		margin-bottom: 40px;
 		width: 100%;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 90px;
 	}
-	#banner3 p {
+	#banner p {
 		font-size: 11px;
 		padding-top: 60px; /**/
 		line-height: 127px; /**/
@@ -133,7 +118,7 @@
 		margin: 0;
 		letter-spacing: 0.16em
 	}
-	#banner3 h1 span {
+	#banner h1 span {
 		width: 100%;
 	}
 }
@@ -142,19 +127,19 @@
 	a {
 		font-size: 10px;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 80px;
 		width: 100%;
 		text-align: center;
 	}
-	#banner3 {
+	#banner {
 		margin-bottom: 40px;
 		width: 100%;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 80px;
 	}
-	#banner3 p {
+	#banner p {
 		font-size: 11px;
 		padding-top: 50px; /**/
 		line-height: 117px; /**/
@@ -163,7 +148,7 @@
 		margin: 0;
 		letter-spacing: 0.16em
 	}
-	#banner3 h1 span {
+	#banner h1 span {
 		width: 100%;
 	}
 }
@@ -178,19 +163,19 @@ body {
 	a {
 		font-size: 9px;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 60px;
 		width: 100%;
 		text-align: center;
 		display: none;
 	}
-	#banner3 {
+	#banner {
 		width: 100%;
 	}
-	#banner3 h1 span {
+	#banner h1 span {
 		width: 100%;
 	}
-	#banner3 p {
+	#banner p {
 		width: 100%;
 		font-size: 42px;
 		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
@@ -205,11 +190,11 @@ body {
 		color: #000000;
 		font-weight: 500;
 	}
-	#banner3 p span.me {
+	#banner p span.me {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 30px;
 	}
-	#banner3 p span.what {
+	#banner p span.what {
 		/*		font-weight:600;
 		font-size:16px;
 		letter-spacing:0;
@@ -222,7 +207,7 @@ body {
 		line-height: 1;
 		margin: 0;
 	}
-	#banner3 p span.where {
+	#banner p span.where {
 		text-transform: none;
 		font-weight: 400;
 		font-size: 16px;
@@ -235,19 +220,19 @@ body {
 	a {
 		font-size: 9px;
 	}
-	#banner3 h1 {
+	#banner h1 {
 		font-size: 30px;
 		width: 100%;
 		text-align: center;
 		display: none;
 	}
-	#banner3 {
+	#banner {
 		width: 100%;
 	}
-	#banner3 h1 span {
+	#banner h1 span {
 		width: 100%;
 	}
-	#banner3 p {
+	#banner p {
 		width: 160px;
 		font-size: 21px;
 		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
@@ -262,11 +247,11 @@ body {
 		color: #000000;
 		font-weight: 200;
 	}
-	#banner3 p span.me {
+	#banner p span.me {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 30px;
 	}
-	#banner3 p span.what {
+	#banner p span.what {
 		/*		font-weight:600;
 		font-size:16px;
 		letter-spacing:0;
@@ -279,7 +264,7 @@ body {
 		line-height: 1;
 		margin: 0;
 	}
-	#banner3 p span.where {
+	#banner p span.where {
 		text-transform: none;
 		font-weight: 400;
 		font-size: 11px;
