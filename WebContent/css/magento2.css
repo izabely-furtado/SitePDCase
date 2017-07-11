@@ -260,7 +260,7 @@ a:hover, a:focus {
 }
 
 .span8 {
-	width: 644px
+	width: 90%
 }
 
 .span7 {
@@ -332,7 +332,7 @@ a:hover, a:focus {
 }
 
 .offset2 {
-	margin-left: 196px
+	margin-left: 5%;
 }
 
 .offset1 {
@@ -535,13 +535,18 @@ a:hover, a:focus {
 }
 
 .row-fluid .offset2 {
-	margin-left: 20%;
-	*margin-left: 19.89795918367347%;
+	margin-left: 15%;
+	*margin-left: 10%;
 }
 
 .row-fluid .offset2:first-child {
-	margin-left: 17.142857142857142%;
-	*margin-left: 17.040816326530614%;
+	margin-left: 15%;
+	*margin-left: 10%;
+}
+
+.row-fluid .offset2:second-child {
+	margin-left: 15%;
+	*margin-left: 10%;
 }
 
 .row-fluid .offset1 {
@@ -579,8 +584,8 @@ a:hover, a:focus {
 }
 
 .container-fluid {
-	padding-right: 28px;
-	padding-left: 28px;
+	padding-right: 10%;
+	padding-left: 10%;
 	*zoom: 1;
 }
 

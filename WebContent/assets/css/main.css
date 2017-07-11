@@ -591,14 +591,12 @@ footer {
 
 footer .footer-primary {
 	background: #000000;
-	padding: 30px 0;
 }
 
 footer .footer-primary > .container{padding: 0 25px;}
 
 footer .footer-secondary {
 	background-color: #ffd200;
-	padding: 30px 0;
 }
 
 .footer-address {margin-top: 10px;}

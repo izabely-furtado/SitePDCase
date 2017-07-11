@@ -142,9 +142,9 @@ function carregaRodape() {
 	document.getElementById("rodape").innerHTML = 
 "		<footer>" +
 "			<div class='container-fluid footer-primary'>" +
-"			    <div class='container'>" +
+"			    <div class=''>" +
 "			      <div class='row'>" +
-"			        <div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><img src='./images/logo-footer.png' class='img-responsive' /></a></div></div>" +
+"			        <div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><br /><br /><img src='./images/logo-footer.png' class='img-responsive' /></a></div></div>" +
 "			        <div class='col-md-7' style=' text-align:center;'>" +
 "			          <p class='footer-address'><span class='text'>Alameda Oscar Niemeyer, nº 891 - Sala 708 - Vila da Serra - Belo Horizonte / Nova Lima - MG - CEP 34006-065</span><br /><a href='tel:(31) 3505-1940'>PDCASE ATENDE <span class='footer-tel'> (31) 3505-1940</span></a></p>" +
 "			        </div>" +
@@ -153,11 +153,11 @@ function carregaRodape() {
 "			    </div>" +
 "			 </div>" +
 "			 <div class='container-fluid footer-secondary' >" +
-"			 	<div class='container'>" +
+"			 	<div class=''>" +
 "			 		<div class='row'>" +
 	"				    <div class='col-md-6' style='text-align:center; '>" +
-	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
-	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado</span>" + "" +
+	"				      <span class='text' style='color:#31302b;'><br />©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
+	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado<br /><br /></span>" + "" +
 			"           </div>" +
 "					</div>" +
 "				</div>" +

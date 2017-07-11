@@ -15,6 +15,23 @@
     /*font-weight:bold;*/
 }
 
+.prodserv5 {
+    background-color: gray; /* Green */
+    width: 35%;
+    border: none;
+    color: white;
+    padding: 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /*font-weight:bold;*/
+}
+
 .prodserv2 {
     background-color: gray; /* Green */
     width: 11.5%;
@@ -66,8 +83,33 @@
     /*font-weight:bold;*/
 }
 
+@media only screen and (max-width: 942px)
+{
+    .prodserv 
+    {
+        width: 35%;
+        margin: 4px 0px;
+    }
+    .prodserv5 
+    {
+        width:40%;
+        margin: 4px 0px;
+    }
+}
 
-
+@media only screen and (max-width: 404px)
+{
+    .prodserv 
+    {
+        width: 70%;
+        margin: 4px 0px;
+    }
+    .prodserv5 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+}
 .button2:hover {
 	background-color: gold;
     color: black;
