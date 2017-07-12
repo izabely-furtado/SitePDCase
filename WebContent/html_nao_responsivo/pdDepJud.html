@@ -44,7 +44,6 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
 <link href="./css/menuResp.css" rel="stylesheet">
-	<link href="./css/colunas.css" rel="stylesheet">
 
 <!-- JQuery Library -->
 <script type="text/javascript" src="./menuProperties.js"></script>
@@ -62,7 +61,6 @@
 <script type="text/javascript"
 	src="./js/global.js"></script>
 <script type="text/javascript" src="./js/global.js"></script>
-
 <script type="text/javascript" src="./js/google.js"></script>
 <script type="text/javascript"
 	src="./js/jquery.isotope.min.js"></script>
@@ -76,48 +74,49 @@
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-
 <script type="text/javascript" src="./js/passa.js"></script>
 
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 
+
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./js/global.js"></script>
-
-
+<script type="text/javascript" src="./js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="./js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="./js/jquery.scrollstop.js"></script>
+<script type="text/javascript" src="./js/jquery.scrollstop.min.js"></script>
+<script type="text/javascript" src="./js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="./js/menuResp.js"></script>
-
-
 <link rel="stylesheet" href='./css/index4.css' type='text/css' />
-    <link rel="stylesheet" id="4k-icons-css" href='http://innovea.com.br//wp-content/themes/TheFox/includes/4k-icons/css/icon-styles.css?ver=2.9'
-        type='text/css' media="all" />
-        <link rel="stylesheet" type="text/css" href="./css/default.css" />
+	<link rel="stylesheet" id="4k-icons-css" href='http://innovea.com.br//wp-content/themes/TheFox/includes/4k-icons/css/icon-styles.css?ver=2.9'
+		type='text/css' media="all" />
+		<link rel="stylesheet" type="text/css" href="./css/default.css" />
 		<link rel="stylesheet" type="text/css" href="./css/component.css" />
 		<script src="./js/modernizr.custom.js"></script>
-        <script src="js/jquery.dlmenu.js"></script>
+		<script src="js/jquery.dlmenu.js"></script>
 		<script>
-		    $(function () {
-		        $('#dl-menu').dlmenu({
-		            animationClasses: { classin: 'dl-animate-in-2', classout: 'dl-animate-out-2' }
-		        });
-		    });
+			$(function () {
+				$('#dl-menu').dlmenu({
+					animationClasses: { classin: 'dl-animate-in-2', classout: 'dl-animate-out-2' }
+				});
+			});
 		</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="home page-template-default page page-id-1584 page-parent wpb-js-composer js-comp-ver-4.11.1 vc_responsive">
 
-     <div id="header" style="z-index:999999999999; " class="demo-2">	
-        <span
-		    style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:6px"
-		    onclick="openNav()">
-		    <a style="z-index: 99999999999999999999" href='./index.html' onclick="location.href = './index.html';"> 
-            <img  src='./images/logo-footer.png' class='img-responsive' />
-						    </a>
-	    </span>
+	<div id="header" style="z-index:999999999999; " class="demo-2">	
+		<span
+			style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:6px"
+			onclick="openNav()">
+			<a style="z-index: 99999999999999999999" href='./index.html' onclick="location.href = './index.html';"> 
+			<img  src='./images/logo-footer.png' class='img-responsive' />
+							</a>
+		</span>
 		<div class="clearfix">
             <div class="column">
                 <div id="dl-menu" class="dl-menuwrapper">
@@ -297,87 +296,79 @@
                 </div>
             </div>
         </div>
-    </div>
+	</div>
+
+<!--
+<div id="menu"></div>
+-->
 
 
 
 <!-- SLIDE -->
-
-
-
 <div id="slideshow-outer" style="padding-top: 76px;">
-	<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
-		data-cycle-speed="1000" data-cycle-timeout="7000"
-		data-cycle-slides="div" data-cycle-prev="#slide-prev"
-		data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
-		data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="1000" data-cycle-timeout="7000"
+		data-cycle-slides="div" data-cycle-prev="#slide-prev" data-cycle-next="#slide-next"
+		data-cycle-overlay="#slide-title" data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
 		data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
-
-		<div id="divlink" onclick="window.location='./index.html';"
-			class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies"
-			style="background: url(./images/pdcaseLogo.png) no-repeat center center; background-size: cover;"></div>
-
-		<div id="divlink" onclick="window.location='./fabricaSoftware.html';"
-			class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies"
-			style="background: url(./editando/fabricaSoftware_banner.png) no-repeat center center; background-size: cover;"></div>
-
-		<div id="divlink" onclick="window.location='./consultoria.html';"
-			class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies"
-			style="background: url(./editando/consultoria_banner.png) no-repeat center center; background-size: cover;"></div>
-
-		<div id="divlink" onclick="window.location='./mpsBR.html';"
-			class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies"
-			style="background: url(./editando/mps_banner.jpg) no-repeat center center; background-size: cover;"></div>
-
-		<div id="divlink" onclick="window.location='./gestaoProcessos.html';"
-			class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies"
-			style="background: url(./editando/gestaoProcessos_banner.png) no-repeat center center; background-size: cover;"></div>
-	
-		<div id="divlink" onclick="window.location='./pdMobile.html';"
-			class="light" data-cycle-title=""
-			style="background: url(./editando/banner_mobile.jpg) no-repeat center center; background-size: cover;"></div>
-
+		<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./images/pdcaseLogo.png) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="divlink" onclick="window.location='./portalCredito.html';" class="light"
+			data-cycle-title="" data-cycle-link="/project/huskies" style="background: url(./editando/pd_portal.png) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="divlink" onclick="window.location='./pdBank.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pd_bank.png) no-repeat center center;
+			background-size: cover;">
+		</div>
+        <div id="divlink" onclick="window.location='./pdPositivo.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pd_positivo.jpg) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="div3" onclick="window.location='./pdBacenJud.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pd_bacenjud.png) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="divlink" onclick="window.location='./pdCTA.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pd_cta.png) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="div1" onclick="window.location='./pdGAR.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pdgar_banner.jpg) no-repeat center center;
+			background-size: cover;">
+		</div>
+		<div id="div2" onclick="window.location='./pdSRC.html';" class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies" style="background: url(./editando/pdSGC_banner.jpg) no-repeat center center;
+			background-size: cover;">
+		</div>
 	</div>
 	<div id="hero-statement">
 		<div>
-			<div></div>
+			<div>
+			</div>
 		</div>
 	</div>
-	<div id="slide-title"></div>
+	<div id="slide-title">
+	</div>
 	<!-- slide controls -->
 	<div class="slide-nav-prev">
 		<div id="slide-prev" class="slide-nav">
-			<a class="btn btn-circle" href="#"><img
-				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			<a class="btn btn-circle" href="#">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
 		</div>
 	</div>
 	<div class="slide-nav-next">
 		<div id="slide-next" class="slide-nav">
-			<a class="btn btn-circle" href="#"><img
-				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			<a class="btn btn-circle" href="#">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
 		</div>
 	</div>
-
 </div>
-
-
-
-
 <!-- FIM DO SLIDE -->
-
-<span
-		style="position: absolute; top: 0%; left: 0%; z-index: 999999; background-color:black; width: 100%; padding:6px"
-		onclick="openNav()">
-		<a href='./index.html'> <img src='./images/logo-footer.png'
-							class='img-responsive' />
-						</a>
-	</span>
-	<!--<span
+<br />
+<!--
+	<span
 		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; z-index: 999999;"
 		onclick="openNav()">
 		
@@ -385,97 +376,109 @@
 		alt="home" src="./images/logo-pd.png"-->
 	<!--
 	</span>-->
+	
 <div id="main"  onclick='closeNav()'>
+
 <article id="node-2000" class="node node-product-page clearfix">
 
 
 	<div class="widnr second">
-		<div class="row-fluid">
-				<div class="span8 offset2 text-center">
-					<h2>MPS - BR</h2>
-					<p>Nos últimos anos o volume de novas tecnologias que surgem no
-						mercado vêm crescendo substancialmente assim como a
-						dependência das organizações em relação aos serviços
-						prestados em projetos de desenvolvimento de novos sistemas, novas
-						funcionalidades ou sustentação de ambientes de produção.</p>
-
-					<p>Alcançar a competitividade pela excelência dos serviços
-						prestados, respeito a prazos e garantia de qualidade geral dos
-						produtos entregues se tornou um forte diferencial competitivo nos
-						dias atuais.</p>
-
-					<p>Focando na melhoria contínua dos processos internos de
-						desenvolvimento de software e visando impulsionar a prestação de
-						serviços no mercado nacional, a PD Case se tornou uma empresa com
-						selo de certificação MPS-br que atesta a maturidade e
-						capacidade técnica para produzir e entregar softwares com
-						qualidade diferenciada.</p>
-				</div>
+		
+			<div class="span8 offset2 text-center">
+				<h2>PD DEPJUD</h2>
+                <h4>Depósito Judicial</h4>
+                
 			</div>
 			
 	</div>
 
+    <div class="widnr valueprop right"
+		style="background-image: url(./images/legal2.jpg);">
+		<div class="container">
+			<div class="row-fluid flex-row">
+				<div class="span4 text-hero offset8">
+					<h2>Legalmente Falando</h2>
+					<p>Ao Banco Central do Brasil compete exercer a fiscalização das instituições financeiras.</p>
+                    <p>Em relação aos depósitos judiciais, além das determinações do citado órgão, o Poder Judiciário celebra contratos com bancos e estes passam a receber os valores seguindo algumas normas administrativas que regulamentam os depósitos judiciais, em decorrência dos convênios e acordos celebrados entre as instituições financeiras e os Tribunais de Justiça de cada estado.</p>
+               </div>
+			</div>
+		</div>
+	</div>
+	
+	
+    <div class="widnr valueprop left"
+		style="background-image: url(./images/trib2.jpg);">
+		<div class="container">
+			<div class="row-fluid flex-row">
+				<div class="span4 text-hero ">
+					<h2>Excepcionalmente dentro das regras</h2>
+			        <p>O PD_DEPJUD é parte integrante da solução <a style="color:Black"  onclick="location.href = './pdBank.html';" href="pdBank.html">PD_BANK</a> da PD_CASE e está de acordo com as normas dos órgãos reguladores e aderente às leis Nº 11.429, de 26 de Dezembro de 2006 que revoga a lei Nº Lei no 10.482, de 3 de julho de 2002 e Lei Nº 10.819, de 16 de dezembro de 2003.</p><br />
+				</div>
+			</div>
+		</div>
+	</div>
 
-
+    <div class="widnr valueprop right"
+		style="background-image: url(./images/depjud1.png);">
+		<div class="container">
+			<div class="row-fluid flex-row">
+				<div class="span4 text-hero offset8">
+					<h2>Direitos e benefícios</h2>
+					<p style="font-weight:bold">PD_DEPJUD permite:</p><p> 
+                    •	a instituição financeira se beneficiar da movimentação de recursos dessa natureza (financeira).<br /> 
+                    •	o gerenciamento de um processo judicial desde a sua abertura, através do seu primeiro depósito até a sua finalização, através do encerramento.<br /> 
+                    •	saber todos os envolvidos nos processos, determinando assim, várias contas de aniversário controladas por pessoa demonstrando em cada lançamento de depósito o responsável pelo crédito.<br /> 
+                    •	informações de forma analítica e sintética referente à posição de cada processo com todos os encargos gerados e as despesas assim distribuídas.</p>
+               </div>
+			</div>
+		</div>
+	</div>
     
-  <div class="linha">
-		<div class="coluna-1"></div>
-		<div class="coluna-4 esquerda">
-			<br /><h2>Atualmente</h2>
-					<p>Atualmente a PD Case é uma empresa certificada no modelo
-						MPS-br nível C, tendo processo de desenvolvimento de software
-						classificado como "Definido" sendo equivalente ao CMMI nível 3.</p>
-					
-		</div>
-		<div class="coluna-2"></div>
-	 <div class="coluna-5">
-		<img src="./images/MR-MPS2teste.png" alt="teste"/>
-		</div>
-	</div>
-
-     <div class="linha">
-	<div class="coluna-5">
-		<img src="./images/historicoteste.png" alt="teste"/>
-		</div>
-		<div class="coluna-2"></div>
-		<div class="coluna-4 direita">
-			<br /><h2>Histórico de certificações MPS-BR</h2>
-                    
-		</div>
-		<div class="coluna-1"></div>
-	 
-	</div>
-
-  <div class="linha">
-		<div class="coluna-1"></div>
-		<div class="coluna-4 esquerda">
-			<h2>Links Úteis:</h2>
-                    
-					<a onclick="location.href = 'http://www.softex.br/wp-content/uploads/2013/07/Press-Release-Avalia%C3%A7%C3%A3o-MPS-SW-C-PDCASE-0804141.pdf';"
-						href="http://www.softex.br/wp-content/uploads/2013/07/Press-Release-Avalia%C3%A7%C3%A3o-MPS-SW-C-PDCASE-0804141.pdf">
-						Notícia veiculada pela Softex quanto à certificação </a> <br />
-					<a onclick="location.href = 'http://www.softex.br/wp-content/uploads/2013/07/PDCase_Resultado_Avaliacao_C.pdf';"
-						href="http://www.softex.br/wp-content/uploads/2013/07/PDCase_Resultado_Avaliacao_C.pdf">
-						Resultado de avaliação de Processos de Software </a><br />
-					<a onclick="location.href = 'http://www.softex.br/wp-content/uploads/2013/07/Declara%C3%A7%C3%A3o-Avalia%C3%A7%C3%A3o-MPS-SW-C-PDCASE-080414.pdf';"
-						href="http://www.softex.br/wp-content/uploads/2013/07/Declara%C3%A7%C3%A3o-Avalia%C3%A7%C3%A3o-MPS-SW-C-PDCASE-080414.pdf">
-						Declaração de certificação MPS-br nível C </a><br /> 
-                    <a onclick="location.href = 'http://172.16.100.159:8080/pt/web/portal/gestao-de-processos';"
-						href="http://172.16.100.159:8080/pt/web/portal/gestao-de-processos">
-						Mais sobre o processo de desenvolvimento de software da PDCase </a>
-					
-		</div>
-		<div class="coluna-2"></div>
-	 <div class="coluna-5">
-		<img src="./images/depjud2teste.jpg" alt="teste"/>
+    <div class="widnr valueprop left"
+		style="background-image: url(./images/depjud2.jpg);">
+		<div class="container">
+			<div class="row-fluid flex-row">
+				<div class="span4 text-hero ">
+					<h2>Funcionalidades</h2>
+<p>                    
+•	Tipos de Cálculos Específicos – Visão Flexibilizar os vários tipos de cálculos.<br />
+•	Integrações com legados – a partir de Web Services, XML e outros formatos;<br />
+•	Cadastramento de Processos – pertinentes;<br />
+•	Cadastro de Envolvidos – ligados ao processo;<br />
+•	Cadastro de Contas / Sub-Contas<br />
+•	Registro de Despesas e Custas Judiciais<br />
+•	Lançamento em Conta / Sub-Conta – (Dinheiro ou Cheque), registrando históricos e formando trilhas de auditoria.<br />
+•	Relatório Movimentação diária lançamentos de uma determinada data.<br />
+•	Relatório Saldo de Contas – por processos, comarca, juízo, envolvido.<br />
+•	Relatório Extrato e Informações Gerenciais</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
-
+    <div class="widnr valueprop right"
+		style="background-image: url(./images/ciclodepjud.png);">
+		<div class="container">
+			<div class="row-fluid flex-row">
+				<div class="span4 text-hero offset8">
+					<h2>Ciclo Depósitos Judiciais</h2>
+					<p>1º  recebe diversas guias / mandatos judiciais para cumprimento;</p>
+                    <p>2º efetua o pré-cadastramento dos dados dos depósitos judiciais ou precatórios disponibilizado pela PD_CASE e gera arquivo de remessa;</p>
+                    <p>3º envia arquivo ao Banco;</p>
+                    <p>4º recepciona arquivo. Debita a conta do convenente pelo valor das guias ou aguarda o envio de TED Judicial para processamento do arquivo;</p>
+                    <p>5º envia arquivo de retorno com o número das contas judiciais ou precatórios abertas e os dados para compor o comprovante;</p>
+                    <p>6º recepciona arquivo de retorno. Trata o arquivo e imprime os comprovantes e os protocola junto aos Juízos demandantes.</p>
+               </div>
+			</div>
+		</div>
+	</div>
 
 </article>
 
 
-<div id="rodape"></div></div>
+
+<div id="rodape"></div>
+</div>
 </body>
+
 </html>
