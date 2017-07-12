@@ -51,7 +51,7 @@
 
 .prodserv4 {
     background-color: gray; /* Green */
-    width: 15.5%;
+    width: 20.5%;
     border: none;
     color: white;
     padding: 22px 20px;
@@ -68,7 +68,7 @@
 
 .prodserv3 {
     background-color: black; /* Green */
-    width: 15.5%;
+    width: 20.5%;
     border: none;
     color: white;
     padding: 22px 20px;
@@ -95,6 +95,16 @@
         width:100%;
         margin: 4px 0px;
     }
+    .prodserv4 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+    .prodserv3 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
 }
 
 @media only screen and (max-width: 404px)
@@ -105,6 +115,16 @@
         margin: 4px 0px;
     }
     .prodserv5 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+    .prodserv4 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+    .prodserv3 
     {
         width: 100%;
         margin: 4px 0px;
