@@ -27,6 +27,10 @@
 #cssmenu #menu-button {
   display: none;
 }
+
+::-moz-selection{ background: #a5c3d1; color:gold !important; text-shadow: none; }
+::selection { background:#a5c3d1; color:gold !important; text-shadow: none; } 
+
 #cssmenu {
   font-family: Montserrat, sans-serif;
   background: #333333;
@@ -49,7 +53,7 @@
   float: right;
 }
 #cssmenu > ul > li > a {
-  padding: 17px;
+  /*padding: 17px;*/
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
@@ -143,6 +147,13 @@
 #cssmenu ul ul li a:hover {
   color: gold;
 }
+
+#cssmenu ul ul li::selection > a,
+#cssmenu ul ul li a::selection {
+  color: gold;
+}
+
+
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
   top: 16px;
@@ -186,10 +197,10 @@
   }
   #cssmenu ul {
     width: 100%;
-    display: none;
+    display: block;
   }
   #cssmenu.align-center > ul {
-    text-align: left;
+    text-align: none;
   }
   #cssmenu ul li {
     width: 100%;
@@ -218,7 +229,7 @@
     background: none;
   }
   #cssmenu ul ul li:hover > a,
-  #cssmenu ul ul li.active > a {
+  #cssmenu ul ul li.active > a, #cssmenu ul ul li::selection > a {
     color: gold;
   }
   #cssmenu ul ul,
@@ -234,7 +245,7 @@
   #cssmenu > ul > li.has-sub > a:before,
   #cssmenu ul ul > li.has-sub > a:after,
   #cssmenu ul ul > li.has-sub > a:before {
-    display: none;
+    display: block;
   }
   #cssmenu #menu-button {
     display: block;
@@ -338,6 +349,6 @@
     right: 16px;
   }
   #cssmenu .submenu-button.submenu-opened:before {
-    display: none;
+    display: block;
   }
 }

@@ -231,6 +231,27 @@ function carregaCSS() {
 			
 }
 
+function carregaMenuVai() {
+    document.getElementById("cssmenu").innerHTML =
+   "<ul>" +
+   "<li class='active'><a href='#'><div><button >Open Menu</button></div></a>" +
+   "   <ul>" +
+   "      <li><a href='#'>Product 1</a>" +
+   "         <ul>" +
+   "            <li><a href='#'>Sub Product</a></li>" +
+   "            <li><a href='#'>Sub Product</a></li>" +
+   "         </ul>" +
+   "      </li>" +
+   "      <li><a href='#'>Product 2</a>" +
+   "         <ul>" +
+   "            <li><a href='#'>Sub Product</a></li>" +
+   "            <li><a href='#'>Sub Product</a></li>" +
+   "         </ul>" +
+   "      </li>" +
+   "   </ul>" +
+   "</li>" +
+   "</ul>";
+}
 /* !-- Google Analytics -- */
 var _gaq = _gaq || [];
 	_gaq.push([ '_setAccount', 'UA-17278639-1' ]);
@@ -274,5 +295,6 @@ var _gaq = _gaq || [];
 	window.onload = function () {
 	    //carregaMenu();
 	    //carregaMenuEmpresa();
+	    carregaMenuVai();
 	    carregaRodape();
 	}
