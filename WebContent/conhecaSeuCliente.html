@@ -71,6 +71,63 @@
 <script type="text/javascript" src="./js/global.js"></script>
 
 <script type="text/javascript" src="./js/menuResp.js"></script>
+
+<style>
+.container {
+    position: relative;
+    width: 20%;
+    float:left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-25%, -50%);
+  -ms-transform: translate(-25%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: gold;
+  font-size: 16px;
+  text-align:center;
+  padding: 3%;
+}
+p 
+{
+text-align:center;
+}
+@media only screen and (max-width: 720px) {
+.container {
+    position: relative;
+    width: 90%;
+}
+.text {
+  font-size: 14px;
+  }
+  
+}
+</style>
 <link rel="stylesheet" href='./css/index4.css' type='text/css' />
     <link rel="stylesheet" id="4k-icons-css" href='http://innovea.com.br//wp-content/themes/TheFox/includes/4k-icons/css/icon-styles.css?ver=2.9'
         type='text/css' media="all" />
@@ -395,7 +452,7 @@
                         O enfoque de conhecer melhor o cliente permite a aplicação de política ostensiva de verificação de risco, evitando que a institução seja compactuada com ações de crimes financeiros.
                         </p><p>
                         Dentre os módulos aplicados no processo de conhecimento dos clientes são disponibilizados.
-                        </p>''
+                        </p>
 
 
 <!--
@@ -406,8 +463,47 @@
 				</div>
 
 		</div>
+
+        
+
+<div class="container">
+  <img src="images/photo.png" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text">Cadastro de Pessoas</div>
+    <p>Permite parametrizar as exigências de informações de clientes em função da intenção de contrstação de produtos ou serviços quando nas visitas de negócios.</p>
+  </div>
+</div>
+<div class="container">
+  <img src="images/photo.png" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text">Impedidos de Operar</div>
+    <p>A concessão de operações de crédito requer verificação constante de restrições legais ou judiciais sobre a situação das pessoas envolvidas na contratação.</p>
+  </div>
+</div>
+<div class="container">
+  <img src="images/photo.png" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text">Documentação e Conformidade</div>
+    <p>Gerenciar e manter os documentos do cliente, principalmente no modo digital, facilita o dia-a-dia e a sistemática necessária para conhecimento de situação real do cliente.</p>
+  </div>
+</div>
+<div class="container">
+  <img src="images/photo.png" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text">Risco Pessoa/Crédito</div>
+    <p>É essencial o gerenciamento e manutenção dos documentos do cliente, principalmente no modo digital facilitando a sistemática necessária para conhecimento da situação real do cliente.</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="images/photo.png" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text">Avaliação Econômica/Financeira</div>
+    <p>A sistemática usual de avaliação dos dados objetivos sobre a capacidade financeira de cliente em honrar compromissos futuros.</p>
+  </div>
+</div>
 		<div class="widnr second">
-           
+        
 				<div class="row-fluid">
 					<div class=" text-center">
                         <a  href="./cadastroPessoas.html"><button class="prodserv button2" onclick="location.href = './cadastroPessoas.html';">Cadastro de Pessoas</button></a>
