@@ -85,7 +85,7 @@
 						"</ul>" +
 				"</div>";
 
-}*/
+}
 function carregaMenu() {
 	document.getElementById("menu").innerHTML = 
 		"<div id='mySidenav' class='sidenav' style='z-index: 99999999;'>" +
@@ -129,8 +129,8 @@ function carregaMenu() {
 		 * target='_blank'>Follow Me On Facebook</a></li>" + "
 		 * <li class='share xbox last'><a rel='lightbox' title='Game With Me on
 		 * Xbox Live'>Faça o seu Login</a></li>" + "</ul>";
-		 */
-}
+		 
+}*/
 /*
  * function carregaRodape() { document.getElementById("rodape").innerHTML = "<div
  * id='footer' class='group'>" + "<p class='lion'>" + " <img style='padding:
@@ -138,13 +138,62 @@ function carregaMenu() {
  * Copyright 2016 Izabely Furtado</p>" + "<p class='built-on'>" + "
  * Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a>" + "</p>" + "</div>"; }
  */
+
+function carregaMenuEmpresa() {
+    document.getElementById("empresa").innerHTML =
+    "<a href='./empresa.html'>Empresa</a>" + 
+    "                        <ul class='dl-submenu'>" + 
+    "                            <li><a href='empresa.html'>Empresa</a></li>" + 
+    "                            <li><a href='mpsBR.html'>Missão</a>" + 
+    "                                <ul class='dl-submenu'>" + 
+    "                                    <li><a style='cursor: default'>Fornecer soluções de alto valor agregado que contribuam" + 
+    "                                        para a competitividade dos nossos clientes em segmentos empresariais onde seja possível" + 
+    "                                        aliar o conhecimento de negócio, valorizando-o acima da tecnologia.</a></li>" + 
+    "                                </ul>" + 
+    "                            </li>" + 
+    "                            <li><a href='fabricaSoftware.html'>Valores</a>" + 
+    "                               <ul class='dl-submenu'>" + 
+    "                                    <li><a style='cursor: default'>Compromisso com princípios éticos e legais.</a></li>" + 
+    "                                    <li><a style='cursor: default'>Respeito pela individualidade e diversidade das pessoas.</a></li>" + 
+    "                                    <li><a style='cursor: default'>Compromisso com os clientes e responsabilidades assumidas.</a></li>" + 
+    "                                    <li><a style='cursor: default'>Incentivo à inovação e ao empreendedorismo interno.</a></li>" + 
+    "                                    <li><a style='cursor: default'>Transparência e eficiência operacional.</a></li>" + 
+    "                                    <li><a style='cursor: default'>Responsabilidade social.</a></li>" + 
+    "                                </ul>" + 
+    "                            </li>" + 
+    "                            <li><a href='gestaoProcessos.html'>Negócios</a>" + 
+    "                                <ul class='dl-submenu'>" + 
+    "                                    <li><a style='cursor: default'>Nossos produtos e serviços atendem de forma completa" + 
+    "                                        e eficiente as necessidades tecnológicas específicas de cada empresa. Conhecimento" + 
+    "                                        técnico alinhado a eficiência na prestação de serviços.</a></li>" + 
+    "                                </ul>" + 
+    "                            </li>" +
+    "                            <li><a href='contato.html'>Onde Estamos</a> </li>" + 
+    "                        </ul>";
+
+}
+
+function carregaMenuValores() {
+    document.getElementById("valores").innerHTML =
+    "        <a>Valores</a>" + 
+    "                                <ul class='dl-submenu'>" +
+    "                 <li><a style='cursor: default'>Compromisso com princípios éticos e legais.</a></li>" +
+    "                                    <li><a style='cursor: default'>Respeito pela individualidade e diversidade das pessoas.</a></li>" +
+    "                                    <li><a style='cursor: default'>Compromisso com os clientes e responsabilidades assumidas.</a></li>" +
+    "                                    <li><a style='cursor: default'>Incentivo à inovação e ao empreendedorismo interno.</a></li>" +
+    "                                    <li><a style='cursor: default'>Transparência e eficiência operacional.</a></li>" +
+    "                                    <li><a style='cursor: default'>Responsabilidade social.</a></li></ul>";
+    
+}
+
+
 function carregaRodape() {
 	document.getElementById("rodape").innerHTML = 
 "		<footer>" +
 "			<div class='container-fluid footer-primary'>" +
 "			    <div class=''>" +
-"			      <div class='row'>" +
-"			        <div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><br /><br /><img src='./images/logo-footer.png' class='img-responsive' /></a></div></div>" +
+"			      <div class='row' style='padding-top:10px; padding-bottom:-0px !important;'>" +
+"			        <div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><img src='./images/logo-footer.png' class='img-responsive' /></a></div></div>" +
 "			        <div class='col-md-7' style=' text-align:center;'>" +
 "			          <p class='footer-address'><span class='text'>Alameda Oscar Niemeyer, nº 891 - Sala 708 - Vila da Serra - Belo Horizonte / Nova Lima - MG - CEP 34006-065</span><br /><a href='tel:(31) 3505-1940'>PDCASE ATENDE <span class='footer-tel'> (31) 3505-1940</span></a></p>" +
 "			        </div>" +
@@ -154,10 +203,10 @@ function carregaRodape() {
 "			 </div>" +
 "			 <div class='container-fluid footer-secondary' >" +
 "			 	<div class=''>" +
-"			 		<div class='row'>" +
+"			 		<div class='row' style='padding-top:10px; padding-bottom:10px'>" +
 	"				    <div class='col-md-6' style='text-align:center; '>" +
-	"				      <span class='text' style='color:#31302b;'><br />©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
-	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado<br /><br /></span>" + "" +
+	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
+	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado<br /></span>" + "" +
 			"           </div>" +
 "					</div>" +
 "				</div>" +
@@ -222,7 +271,8 @@ var _gaq = _gaq || [];
 /*
  * 
  */
-window.onload = function() {
-	//carregaMenu();
-	carregaRodape();
-}
+	window.onload = function () {
+	    //carregaMenu();
+	    //carregaMenuEmpresa();
+	    carregaRodape();
+	}

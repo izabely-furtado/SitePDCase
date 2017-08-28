@@ -749,9 +749,17 @@
 	color: #ffffff;
 }
 
-#rd_ynbdz7qz64yorrigzjqi div {
-	width: 20%;
+#rd_ynbdz7qz64yorrigzjqi div 
+{
+    width: 20%;
+    padding-top:60px !important;
+    padding-bottom:60px !important;
 }
+
+#rd_ynbdz7qz64yorrigzjqi teste 
+{
+    padding-top:100px !important;
+    padding-bottom:100px !important;
 
 
 #rd_t165y038r01dgks3tk4j .wpcf7 input[type=submit] {
