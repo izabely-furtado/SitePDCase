@@ -295,6 +295,6 @@ var _gaq = _gaq || [];
 	window.onload = function () {
 	    //carregaMenu();
 	    //carregaMenuEmpresa();
-	    carregaMenuVai();
+	    //carregaMenuVai();
 	    carregaRodape();
 	}
