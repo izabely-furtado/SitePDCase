@@ -1,21 +1,35 @@
 ﻿<!DOCTYPE html>
 <!-- saved from url=(0059)https://tympanus.net/Development/ScatteredPolaroidsGallery/ -->
-<html lang="en" class=" js no-touch csstransitions csstransformspreserve3d" style="">
+<html lang="en" class=" js no-touch csstransitions csstransformspreserve3d" >
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scattered Polaroids Gallery</title>
-    <meta name="description" content="Scattered Polaroids Gallery: A flat-style take on a Polaroid gallery">
-    <meta name="keywords" content="scattered polaroids, image gallery, javascript, random rotation, 3d, backface, flat design">
-    <meta name="author" content="Codrops">
-    <link rel="shortcut icon" href="https://tympanus.net/Development/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="./Scattered Polaroids Gallery_files/normalize.css">
+	<title>PD Case</title>
+	<meta charset="utf-8">
+	<meta http-equiv="author" content="Izabely Furtado">
+	<meta http-equiv="contact" content="izabely.correa@pdcase.com.br">
+	<meta name="keywords"
+		content="PD Case, tecnologia, software, desenvolvimento de software, programação, empresa, fábrica de software, MPS-BR, Portal de Crédito, PD Bank, solução tecnológica, .Net, Delphi, Java, JSF, Cobol, PHP, C">
+	<meta name="description" content="PD Case">
+	<link rel="shortcut icon" href="./images/favicon.jpg" />
+	<!-- Styles -->
     <link rel="stylesheet" type="text/css" href="./Scattered Polaroids Gallery_files/demo.css">
     <link rel="stylesheet" type="text/css" href="./Scattered Polaroids Gallery_files/component.css">
     <script type="text/javascript" async="" src="./Scattered Polaroids Gallery_files/ga.js.download"></script>
     <script src="./Scattered Polaroids Gallery_files/modernizr.min.js.download"></script>
-    <script type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="./css/layout2.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/global.css" media="screen" />
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/menuResp.css" rel="stylesheet">
+	
+	<!--scripts -->
+	<script type="text/javascript" src="./js/menuResp.js"></script>
+	<script type="text/javascript" src="./menuProperties.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	
+	<script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-7243260-2']);
         _gaq.push(['_trackPageview']);
@@ -27,6 +41,16 @@
 </script>
 </head>
 <body>
+    <div id="header" style="z-index:999999999999; " class="demo-2">	
+        <span
+		    style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:6px"
+		    onclick="openNav()">
+		    <a style="z-index: 99999999999999999999" href='./index.html' onclick="location.href = './index.html';"> 
+            <center><img  src='./images/logo-footer.png' class='img-responsive' /></center>
+						    </a>
+	    </span>
+		
+    </div>
     <div class="container">
         <section id="photostack-1">
 				<div>
@@ -36,17 +60,17 @@
         <section id="photostack-2" class="photostack photostack-start">
 				<div>
 					<figure style="transform: translate(834.5px, 20px) rotate(8deg);">
-						<a href="http://goo.gl/49lN3k" class="photostack-img"><img src="./images/slide/s2.jpg" alt="img04"></a>
+						<a href="#" class="photostack-img"><img src="./images/slide/s2.jpg" alt="img04"></a>
 						<figcaption>
 							<h2 class="photostack-title">Conheça Nossos Produtos</h2>
 							<div class="photostack-back">
-								<p>Virando pode obter mais informações, clicando pode abrir a sua mente para novas possibilidades</p>
+								<p>Virando pode obter mais informações</p><br /><br /><p>Clicando pode abrir a sua mente para novas possibilidades</p>
 							</div>
                             
 						</figcaption>
 					</figure>
 					<figure style="transform: translate(34.5px, 380px) rotate(-17deg);">
-						<a href="http://goo.gl/NJ1Dhf" class="photostack-img"><img src="./images/slide/s1.jpg" alt="img05"></a>
+						<a href="conhecaSeuCliente.html" onclick="location.href = './conhecaSeuCliente.html';" class="photostack-img"><img src="./images/slide/s1.jpg" alt="img05"></a>
 						<figcaption>
 							<h2 class="photostack-title">Conheça seu Cliente</h2>
 							<div class="photostack-back">
@@ -55,7 +79,7 @@
 						</figcaption>
 					</figure>
 					<figure data-shuffle-iteration="2" style="transform: translate(-125.5px, 20px) rotate(3deg);">
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="./images/slide/s5.jpg" alt="img01"></a>
+						<a href="controladoria.html" onclick="location.href = './controladoria.html';" class="photostack-img"><img src="./images/slide/s5.jpg" alt="img01"></a>
 						<figcaption>
 							<h2 class="photostack-title">Controladoria</h2>
                             <div class="photostack-back">
@@ -64,7 +88,7 @@
 						</figcaption>
 					</figure>
 					<figure style="transform: translate(514.5px, 20px) rotate(-3deg);">
-						<a href="http://goo.gl/fhwlSP" class="photostack-img"><img src="./images/slide/s14.jpg" alt="img02"></a>
+						<a href="captacoesMercado.html" onclick="location.href = './captacoesMercado.html';" class="photostack-img"><img src="./images/slide/s14.jpg" alt="img02"></a>
 						<figcaption>
 							<h2 class="photostack-title">Captações de mercado</h2>
 							<div class="photostack-back">
@@ -73,7 +97,7 @@
 						</figcaption>
 					</figure>
 					<figure data-shuffle-iteration="3" style="transform: translate(194.5px, -160px) rotate(35deg);">
-						<a href="http://goo.gl/Jmvr4u" class="photostack-img"><img src="./images/slide/s16.jpg" alt="img03"></a>
+						<a href="emprestimos.html" onclick="location.href = './emprestimos.html';" class="photostack-img"><img src="./images/slide/s16.jpg" alt="img03"></a>
 						<figcaption>
 							<h2 class="photostack-title">Empréstimos e financiamentos</h2>
                             <div class="photostack-back">
@@ -82,7 +106,7 @@
 						</figcaption>
 					</figure>
 					<figure data-shuffle-iteration="2" style="transform: translate(354.5px, 20px) rotate(11deg);">
-						<a href="http://goo.gl/Ms7VDl" class="photostack-img"><img src="./images/slide/s3.jpg" alt="img06"></a>
+						<a href="servicosBancarios.html" onclick="location.href = './servicosBancarios.html';" class="photostack-img"><img src="./images/slide/s3.jpg" alt="img06"></a>
 						<figcaption>
 							<h2 class="photostack-title">Serviços bancários</h2>
                             <div class="photostack-back">
@@ -91,7 +115,7 @@
 						</figcaption>
 					</figure>
                     <figure style="transform: translate(34.5px, 380px) rotate(-17deg);">
-						<a href="http://goo.gl/NJ1Dhf" class="photostack-img"><img src="./images/slide/s18.jpg" alt="img05"></a>
+						<a href="canaisDigitais.html" onclick="location.href = './canaisDigitais.html';" class="photostack-img"><img src="./images/slide/s18.jpg" alt="img05"></a>
 						<figcaption>
 							<h2 class="photostack-title">Canais digitais</h2>
                             <div class="photostack-back">
@@ -100,7 +124,7 @@
 						</figcaption>
 					</figure>
 					<figure data-shuffle-iteration="2" style="transform: translate(-125.5px, 20px) rotate(3deg);">
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="./images/slide/s8.jpg" alt="img01"></a>
+						<a href="suporteCadastral.html" onclick="location.href = './suporteCadastral.html';" class="photostack-img"><img src="./images/slide/s8.jpg" alt="img01"></a>
 						<figcaption>
 							<h2 class="photostack-title">Suporte e apoio cadastral</h2>
                             <div class="photostack-back">
@@ -109,7 +133,7 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy="" style="transform: translate(994.5px, -160px) rotate(-30deg);">
-						<a href="https://tympanus.net/Development/ScatteredPolaroidsGallery/#" class="photostack-img"><img src="./images/slide/s9.jpg" alt="img07"></a>
+						<a href="infoSisLegais.html" onclick="location.href = './infoSisLegais.html';" class="photostack-img"><img src="./images/slide/s9.jpg" alt="img07"></a>
 						<figcaption>
 							<h2 class="photostack-title">Informativos e sistemas legais</h2>
                             <div class="photostack-back">
@@ -118,7 +142,7 @@
 						</figcaption>
 					</figure>
                     <figure data-shuffle-iteration="2" style="transform: translate(-125.5px, 20px) rotate(3deg);">
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="./images/slide/s13.jpg" alt="img01"></a>
+						<a href="gestaoRisco.html" onclick="location.href = './gestaoRisco.html';" class="photostack-img"><img src="./images/slide/s13.jpg" alt="img01"></a>
 						<figcaption>
 							<h2 class="photostack-title">Gestão de risco</h2>
                             <div class="photostack-back">
@@ -236,10 +260,11 @@
 			<nav><span></span><span></span><span></span><span></span><span></span><span></span><span></span></nav></section>
         <section id="photostack-3" class="">
 				<div>
-					<p>testando 1..2... testando</p>
+					
 				</div>
 			<nav><span class="current flippable"></span><span></span><span></span><span></span><span></span><span></span></nav></section>
     </div>
+    <div id="rodape"></div>
     <!-- /container -->
     <script src="./Scattered Polaroids Gallery_files/classie.js.download"></script>
     <script src="./Scattered Polaroids Gallery_files/photostack.js.download"></script>
@@ -262,8 +287,6 @@
             }
         });
 		</script>
-    <!-- For the demo ad only -->
-    <script src="https://tympanus.net/codrops/adpacks/demoad.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 </body>
 </html>
