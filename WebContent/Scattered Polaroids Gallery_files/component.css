@@ -189,7 +189,7 @@
 
 /* Button on photostack container */
 .js .photostack::after {
-	content: 'Veja Nossas Solucoes';
+	content: 'Clique aqui e vire as cartas';
 	font-weight: 400;
 	position: absolute;
 	border: 3px solid #fff;
