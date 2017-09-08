@@ -10,16 +10,12 @@
 <meta name="description" content="PD Case">
 <link rel="shortcut icon" href="./images/favicon.jpg" />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-
 <script type="text/javascript" src="./menuProperties.js"></script>
-
 <!-- Styles -->
-<link rel="stylesheet"
-	href="./css/normalize.css"
-	type="text/css" media="screen,projection" />
-<link rel="stylesheet"
-	href="./css/styles.php.css"
-	type="text/css" media="screen,projection" />
+<link rel="stylesheet" href="./css/normalize.css" type="text/css"
+	media="screen,projection" />
+<link rel="stylesheet" href="./css/styles.php.css" type="text/css"
+	media="screen,projection" />
 <link rel="stylesheet" type="text/css" href="./css/layout2.css"
 	media="screen" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,56 +40,97 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
 <link href="./css/menuResp.css" rel="stylesheet">
-	<link href="./css/colunas.css" rel="stylesheet">
+<link href="./css/prodserv.css" rel="stylesheet">
 
 <!-- JQuery Library -->
 <script type="text/javascript" src="./menuProperties.js"></script>
 <script type="text/javascript" src="./js/contato.js"></script>
-
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-<script
-	src="./js/jquery.min.js"></script>
+<script src="./js/jquery.min.js"></script>
 <script src="js/jquery.slicknav.min.js"></script>
-
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-<script type="text/javascript"
-	src="./js/global.js"></script>
 <script type="text/javascript" src="./js/global.js"></script>
-<script type="text/javascript" src="./js/google.js"></script>
-<script type="text/javascript"
-	src="./js/jquery.isotope.min.js"></script>
-<script type="text/javascript"
-	src="./js/jquery.cycle2.min.js"></script>
-<script type="text/javascript"
-	src="./js/jquery.cycle2.swipe.min.js"></script>
-<script type="text/javascript"
-	src="./js/ios6fix.js"></script>
-<script type="text/javascript" src="./js/passa.js"></script>
+<script type="text/javascript" src="./js/global.js"></script>
 
+<script type="text/javascript" src="./js/google.js"></script>
+<script type="text/javascript" src="./js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="./js/ios6fix.js"></script>
+<script type="text/javascript" src="./js/passa.js"></script>
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-
-
 <script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./js/global.js"></script>
-<script type="text/javascript" src="./js/jquery.lazyload.js"></script>
-<script type="text/javascript" src="./js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="./js/jquery.scrollstop.js"></script>
-<script type="text/javascript" src="./js/jquery.scrollstop.min.js"></script>
-<script type="text/javascript" src="./js/jquery.isotope.min.js"></script>
+
 <script type="text/javascript" src="./js/menuResp.js"></script>
+
+<style>
+.container {
+    position: relative;
+    width: 20%;
+    float:left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-25%, -50%);
+  -ms-transform: translate(-25%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: black;
+  color: gold;
+  font-size: 16px;
+  text-align:center;
+  padding: 3%;
+}
+p 
+{
+text-align:center;
+}
+@media only screen and (max-width: 720px) {
+.container {
+    position: relative;
+    width: 90%;
+}
+.text2 {
+  font-size: 14px;
+  }
+  
+}
+</style>
 <link rel="stylesheet" href='./css/index4.css' type='text/css' />
-	<link rel="stylesheet" id="4k-icons-css" href='http://innovea.com.br//wp-content/themes/TheFox/includes/4k-icons/css/icon-styles.css?ver=2.9'
-		type='text/css' media="all" />
-		<link rel="stylesheet" type="text/css" href="./css/default.css" />
+    <link rel="stylesheet" id="4k-icons-css" href='http://innovea.com.br//wp-content/themes/TheFox/includes/4k-icons/css/icon-styles.css?ver=2.9'
+        type='text/css' media="all" />
+        <link rel="stylesheet" type="text/css" href="./css/default.css" />
 		<link rel="stylesheet" type="text/css" href="./css/component.css" />
 		<script src="./js/modernizr.custom.js"></script>
-		<script src="js/jquery.dlmenu.js"></script>
+        <script src="js/jquery.dlmenu.js"></script>
 		<script>
 		    $(function () {
 		        $('#dl-menu').dlmenu({
@@ -106,14 +143,14 @@
 
 <body class="home page-template-default page page-id-1584 page-parent wpb-js-composer js-comp-ver-4.11.1 vc_responsive">
 
-	<div id="header" style="z-index:999999999999; " class="demo-2">	
-		<span
-			style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:6px"
-			onclick="openNav()">
-			<a style="z-index: 99999999999999999999" href='./index.html' onclick="location.href = './index.html';"> 
-			<img  src='./images/logo-footer.png' class='img-responsive' />
-							</a>
-		</span>
+    <div id="header" style="z-index:999999999999; " class="demo-2">	
+        <span
+		    style="position: absolute; top: 0%; left: 0%; background-color:black; width: 100%; padding:6px"
+		    onclick="openNav()">
+		    <a style="z-index: 99999999999999999999" href='./index.html' onclick="location.href = './index.html';"> 
+            <img  src='./images/logo-footer.png' class='img-responsive' />
+						    </a>
+	    </span>
 		<div class="clearfix">
             <div class="column">
                 <div id="dl-menu" class="dl-menuwrapper">
@@ -280,53 +317,56 @@
                 </div>
             </div>
         </div>
-	</div>
-
-<!--
-<div id="menu"></div>
--->
-
+    </div>
 
 
 <!-- SLIDE -->
 <div id="slideshow-outer" style="padding-top: 76px;">
-	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-speed="1000" data-cycle-timeout="7000"
-		data-cycle-slides="div" data-cycle-prev="#slide-prev" data-cycle-next="#slide-next"
-		data-cycle-overlay="#slide-title" data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
+	<div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+		data-cycle-speed="1000" data-cycle-timeout="7000"
+		data-cycle-slides="div" data-cycle-prev="#slide-prev"
+		data-cycle-next="#slide-next" data-cycle-overlay="#slide-title"
+		data-cycle-overlay-template="<div><p><a href='{{link}}'>{{title}}</a></p></div>"
 		data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
-		<div id="divlink" onclick="window.location='./index.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./images/pdcaseLogo.png) no-repeat center center;
-			background-size: cover;">
+		<div id="divlink" onclick="window.location='./index.html';"
+			class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./images/pdcaseLogo.png) no-repeat center center; background-size: cover;">
 		</div>
-		<div id="divlink" onclick="window.location='./portalCredito.html';" class="light"
-			data-cycle-title="" data-cycle-link="/project/huskies" style="background: url(./editando/pd_credito.png) no-repeat center center;
-			background-size: cover;">
+		<div id="divlink" onclick="window.location='./portalCredito.html';"
+			class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_credito.png) no-repeat center center; background-size: cover;">
 		</div>
-		<div id="divlink" onclick="window.location='./pdBank.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./editando/pd_bank2.png) no-repeat center center;
-			background-size: cover;">
+		<div id="divlink" onclick="window.location='./pdBank.html';"
+			class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_bank2.png) no-repeat center center; background-size: cover;">
 		</div>
-        <div id="divlink" onclick="window.location='./pdPositivo.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./editando/pd_positivo.jpg) no-repeat center center;
-			background-size: cover;">
+		<div id="divlink" onclick="window.location='./pdPositivo.html';"
+			class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_positivo.jpg) no-repeat center center; background-size: cover;">
 		</div>
 		<div id="div3" onclick="window.location='./pdBacenJud.html';" class="light" data-cycle-title=""
 			data-cycle-link="/project/huskies" style="background: url(./editando/pd_bacen.png) no-repeat center center;
 			background-size: cover;">
 		</div>
-		<div id="divlink" onclick="window.location='./pdCTA.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./editando/pd_cta.png) no-repeat center center;
-			background-size: cover;">
+		<div id="divlink" onclick="window.location='./pdCTA.html';"
+			class="light" data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pd_cta.png) no-repeat center center; background-size: cover;">
 		</div>
-		<div id="div1" onclick="window.location='./pdGAR.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./editando/pdgar_banner.png) no-repeat center center;
-			background-size: cover;">
-		</div>
-		<div id="div2" onclick="window.location='./pdSRC.html';" class="light" data-cycle-title=""
-			data-cycle-link="/project/huskies" style="background: url(./editando/pdSGC_banner.jpg) no-repeat center center;
-			background-size: cover;">
-		</div>
-                <div id="div4" onclick="window.location='./creditoComercial.html';"
+		<div id="div1" onclick="window.location='./pdGAR.html';" class="light"
+			data-cycle-title=""
+			data-cycle-link="/project/huskies"
+			style="background: url(./editando/pdgar_banner.png) no-repeat center center; background-size: cover;">
+			<div id="div2" onclick="window.location='./pdSRC.html';"
+				class="light" data-cycle-title=""
+				data-cycle-link="/project/huskies"
+				style="background: url(./editando/pdSGC_banner.jpg) no-repeat center center; background-size: cover;">
+			</div>
+                    <div id="div4" onclick="window.location='./creditoComercial.html';"
 			class="light" data-cycle-title=""
 			data-cycle-link="/project/huskies"
 			style="background: url(./editando/pd_credico.png) no-repeat center center; background-size: cover;">
@@ -342,144 +382,131 @@
 			style="background: url(./editando/banner_mobile.jpg) no-repeat center center; background-size: cover;">
 		</div>
 
+		</div>
 	</div>
 	<div id="hero-statement">
 		<div>
-			<div>
-			</div>
+			<div></div>
 		</div>
 	</div>
-	<div id="slide-title">
-	</div>
+	<div id="slide-title"></div>
 	<!-- slide controls -->
 	<div class="slide-nav-prev">
 		<div id="slide-prev" class="slide-nav">
-			<a class="btn btn-circle" href="#">
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			<a class="btn btn-circle" href="#"> <img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
 		</div>
 	</div>
 	<div class="slide-nav-next">
 		<div id="slide-next" class="slide-nav">
-			<a class="btn btn-circle" href="#">
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
+			<a class="btn btn-circle" href="#"> <img
+				src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a>
 		</div>
 	</div>
 </div>
 <!-- FIM DO SLIDE -->
-<br />
+<span
+		style="position: absolute; top: 0%; left: 0%; z-index: 999999; background-color:black; width: 100%; padding:6px"
+		onclick="openNav()">
+		<a href='./index.html'> <img src='./images/logo-footer.png'
+							class='img-responsive' />
+						</a>
+	</span>
+	<!--<span
+		style="font-size: 30px; cursor: pointer; position: absolute; top: 2%; left: 3%; z-index: 999999;"
+		onclick="openNav()">
+		
+		<img alt="menu" src="./images/menu.png"><!-- img
+		alt="home" src="./images/logo-pd.png"-->
+	<!--
+	</span>-->
 <div id="main"  onclick='closeNav()'>
+	<article id="node-2000" class="node node-product-page clearfix">
 
-<article id="node-2000" class="node node-product-page clearfix">
-<div class="widnr second">
-			<div class="span8 offset2 text-center">
-				<h2>Beneficiários do INSS</h2>
-                <h4>Rede de Pagamentos da Previdência Social</h4>
-                <p>O conjunto de benefícios pagos pelo INSS em todo o país alcança a magnitude de mais de 25 milhões de transações/mês. A previdência social é o maior agente pegador, e se destaca pelo alcance em todo território nacional.</p>
-                <p>Ao oferecer alternativas de pagamento do INSS, a instituição se habilita a participar de todos os processos vigentes do fluxo previdenciário, que possui histórico de garantia de crédito, apesar do crescente déficit.</p>
-              <!--  <p>A PD Case possui larga experiência em implementar as soluções exigidas pelo INSS, tanto como agente pagador de benefícios, quando arrecadador de GPS, que são fatores obrigatórios e simultâneos na operação. </p> -->
-           </div>
+		<div id="vaibudega"></div>
+		<div class="widnr second">
 			
-	</div>
-
-    <div class="linha">
-	<div class="coluna-5">
-		<img src="./images/dataprev.jpg" alt="teste"/>
-		</div>
-		<div class="coluna-2"></div>
-		<div class="coluna-4 direita">
-        <br /><h2>DATAPREV</h2>
-			  <p>O BENEFICIÁRIO DO INSS atende os requisitos operacionais de tratamento de dados das REMESSAS e arquivo de RETORNO processados pela DATAPREV, empresa de tecnologia ligada ao MPAS – Ministério de Previdência e Assistência Social.</p>    
-         </div>
-		<div class="coluna-1"></div>
-	 
-	</div>
-
-  <div class="linha">
-		<div class="coluna-1"></div>
-		<div class="coluna-4 esquerda">
-        <br /><br /><h2>Criando Oportunidades</h2>
-			<p>A partir dos dados de beneficiários, a instituição pode-se valer de informações financeiras para oferecer produtos próprios, ou ainda fomentar a participação em mercados localizados devido à concentração de recursos nos cinco primeiros dias úteis de cada mês.</p>
-					
-		</div>
-		<div class="coluna-2"></div>
-	 <div class="coluna-5">
-		<img src="./images/mobile4.jpg" alt="teste"/>
-		</div>
-	</div>
-
+				<div class="row-fluid">
+					<div class="span8 offset2 text-center">
+						<h2>Conheça o seu Cliente</h2>
+                        <h4>Conhecendo e Avaliando</h4>
+                        <p>As melhores práticas difundidas no mercado financeiro estabelecem regras e procedimentos bem definidos que objetivam conhecer a origem, constituição patrimonial de clientes dentro das ocupações e atividades exercidas, tendo o vista todos os demais relacionados.
+                        </p><p>
+                        O enfoque de conhecer melhor o cliente permite a aplicação de política ostensiva de verificação de risco, evitando que a institução seja compactuada com ações de crimes financeiros.
+                        </p><p>
+                        Dentre os módulos aplicados no processo de conhecimento dos clientes são disponibilizados.
+                        </p>
 
 
 <!--
-	<div class="widnr second">
-			<div class="span8 offset2 text-center">
-				<h2>PD INSS</h2>
-                <h4>Rede de Pagamentos da Previdência Social</h4>
-                <p>O conjunto de benefícios pagos pelo INSS em todo o país alcança a magnitude de mais de 25 milhões de transações/mês. A previdência social é o maior agente pegador, e se destaca pelo alcance em todo território nacional.</p>
-                <p>Ao oferecer alternativas de pagamento do INSS, a instituição se habilita a participar de todos os processos vigentes do fluxo previdenciário, que possui histórico de garantia de crédito, apesar do crescente déficit.</p>
-                <p>A PD Case possui larga experiência em implementar as soluções exigidas pelo INSS, tanto como agente pagador de benefícios, quando arrecadador de GPS, que são fatores obrigatórios e simultâneos na operação. </p>
-                <br />
-                <h2 style="font-size:27px">Beneficiários do INSS</h2>
-               
-			</div>
-			
-	</div>
+						<p>Gestão de pessoas é um conceito empregado às estratégias que objetivam atrair, reter, potencializar e administrar o capital humano de uma empresa. As empresas que a possuem entre suas políticas internas são aquelas que formam profissionais mais bem qualificados e motivados para desempenhar as suas funções.</p>
+                        <p>A gestão de pessoas é comumente confundida com a atuação do setor de Recursos Humanos. No entanto, o RH apenas disponibiliza as ferramentas e mecanismos necessários à atuação dos profissionais em uma empresa. Já a gestão das pessoas utiliza esses e outros recursos em ações que valorizem os colaboradores.</p>
+                        -->
+					</div>
+				</div>
 
-    <div class="linha">
-	<div class="coluna-5">
-		<img src="./images/inssteste.png" alt="teste"/>
 		</div>
-		<div class="coluna-2"></div>
-		<div class="coluna-4 direita">
-			  <p>O BENEFICIÁRIO DO INSS atende os requisitos operacionais de tratamento de dados das REMESSAS e arquivo de RETORNO processados pela DATAPREV, empresa de tecnologia ligada ao MPAS – Ministério de Previdência e Assistência Social.
-</p><p>A partir dos dados de beneficiários, a instituição pode-se valer de informações financeiras para oferecer produtos próprios, ou ainda fomentar a participação em mercados localizados devido à concentração de recursos nos cinco primeiros dias úteis de cada mês.
-</p><p>A DATAPREV envia mensalmente arquivos de dados com pagamentos programados para os beneficiários encarregados por banco. Todos esses arquivos são processados via REMESSA DE CRÉDITOS.
-</p>
-                    
+
+        
+<a  href="./cadastroPessoas.html" onclick="location.href = './cadastroPessoas.html';">
+<div class="container">
+  <img src="images/treco2.jpg" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text2">Cadastro de Pessoas</div>
+    <p>Permite parametrizar as exigências de informações de clientes em função da intenção de contrstação de produtos ou serviços quando nas visitas de negócios.</p>
+  </div>
+</div>
+</a>
+<div class="container">
+  <img src="images/treco.jpg" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text2">Impedidos de Operar</div>
+    <p>A concessão de operações de crédito requer verificação constante de restrições legais ou judiciais sobre a situação das pessoas envolvidas na contratação.</p>
+  </div>
+</div>
+<div class="container">
+  <img src="images/O68BK10.jpg" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text2">Documentação e Conformidade</div>
+    <p>Gerenciar e manter os documentos do cliente, facilita o dia-a-dia e a sistemática necessária para conhecimento de situação real do cliente.</p>
+  </div>
+</div>
+<div class="container">
+  <img src="images/gestão de riscos.jpg" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text2">Risco Pessoa/Crédito</div>
+    <p>É essencial o gerenciamento e manutenção dos documentos do cliente, facilitando a sistemática necessária para conhecimento da situação real do cliente.</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="images/avaliação economica financeira.jpg" alt="Avatar" class="image">
+  <div class="middle">
+    <div class="text2">Avaliação Econômica/Financeira</div>
+    <p>A sistemática usual de avaliação dos dados objetivos sobre a capacidade financeira de cliente em honrar compromissos futuros.</p>
+  </div>
+</div> 
+
+<!--
+		<div class="widnr second">
+        
+				<div class="row-fluid">
+					<div class=" text-center">
+                        <a  href="./cadastroPessoas.html"><button class="prodserv button2" onclick="location.href = './cadastroPessoas.html';">Cadastro de Pessoas</button></a>
+                        <a href="./impedidosOperar.html"><button class="prodserv button2" onclick="location.href = './impedidosOperar.html';">Impedidos de Operar</button></a>
+                        <a href="documentacaoConformidade.html"><button class="prodserv button2" onclick="location.href = './documentacaoConformidade.html';">Documentação & Conformidade</button></a>
+                       --><!-- <a href="pdGarantias.html"><button class="prodserv button2" onclick="location.href = './pdGarantias.html';">Garantias</button></a> -->
+                     <!--   <a href="./riscoPessoaCredito.html"><button class="prodserv button2" onclick="location.href = './riscoPessoaCredito.html';">Risco Pessoa/Crédito</button></a>
+                        <a href="./pdAEF.html"><button class="prodserv button2" onclick="location.href = './pdAEF.html';" >Avaliação Econômica e Financeira</button></a>
+                        <br /><br /><br /><br />
+                    </div>
+                </div>
+            
         </div>
-		<div class="coluna-1"></div>
-	 
-	</div>
+        -->
+	</article>
 
-  <div class="linha">
-		<div class="coluna-1"></div>
-		<div class="coluna-4 esquerda">
-			<br /><p>O banco por sua vez pode alocar serviços de pagamentos parciais, controlando o saldo remanescente do beneficiário.
-</p><p>O INSS exige que todos os créditos enviados sejam retornados independentemente desses terem sido sacados. Dessa forma deve o tratamento da data limite para saque, ou eventualmente correção devido a IRREGULARIDADE constatada.
-</p><p>OS BENEFICIÁRIOS DO INSS ainda permite fazer uma programação de aplicação automática via AGENDAMENTOS, no qual o beneficiário possa acompanhar perda decorrente de valores não sacados.
-</p>
-					
-		</div>
-		<div class="coluna-2"></div>
-	 <div class="coluna-5">
-		<img src="./images/inss2teste.png" alt="teste"/>
-		</div>
-	</div>
-
-     <div class="linha">
-	<div class="coluna-5">
-		<img src="./images/inss3teste.png" alt="teste"/>
-		</div>
-		<div class="coluna-2"></div>
-		<div class="coluna-4 direita">
-			<h2>Pagamentos e Benefícios</h2>
-					<p>O ciclo começa a partir da concessão pelo INSS. Esse entendimento é crucial para alternativa de concessão de cartões magnéticos, abertura de CONTA CORRENTE e até averbação para concessão de CRÉDITO CONSIGNADO.
-                    <br />O DATAPREV envia os créditos de todos os beneficiários vinculados à instituição e o BENEFICIÁRIO DO INSS disponibiliza, diariamente, o saldo a ser creditado para saque.
-                    <br />O fechamento diário junto ao INSS comtempla o montante arrecadado de GPS, que somente deve ser liquidada pela diferença. Neste contexto o banco deve ser habilitado a receber guia de pagamentos. Essa funcionalidade é suportada pela ARRECADAÇÃO, com prestação de contas feita via INTERCÂMBIO MAGNÉTICO.
-                    </p>
-                    
-		</div>
-		<div class="coluna-1"></div>
-	 
-	</div>
--->
- 
-
-</article>
-
-
-
-<div id="rodape"></div>
+	<div id="rodape"></div>
 </div>
 </body>
-
 </html>
