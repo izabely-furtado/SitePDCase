@@ -90,6 +90,11 @@
         width: 35%;
         margin: 4px 0px;
     }
+    .prodserv2 
+    {
+        width: 33%;
+        margin: 4px 0px;
+    }
     .prodserv5 
     {
         width:100%;
@@ -112,6 +117,11 @@
     .prodserv 
     {
         width: 70%;
+        margin: 4px 0px;
+    }
+    .prodserv2 
+    {
+        width: 80%;
         margin: 4px 0px;
     }
     .prodserv5 
