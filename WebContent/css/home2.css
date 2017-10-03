@@ -135,8 +135,10 @@
 	#banner2 h1 span {
 		width: 100%;
 	}
+	
+	
 }
-
+/*IPAD*/
 @media screen and (max-width: 800px) {
 	a {
 		font-size: 10px;
@@ -154,17 +156,35 @@
 		font-size: 80px;
 	}
 	#banner2 p {
-		font-size: 11px;
-		padding-top: 50px; /**/
-		line-height: 117px; /**/
-		width: 100%;
-		left: 0;
-		margin: 0;
-		letter-spacing: 0.16em
+		font-size: 21px;
+        padding-top: 55px;
+        line-height: 218px;
+        width: 100%;
+        left: 0;
+        margin: 0;
+        letter-spacing: 0.01em;
 	}
 	#banner2 h1 span {
 		width: 100%;
 	}
+	#banner2 h1 .conhecimento {
+	    letter-spacing: 0.0em;
+	    font-size: 114px;
+	    padding-top: 35px;
+    }
+	
+	#banner2 h1 .aplicado {
+	    letter-spacing: 0.05em;
+	    font-size: 111px;
+    }
+
+    #banner2 h1 .tecnologia {
+	    letter-spacing: 0.0em;
+	    font-size: 74px;
+	    padding-bottom: 35px;
+    }
+
+   
 }
 
 body {
@@ -173,7 +193,8 @@ body {
 	background-size: contain;
 }
 
-@media screen and (min-width: 320px) and (max-width: 640px) {
+/*galaxy 5S*/
+@media screen and (min-width: 320px) and (max-width: 360px) {
 	a {
 		font-size: 9px;
 	}
@@ -206,7 +227,8 @@ body {
 	}
 	#banner2 p span.me {
 		font-weight: 900; /*NEGRITO*/
-		margin-bottom: 30px;
+		margin-bottom: 92.4px;
+		margin-top: 92.4px;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
@@ -214,7 +236,7 @@ body {
 		letter-spacing:0;
 		line-height:2.5;
 */
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: 400;
 		text-transform: none;
 		letter-spacing: 0;
@@ -224,7 +246,123 @@ body {
 	#banner2 p span.where {
 		text-transform: none;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 20px;
+		letter-spacing: 0;
+		line-height: 1.25;
+	}
+}
+/*iPhone 6*/
+@media screen and (min-width: 361px) and (max-width: 380px) {
+	a {
+		font-size: 9px;
+	}
+	#banner2 h1 {
+		font-size: 60px;
+		width: 100%;
+		text-align: center;
+		display: none;
+	}
+	#banner2 {
+		width: 100%;
+	}
+	#banner2 h1 span {
+		width: 100%;
+	}
+	#banner2 p {
+		width: 100%;
+		font-size: 44px;
+		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
+		text-transform: uppercase;
+		margin: 0 auto 0;
+		line-height: 1;
+		padding: 0 30px;
+		text-transform: uppercase;
+		letter-spacing: -.035em;
+		text-align: left;
+		position: static;
+		color: #000000;
+		font-weight: 500;
+	}
+	#banner2 p span.me {
+		font-weight: 900; /*NEGRITO*/
+		margin-bottom: 99px;
+		margin-top: 99px;
+	}
+	#banner2 p span.what {
+		/*		font-weight:600;
+		font-size:16px;
+		letter-spacing:0;
+		line-height:2.5;
+*/
+		font-size: 22px;
+		font-weight: 400;
+		text-transform: none;
+		letter-spacing: 0;
+		line-height: 1;
+		margin: 0;
+	}
+	#banner2 p span.where {
+		text-transform: none;
+		font-weight: 400;
+		font-size: 22px;
+		letter-spacing: 0;
+		line-height: 1.25;
+	}
+}
+/*Nexus 5x, nexus 6P e iPhone 6+ */
+@media screen and (min-width: 381px) and (max-width: 640px) {
+	a {
+		font-size: 9px;
+	}
+	#banner2 h1 {
+		font-size: 60px;
+		width: 100%;
+		text-align: center;
+		display: none;
+	}
+	#banner2 {
+		width: 100%;
+	}
+	#banner2 h1 span {
+		width: 100%;
+	}
+	#banner2 p {
+		width: 100%;
+		font-size: 50px;
+		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
+		text-transform: uppercase;
+		margin: 0 auto 0;
+		line-height: 1;
+		padding: 0 30px;
+		text-transform: uppercase;
+		letter-spacing: -.035em;
+		text-align: left;
+		position: static;
+		color: #000000;
+		font-weight: 500;
+	}
+	#banner2 p span.me {
+		font-weight: 900; /*NEGRITO*/
+		margin-bottom: 113.5px;
+		margin-top: 113.5px;
+	}
+	#banner2 p span.what {
+		/*		font-weight:600;
+		font-size:16px;
+		letter-spacing:0;
+		line-height:2.5;
+*/
+		font-size: 22px;
+		font-weight: 400;
+		text-transform: none;
+		letter-spacing: 0;
+		line-height: 1;
+		margin: 0;
+	}
+	#banner2 p span.where {
+		text-transform: none;
+		font-weight: 400;
+		font-size: 22px;
 		letter-spacing: 0;
 		line-height: 1.25;
 	}
@@ -247,13 +385,12 @@ body {
 		width: 100%;
 	}
 	#banner2 p {
-		width: 160px;
-		font-size: 21px;
+		font-size: 36px;
 		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -263,7 +400,8 @@ body {
 	}
 	#banner2 p span.me {
 		font-weight: 900; /*NEGRITO*/
-		margin-bottom: 30px;
+		margin-bottom: 62px;
+		margin-top: 62px;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
@@ -271,7 +409,7 @@ body {
 		letter-spacing:0;
 		line-height:2.5;
 */
-		font-size: 11px;
+		font-size: 20px;
 		font-weight: 400;
 		text-transform: none;
 		letter-spacing: 0;
@@ -281,7 +419,7 @@ body {
 	#banner2 p span.where {
 		text-transform: none;
 		font-weight: 400;
-		font-size: 11px;
+		font-size: 20px;
 		letter-spacing: 0;
 		line-height: 1.25;
 	}
