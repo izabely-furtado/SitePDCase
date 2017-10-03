@@ -9014,9 +9014,24 @@ dd {
 	font-size: 14px;
 	position: absolute;
 	bottom: 51px;
-	left: 50%;
-	width: 50%;
+	left: 30%;
+    width: 93%;
 	margin-left: -25%;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .rd_tm_3 .tm_info 
+    {
+        bottom: 21px;
+    }
+}
+@media screen and (max-width: 400px) 
+{
+    .rd_tm_3 .tm_info 
+    {
+        bottom: 11px;
+    }
 }
 .rd_tm_3 .tm_image {
 	height: 114px;
