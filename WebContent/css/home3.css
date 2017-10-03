@@ -126,7 +126,7 @@
 	}
 	#banner3 p {
 		font-size: 11px;
-		padding-top: 60px; /**/
+		/*padding-top: 60px; /**/
 		line-height: 127px; /**/
 		width: 100%;
 		left: 0;
@@ -138,7 +138,7 @@
 	}
 }
 /*IPAD*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 641px) and (max-width: 800px) {
 	a {
 		font-size: 10px;
 	}
@@ -216,7 +216,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -228,6 +228,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 74px;
 		margin-top: 74px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner3 p span.what {
 		/*		font-weight:600;
@@ -274,7 +285,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -286,6 +297,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 79.4px;
 		margin-top: 79.4px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner3 p span.what {
 		/*		font-weight:600;
@@ -333,7 +355,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -345,6 +367,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 66px;
 		margin-top: 66px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner3 p span.what {
 		/*		font-weight:600;
@@ -402,6 +435,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 59px;
 		margin-top: 59px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner3 p span.what {
 		/*		font-weight:600;

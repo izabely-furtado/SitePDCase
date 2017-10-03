@@ -139,7 +139,7 @@
 	
 }
 /*IPAD*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 641px) and (max-width: 800px) {
 	a {
 		font-size: 10px;
 	}
@@ -217,7 +217,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -229,6 +229,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 92.4px;
 		margin-top: 92.4px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
@@ -275,7 +286,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -287,6 +298,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 99px;
 		margin-top: 99px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
@@ -333,7 +355,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		padding: 0 30px;
+		padding-left: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -345,6 +367,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 113.5px;
 		margin-top: 113.5px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
@@ -402,6 +435,17 @@ body {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 62px;
 		margin-top: 62px;
+		width: 100%;
+	    background: url(../images/home/test41.gif) fixed;
+	    -webkit-text-fill-color: transparent;
+	    text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    display: block;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 	#banner2 p span.what {
 		/*		font-weight:600;
