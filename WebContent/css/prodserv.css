@@ -139,6 +139,7 @@
         padding: 6px 1px 0px 2px;
     }
 }
+
 @media only screen and (max-width: 942px)
 {
     .prodserv 
@@ -148,8 +149,9 @@
     }
     .prodserv2 
     {
-        width: 33%;
-        margin: 4px 0px;
+        width: 46%;
+        margin: 4px 2px;
+        padding: 13px 2px 13px 2px;
     }
     .prodserv5 
     {
@@ -167,7 +169,64 @@
         margin: 4px 0px;
     }
 }
-
+@media only screen and (max-width: 777px)
+{
+    .prodserv 
+    {
+        width: 35%;
+        margin: 4px 0px;
+    }
+    .prodserv2 
+    {
+        width: 46%;
+        margin: 4px 2px;
+        padding: 13px 70px 13px 70px;
+    }
+    .prodserv5 
+    {
+        width:100%;
+        margin: 4px 0px;
+    }
+    .prodserv4 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+    .prodserv3 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+}
+@media only screen and (max-width: 555px)
+{
+    .prodserv 
+    {
+        width: 35%;
+        margin: 4px 0px;
+    }
+    .prodserv2 
+    {
+        width: 46%;
+        margin: 4px 2px;
+        padding: 13px 2px 13px 2px;
+    }
+    .prodserv5 
+    {
+        width:100%;
+        margin: 4px 0px;
+    }
+    .prodserv4 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+    .prodserv3 
+    {
+        width: 100%;
+        margin: 4px 0px;
+    }
+}
 @media only screen and (max-width: 404px)
 {
     .prodserv 
@@ -178,7 +237,7 @@
     .prodserv2 
     {
         width: 80%;
-        margin: 4px 0px;
+        margin: 4px 4px;
     }
     .prodserv5 
     {
