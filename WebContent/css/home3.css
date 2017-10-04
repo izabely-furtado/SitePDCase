@@ -126,7 +126,7 @@
 	}
 	#banner3 p {
 		font-size: 11px;
-		/*padding-top: 60px; /**/
+		padding-top: 60px; /**/
 		line-height: 127px; /**/
 		width: 100%;
 		left: 0;
@@ -223,6 +223,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner3 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -292,6 +293,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner3 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -362,6 +364,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 50px;
 	}
 	#banner3 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -423,7 +426,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		
+		padding-top: 0px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;

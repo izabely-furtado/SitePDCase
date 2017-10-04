@@ -83,6 +83,62 @@
     /*font-weight:bold;*/
 }
 
+@media only screen and (max-width: 1337px)
+{
+    .prodserv2 
+    {
+        width: 9.5%;
+        padding: 3px 3px 3px 3px;
+    }
+}
+@media only screen and (max-width: 1261px)
+{
+    .prodserv2 
+    {
+        width: 10%;
+        padding: 4px 4px 4px 4px;
+    }
+}
+@media only screen and (max-width: 1218px)
+{
+    .prodserv2 
+    {
+        width: 11.5%;
+        padding: 9px 9px 8px 8px;
+    }
+}
+@media only screen and (max-width: 1138px)
+{
+    .prodserv2 
+    {
+        width: 11.5%;
+        padding: 9px 6px 8px 7px;
+    }
+}
+@media only screen and (max-width: 1102px)
+{
+    .prodserv2 
+    {
+        width: 11.3%;
+        padding: 9px 4px 8px 3px;
+    }
+}
+@media only screen and (max-width: 1081px)
+{
+    .prodserv2 
+    {
+        width: 11.3%;
+        padding: 9px 2px 8px 2px;
+    }
+}
+@media only screen and (max-width: 1054px)
+{
+    .prodserv2 
+    {
+        width: 11.5%;
+        padding: 6px 1px 0px 2px;
+    }
+}
 @media only screen and (max-width: 942px)
 {
     .prodserv 

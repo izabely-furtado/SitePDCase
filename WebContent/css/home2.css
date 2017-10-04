@@ -224,6 +224,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner2 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -293,6 +294,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner2 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -362,6 +364,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner2 p span.me {
 		font-weight: 900; /*NEGRITO*/
@@ -423,7 +426,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		
+		padding-top: 25px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;

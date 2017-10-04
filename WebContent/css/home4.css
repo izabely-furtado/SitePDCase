@@ -212,6 +212,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner4 p span.me 
 	{
@@ -283,6 +284,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner4 p span.me 
 	{
@@ -354,6 +356,7 @@ body {
 		position: static;
 		color: #000000;
 		font-weight: 500;
+		padding-top: 0px;
 	}
 	#banner4 p span.me 
 	{
@@ -418,7 +421,7 @@ body {
 		text-transform: uppercase;
 		margin: 0 auto 0;
 		line-height: 1;
-		
+		padding-top: 20px;
 		text-transform: uppercase;
 		letter-spacing: -.035em;
 		text-align: left;
@@ -429,7 +432,7 @@ body {
 	#banner4 p span.me {
 		font-weight: 900; /*NEGRITO*/
 		margin-bottom: 82px;
-		margin-top: 98px;
+		margin-top: 82px;
 	}
 	#banner4 p span.what {
 		/*		font-weight:600;
