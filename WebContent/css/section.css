@@ -42,9 +42,29 @@
 	background-size: auto;
 }
 .sectiontest {
-	background-image: url("../images/secsec.jpg");
+	background-image: url("../images/secsec0.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
+}
+
+/*IPHONE 5*/
+@media screen and (max-width: 380px) 
+{
+    .sectiontest {
+	    background-image: url("../images/secsec1.jpg");
+	    background-repeat: no-repeat;
+	    background-size: auto;
+    }
+}
+
+/*outros parelhos*/
+@media screen and (min-width: 381px) and (max-width: 500px) 
+{
+    .sectiontest {
+	    background-image: url("../images/secsec2.jpg");
+	    background-repeat: no-repeat;
+	    background-size: auto;
+    }
 }
 .sectiontest {
 	background-color: #83bfab;;
