@@ -19,7 +19,6 @@
 	<script type="text/javascript" src="./js/jquery.min.js?v=1.7.2"></script>
 	<link rel="stylesheet" id="media-queries-css" href='./css/TheFox/media-queries_wide.css?ver=4.7.3' type='text/css' media="all" />
 	<link rel="stylesheet" id="js_frontend-css" href='./css/TheFox/thefox_js_composer.css?ver=4.7.3'type='text/css' media="all" />
-	<link rel="stylesheet" id="zilla-likes-css" href='./css/TheFox/zilla-likes.css?ver=4.7.3' type='text/css' media="all" />
 	<!-- Styles -->
 	<link type="text/css" rel="stylesheet" href="./css/magento.css" media="all" />
 	<link href="assets/css/main.css" rel="stylesheet">
@@ -32,9 +31,6 @@
 	<link href="./css/home4.css" rel="stylesheet">
 	<link href="./css/section.css" rel="stylesheet">
     <link href="./css/prodserv.css" rel="stylesheet">
-	<!-- JQuery Library -->
-	<script type="text/javascript" src="./js/menuResp.js"></script>
-	<script type='text/javascript' src='./js/jquery.js?ver=1.12.4'></script>
 	<!-- Custom Styling -->
 	<link rel="stylesheet" data-type="vc_shortcodes-custom-css" href='./css/index3.css' type='text/css' />
 	<link rel="stylesheet" href='./css/index4.css' type='text/css' />
@@ -1680,6 +1676,15 @@
 		            animationClasses: { classin: 'dl-animate-in-2', classout: 'dl-animate-out-2' }
 		        });
 		    });
+		    function openNav() {
+		        document.getElementById("mySidenav").style.width = "303px";
+		        document.getElementById("main").style.marginLeft = "303px";
+		    }
+
+		    function closeNav() {
+		        document.getElementById("mySidenav").style.width = "0";
+		        document.getElementById("main").style.marginLeft = "0";
+		    }
 		</script>
 </body>
 </html>
