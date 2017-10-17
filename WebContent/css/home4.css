@@ -315,7 +315,7 @@ body {
 }
 /*Nexus 5x, nexus 6P e iPhone 6+ */
 @media screen and (min-width: 381px) and (max-width: 640px) {
-	#banner4 p span.me 
+    #banner4 p span.me 
 	{
 	    width: 100%;
 	    background: url(../images/home/test41.gif) fixed;
@@ -343,7 +343,7 @@ body {
 		width: 100%;
 	}
 	#banner4 p {
-		width: 100%;
+		width: 95%;
 		font-size: 50px;
 		font-family: "nudista-web-1", "Helvetica Neue", Arial, sans-serif;
 		text-transform: uppercase;
