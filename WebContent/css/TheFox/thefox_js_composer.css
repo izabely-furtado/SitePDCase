@@ -4734,13 +4734,7 @@ ul.wpb_thumbnails-fluid > li,
 .owl-carousel .owl-animated-in {
   z-index: 1;
 }
-@font-face {
-  font-family: 'vc_grid_v1';
-  src: url('../fonts/vc_grid/vc_grid_v1.eot?-9hbgac');
-  src: url('../fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac') format('embedded-opentype'), url('../fonts/vc_grid/vc_grid_v1.woff?-9hbgac') format('woff'), url('../fonts/vc_grid/vc_grid_v1.ttf?-9hbgac') format('truetype'), url('../fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 [class^="vc_arrow-icon-"],
 [class*=" vc_arrow-icon-"] {
   font-family: 'vc_grid_v1';
