@@ -2464,8 +2464,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	*margin-right: .3em;
 	line-height: 14px;
 	vertical-align: text-top;
-	background-image:
-		url(https://magento.com/sites/all/themes/mag_redesign/bootstrap/img/glyphicons-halflings.png);
 	background-position: 14px 14px;
 	background-repeat: no-repeat;
 	margin-top: 1px
@@ -2480,8 +2478,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	.dropdown-submenu:hover>a>[class^="icon-"], .dropdown-submenu:focus>a>[class^="icon-"],
 	.dropdown-submenu:hover>a>[class*=" icon-"], .dropdown-submenu:focus>a>[class*=" icon-"]
 	{
-	background-image:
-		url(https://magento.com/sites/all/themes/mag_redesign/bootstrap/img/glyphicons-halflings-white.png)
+	
 }
 
 .icon-glass {
