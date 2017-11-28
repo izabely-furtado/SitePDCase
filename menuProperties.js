@@ -18,7 +18,7 @@ function carregaRodape() {
 "			 		<div class='row' style='padding-top:10px; padding-bottom:10px'>" +
 	"				    <div class='col-md-6' style='text-align:center; '>" +
 	"				      <span class='text' style='color:#31302b;'>©COPYRIGHT 2017 - PD Case INFORMÁTICA - TODOS OS DIREITOS RESERVADOS </span><br />" +
-	"				      <span class='text' style='color:#31302b;'>Construído em <a href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado<br /></span>" + "" +
+	"				      <span class='text' style='font-size: xx-small; color:#31302b;'>Construído em <a style='color:#31302b;' href='http://www.pdcase.com' target='_blank'>PD Case</a> por Izabely Furtado<br /></span>" + "" +
 			"           </div>" +
 "					</div>" +
 "				</div>" +

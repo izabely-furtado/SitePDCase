@@ -689,7 +689,7 @@ input, textarea {
 
 	#header-content, #levelOnecontainer {width: 300px;}
 	.greyback{ background: #343339 url(../img/logo-white.png) no-repeat 0 16px / 74px auto;}
-	#header, #header-content  { /*height: 50px;*/ height: 56px;}
+	#header, #header-content  { }
 	
 	#logo { left: 0; top: 16px;}
 	#logo img, .darkTemplate #logo.light img{background: url(../img/logo.png); background-size: cover; width: 74px; height: 32px;}
