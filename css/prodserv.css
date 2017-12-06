@@ -37,7 +37,8 @@
     width: 11.5%;
     border: none;
     color: white;
-    padding: 22px 20px;
+    /*padding: 22px 20px;*/
+    padding: 22px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -83,12 +84,48 @@
     /*font-weight:bold;*/
 }
 
+@media only screen and (max-width: 1558px)
+{
+    .prodserv2 
+    {
+        width: 9.5%;
+        padding: 22px 15px;
+    }
+}
+
+@media only screen and (max-width: 1515px)
+{
+    .prodserv2 
+    {
+        width: 9.5%;
+        padding: 22px 12px;
+    }
+}
+
+@media only screen and (max-width: 1455px)
+{
+    .prodserv2 
+    {
+        width: 9.5%;
+        padding: 22px 9.1px;
+    }
+}
+
+@media only screen and (max-width: 1389px)
+{
+    .prodserv2 
+    {
+        width: 9.5%;
+        padding: 22px 6px;
+    }
+}
+
 @media only screen and (max-width: 1337px)
 {
     .prodserv2 
     {
         width: 9.5%;
-        padding: 3px 3px 3px 3px;
+        padding: 3px 4px;
     }
 }
 @media only screen and (max-width: 1261px)
