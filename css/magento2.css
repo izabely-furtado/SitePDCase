@@ -89,50 +89,15 @@ a:hover, a:focus {
 	width: 980px
 }
 
-.span11 {
-	width: 896px
-}
-
-.span10 {
-	width: 812px
-}
-
-.span9 {
-	width: 728px
-}
-
-.span8 {
+.span8 
+{
+    padding-top:25px;
 	width: 90%
-}
-
-.span7 {
-	width: 560px
-}
-
-.span6 {
-	width: 476px
-}
-
-.span5 {
-	width: 392px
-}
-
-.span4 {
-	width: 308px
-}
-
-.span3 {
-	width: 224px
 }
 
 .span2 {
 	width: 140px
 }
-
-.span1 {
-	width: 56px
-}
-
 
 .offset2 {
 	margin-left: 5%;
@@ -179,59 +144,15 @@ a:hover, a:focus {
 	*width: 99.94897959183673%;
 }
 
-.row-fluid .span11 {
-	width: 91.42857142857143%;
-	*width: 91.37755102040816%;
-}
-
-.row-fluid .span10 {
-	width: 82.85714285714286%;
-	*width: 82.8061224489796%;
-}
-
-.row-fluid .span9 {
-	width: 74.28571428571429%;
-	*width: 74.23469387755102%;
-}
 
 .row-fluid .span8 {
 	width: 65.71428571428572%;
 	*width: 65.66326530612245%;
 }
 
-.row-fluid .span7 {
-	width: 57.14285714285714%;
-	*width: 57.09183673469387%;
-}
-
-.row-fluid .span6 {
-	width: 48.57142857142857%;
-	*width: 48.5204081632653%;
-}
-
-.row-fluid .span5 {
-	width: 40%;
-	*width: 39.94897959183673%;
-}
-
-.row-fluid .span4 {
-	width: 31.42857142857143%;
-	*width: 56%;
-}
-
-.row-fluid .span3 {
-	width: 22.857142857142858%;
-	*width: 22.806122448979593%;
-}
-
 .row-fluid .span2 {
 	width: 14.285714285714286%;
 	*width: 14.23469387755102%;
-}
-
-.row-fluid .span1 {
-	width: 5.714285714285714%;
-	*width: 5.663265306122449%;
 }
 
 
