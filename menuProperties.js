@@ -5,7 +5,7 @@ function carregaRodape() {
 "			<div class='container-fluid footer-primary' style='background-color:black;'>" +
 "			    <div class=''>" +
 "			      <div class='row' style='padding-top:10px; padding-bottom:-0px !important;'>" +
-"			        <div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><center><img src='./images/logo-footer.png' class='img-responsive' /></center></a></div></div>" +
+"			        <!--<div class='col-md-2' ><div class='logo-footer'><a href='./index.html'><center><img src='./images/logo-footer.png' class='img-responsive' /></center></a></div></div>-->" +
 "			        <div class='col-md-7' style=' text-align:center;'>" +
 "			          <p class='footer-address'><span class='text' style='color:white' >Alameda Oscar Niemeyer, nº 891 - Sala 708 - Vila da Serra - Belo Horizonte / Nova Lima - MG - CEP 34006-065</span><br /><a href='tel:(31) 3505-1940'>PDCASE ATENDE <span class='footer-tel'> (31) 3505-1940</span></a></p>" +
 "			        </div>" +
